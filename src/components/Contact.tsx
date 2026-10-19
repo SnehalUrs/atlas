@@ -1,32 +1,27 @@
 import { brand } from "@/lib/brand";
 
-/** Quiet contact strip above the footer. */
+/** Contact details, shown plainly above the footer. */
 export function Contact() {
   const { email, linkedin } = brand.contact;
-  const links = [
-    { label: "Email", href: `mailto:${email}` },
-    ...(linkedin ? [{ label: "LinkedIn", href: linkedin }] : []),
-  ];
+  const linkedinLabel = linkedin.replace(/^https?:\/\/(www\.)?/, "").replace(/\/$/, "");
 
   return (
     <section id="contact" className="mx-auto max-w-7xl scroll-mt-24 px-4 pb-14 sm:px-8">
-      <div className="flex flex-col gap-4 border-t border-rust/25 pt-8 sm:flex-row sm:items-baseline sm:justify-between">
-        <p className="font-display text-xl text-muted">
-          Questions or feedback? <span className="text-ink">Say hello.</span>
+      <div className="flex flex-col gap-3 border-t border-rust/25 pt-8 text-[15px] sm:flex-row sm:gap-10">
+        <p>
+          <span className="text-muted">Email: </span>
+          <a href={`mailto:${email}`} className="underline decoration-rust/40 underline-offset-4 hover:text-rust">
+            {email}
+          </a>
         </p>
-        <div className="flex gap-8">
-          {links.map((l) => (
-            <a
-              key={l.label}
-              href={l.href}
-              target={l.href.startsWith("http") ? "_blank" : undefined}
-              rel={l.href.startsWith("http") ? "noreferrer" : undefined}
-              className="label group text-muted transition-colors hover:text-rust"
-            >
-              {l.label} <span className="inline-block transition-transform duration-300 group-hover:translate-x-0.5">↗</span>
+        {linkedin && (
+          <p>
+            <span className="text-muted">LinkedIn: </span>
+            <a href={linkedin} target="_blank" rel="noreferrer" className="underline decoration-rust/40 underline-offset-4 hover:text-rust">
+              {linkedinLabel}
             </a>
-          ))}
-        </div>
+          </p>
+        )}
       </div>
     </section>
   );
