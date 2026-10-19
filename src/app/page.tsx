@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Footer, Nav } from "@/components/chrome";
+import { Contact } from "@/components/Contact";
 import { HeroMap } from "@/components/HeroMap";
 import { Reveal } from "@/components/motion";
 import { Teams, Problems, KeyFigures, Metrics, Method, SectionHead, Spread, SurveyInput } from "@/components/sections";
@@ -84,6 +85,8 @@ export default function Home() {
             </div>
           </Reveal>
         </section>
+
+        <Contact />
       </main>
       <Footer />
     </>

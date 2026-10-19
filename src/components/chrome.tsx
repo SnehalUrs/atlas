@@ -25,6 +25,7 @@ const links = [
   { href: "/#method", n: "II", label: "How it works" },
   { href: "/#metrics", n: "III", label: "Metrics" },
   { href: "/#teams", n: "IV", label: "Teams" },
+  { href: "/#contact", n: "V", label: "Contact" },
 ];
 
 export function Nav() {
@@ -77,7 +78,10 @@ export function Footer() {
       <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-6 px-4 py-10 sm:flex-row sm:px-8">
         <Logo />
         <p className="label text-muted">
-          A project by <span className="text-ink">{brand.author}</span>
+          A project by{" "}
+          <a href={brand.contact.linkedin || "/#contact"} target={brand.contact.linkedin ? "_blank" : undefined} rel="noreferrer" className="text-ink underline decoration-rust/40 underline-offset-4 transition hover:text-rust">
+            {brand.author}
+          </a>
         </p>
         <p className="label text-muted">© {new Date().getFullYear()} {brand.name}</p>
       </div>
