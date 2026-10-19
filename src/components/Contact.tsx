@@ -12,7 +12,7 @@ export function Contact() {
     <section id="contact" className="mx-auto max-w-7xl scroll-mt-24 px-4 pb-14 sm:px-8">
       <div className="flex flex-col gap-4 border-t border-rust/25 pt-8 sm:flex-row sm:items-baseline sm:justify-between">
         <p className="font-display text-xl text-muted">
-          Built by <span className="text-ink">{brand.author}</span>. Say hello.
+          Questions or feedback? <span className="text-ink">Say hello.</span>
         </p>
         <div className="flex gap-8">
           {links.map((l) => (
