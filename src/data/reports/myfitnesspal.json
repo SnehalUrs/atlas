@@ -1,0 +1,179 @@
+{
+  "slug": "myfitnesspal",
+  "category": "Health & Fitness",
+  "product": "MyFitnessPal",
+  "generatedAt": "2026-10-19T00:50:25.293Z",
+  "totalSignals": 296,
+  "negativeRate": 24,
+  "sourceCounts": {
+    "reddit": 97,
+    "appstore": 100,
+    "hackernews": 99
+  },
+  "summary": "MyFitnessPal's main friction themes include: UI/UX complexity, subscription model changes, data visibility, accuracy of food database, and app performance.",
+  "themes": [
+    {
+      "name": "Food Database Accuracy",
+      "segment": "All users",
+      "description": "Users report inaccuracies in the food database, especially with barcode scans and manual entries. This leads to mistrust in the app's tracking capabilities.",
+      "signalCount": 165,
+      "emotionalIntensity": 70,
+      "recurrence": 56,
+      "segmentImpact": "Medium",
+      "recommendation": "Improve database accuracy and provide better tools for manual entry and verification.",
+      "quotes": [
+        {
+          "text": "Only as good as the users they let build the kcal index. The good: intuitive interface, barcode scanning, easy meal logging, decent premium features. The bad: unreliable nutrition database that undermines the entire purpose of the app. Even the \"verified\" entries aren't always ac",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id341232718"
+        },
+        {
+          "text": "Inaccurate. This app started off great many years ago. I understand as time has went that features that were free have become accessible for paying members only. The problem is it is ridiculous how many food options are there to select that are inaccurate. I spend more time compa",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id341232718"
+        },
+        {
+          "text": "Be careful of the items you scan. A good portion of the items you scan by barcode or even search come up with very wrong nutritional information so you really have to double check before logging. I would be ok with it if on the manual add I can add more than just fat, carbs and p",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id341232718"
+        }
+      ]
+    },
+    {
+      "name": "UI/UX Complexity and Navigation",
+      "segment": "New users",
+      "description": "Users report difficulty navigating the app, especially after recent UI changes. Features like closing the day or finding food entries are now harder to access.",
+      "signalCount": 39,
+      "emotionalIntensity": 80,
+      "recurrence": 13,
+      "segmentImpact": "High",
+      "recommendation": "Simplify navigation and restore intuitive access to key features.",
+      "quotes": [
+        {
+          "text": "UX/UI & Ads are ruining the app.. ^^^^^",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id341232718"
+        },
+        {
+          "text": "Don’t like the new update. Very difficult to navigate. I can’t find where you close out your day. Very disappointing",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id341232718"
+        },
+        {
+          "text": "Hate the new UI update. TERRIBLE. Please revert.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id341232718"
+        }
+      ]
+    },
+    {
+      "name": "Ad and Premium Model Concerns",
+      "segment": "All users",
+      "description": "Users are frustrated with ads and the shift to a premium model. Some feel the app has become less useful and more commercial.",
+      "signalCount": 32,
+      "emotionalIntensity": 70,
+      "recurrence": 11,
+      "segmentImpact": "Medium",
+      "recommendation": "Balance monetization with user experience to maintain trust and utility.",
+      "quotes": [
+        {
+          "text": "Good, but too many pop-ups. This app CONSTANTLY asks you to upgrade to the paid ad and then asks you to review the app.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id341232718"
+        },
+        {
+          "text": "Too many ads. Too many ads and pop ups. I’m aware and don’t want to purchase anything. I’m fat and poor.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id341232718"
+        },
+        {
+          "text": "Gave up. This app helped tremendously during the bulk of my weight loss journey, but within the last few months each AI update has brought the app completely down. Its such a departure from what I started with that I dont even care to log my food now. Stopped paying for premium a",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id341232718"
+        }
+      ]
+    },
+    {
+      "name": "App Performance and Stability",
+      "segment": "All users",
+      "description": "Users report bugs, crashes, and slow performance, especially on newer devices. This affects both iOS and web versions.",
+      "signalCount": 26,
+      "emotionalIntensity": 70,
+      "recurrence": 9,
+      "segmentImpact": "Medium",
+      "recommendation": "Optimize app performance and fix critical bugs to improve user experience.",
+      "quotes": [
+        {
+          "text": "Fix this app. This app has potential but it’s useless because of all the bugs and ads",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id341232718"
+        },
+        {
+          "text": "SparkyFitness - A Self-Hosted MyFitnessPal alternative now supports Starva & updated Mobile app. We’ve crossed 3k+ users on GitHub and have 40 developers contributing to the project, and we’re scaling up bigger than ever. https://github.com/CodeWithCJ/SparkyFitness A new version ",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/selfhosted/comments/1s5mfux/sparkyfitness_a_selfhosted_myfitnesspal/"
+        },
+        {
+          "text": "SparkyFitness - A Self-Hosted MyFitnessPal alternative now supports PolarFlow & Hevy. We’ve crossed 2.4k+ users on GitHub and have 30 developers contributing to the project, and we’re scaling up bigger than ever. Recent update includes integration with Polar Flow and Hevy. I also",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/selfhosted/comments/1rac1bw/sparkyfitness_a_selfhosted_myfitnesspal/"
+        }
+      ]
+    },
+    {
+      "name": "Data Visibility and Organization",
+      "segment": "Long-time users",
+      "description": "Users are upset with the app's new design that hides data from view. They miss the previous streamlined, clear interface that made tracking easy.",
+      "signalCount": 18,
+      "emotionalIntensity": 80,
+      "recurrence": 6,
+      "segmentImpact": "High",
+      "recommendation": "Restore clear, accessible data views and reduce obfuscation of user data.",
+      "quotes": [
+        {
+          "text": "STOP WITH THE UPDATES ALREADY!!. I've had MFP for 10 years now- both free and premium. It has kept me on track with my macros. It was so easy to navigate and create my recipes. Yes I'm saying 'was' because with these updates and new interface in the last year or so, it's so confu",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id341232718"
+        },
+        {
+          "text": "Junk and unreliable. WHY have I paid for premium for YEARS just for you to delete the entire history my manually entered waist measurements? This app continues to go downhill. You should be ashamed of what you’ve done to this once incredible app. I have screenshots of graphs so d",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id341232718"
+        },
+        {
+          "text": "Does anyone else hate the new myfitnesspal layout??. 😭 I'm sure I'll get used to it, but I don't like it right now for logging calories. submitted by /u/Michael_Romance49 to r/1200isplenty",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/1200isplenty/comments/1stwtja/does_anyone_else_hate_the_new_myfitnesspal_layout/"
+        }
+      ]
+    },
+    {
+      "name": "Subscription Model Changes",
+      "segment": "Long-time users",
+      "description": "Users are frustrated with the shift to a paid model for core features that were previously free. This has led to a loss of trust and migration to alternatives.",
+      "signalCount": 14,
+      "emotionalIntensity": 90,
+      "recurrence": 5,
+      "segmentImpact": "High",
+      "recommendation": "Re-evaluate pricing model to retain long-time users and avoid alienation.",
+      "quotes": [
+        {
+          "text": "$$. I used this app many years ago and everything was free. Now it requires a paid subscription for the common features that were free.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id341232718"
+        },
+        {
+          "text": "Used to be great, now it’s a pain. This app used to be by far the best fitness tracker app. Then it changed. They didn’t do things to make the paid version better. They just made the free version worse. I had the subscription version until they raised prices to over 20 a month. M",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id341232718"
+        },
+        {
+          "text": "Subscription ONLY $$. Don’t waste your time. You can’t even scan a barcode of food into your tracker without paying $$. Completely ridiculous. I used this app for over 5 years in the past and all of the features that make it great were free. I re-downloaded it after not using it ",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id341232718"
+        }
+      ]
+    }
+  ],
+  "competitors": []
+}

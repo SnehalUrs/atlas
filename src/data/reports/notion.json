@@ -1,0 +1,206 @@
+{
+  "slug": "notion",
+  "category": "Productivity",
+  "product": "Notion",
+  "generatedAt": "2026-10-19T01:16:30.872Z",
+  "totalSignals": 297,
+  "negativeRate": 56,
+  "sourceCounts": {
+    "reddit": 97,
+    "appstore": 100,
+    "hackernews": 100
+  },
+  "summary": "Most of the frustration centres on data loss and stability, followed by mobile app usability and ai integration concerns. Users report sudden data loss, workspace suspension, and instability, especially with AI integration, leading to frustration and distrust in data security and reliability.",
+  "themes": [
+    {
+      "name": "Learning Curve and Complexity",
+      "segment": "New users",
+      "description": "Users find Notion complex and difficult to navigate, especially on mobile, which deters adoption and leads to frustration with its steep learning curve.",
+      "signalCount": 171,
+      "emotionalIntensity": 60,
+      "recurrence": 58,
+      "segmentImpact": "Medium",
+      "recommendation": "Simplify onboarding, improve mobile UX, and provide more intuitive guidance for new users.",
+      "quotes": [
+        {
+          "text": "It’s alright. Notion web is much better, albeit you of course need your computer. Notion is feature rich but it can get frustrating really quick on mobile devices, as it is fairly buggy.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id1232780281"
+        },
+        {
+          "text": "I love Notion…on computer. Notion is great, but the mobile app is a mess of bugs and inconsistencies. Tapping some modules will cause an unclose-able box to appear that persists even after closing the app. Dragging other modules will open them. Menus needing to be dragged to clos",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id1232780281"
+        },
+        {
+          "text": "I suggest you look elsewhere. Well, notion is a great service to organize just about any type of information, but the iOS app is terrible. Incredibly buggy, that seems to get worse with every update. I’m still using it because I have too much invested in the platform, so I hope t",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id1232780281"
+        }
+      ]
+    },
+    {
+      "name": "Mobile App Usability",
+      "segment": "Mobile users",
+      "description": "Users find the mobile app clunky, buggy, and lacking key features like sidebar controls and widget support, which hinders productivity on mobile devices.",
+      "signalCount": 38,
+      "emotionalIntensity": 70,
+      "recurrence": 13,
+      "segmentImpact": "High",
+      "recommendation": "Prioritize mobile app performance, usability, and feature parity with desktop versions.",
+      "quotes": [
+        {
+          "text": "Reduced settings on mobile app. Having reduced settings on the mobile app really hinders usability",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id1232780281"
+        },
+        {
+          "text": "Mobile is an Afterthought. I get it. Their focus is on being the best platform/ecosystem for work. I really want to love the mobile app too, but it just feels so clunky and misses important features that I’m used to on desktop, like a simple “my tasks” built-in view to match desk",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id1232780281"
+        },
+        {
+          "text": "App sucks now. App is now too glitchy to use, makes typing a little more diffficult on mobile as the screen keeps moving every time I type.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id1232780281"
+        }
+      ]
+    },
+    {
+      "name": "AI Integration Concerns",
+      "segment": "Power users",
+      "description": "Users are frustrated with AI features that are inconsistent, unreliable, and sometimes lock users out of core functionality, raising concerns about dependency and control.",
+      "signalCount": 27,
+      "emotionalIntensity": 70,
+      "recurrence": 9,
+      "segmentImpact": "High",
+      "recommendation": "Refine AI features for consistency and reliability, and provide clear opt-out options for users who prefer not to rely on AI.",
+      "quotes": [
+        {
+          "text": "No AI!!!!!. Why do we need AI??? It was my favorite app until this.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id1232780281"
+        },
+        {
+          "text": "yet another company succumbs to the ai propaganda. i’m so done with ai slop being shoved down our throats in every corner of the internet. there’s no reason why notion should need ai integrated into its app. you don’t want to spend the time writing original content? fine, use cha",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id1232780281"
+        },
+        {
+          "text": "AI is trash. \"Notes, Tasks, AI\" \"Your AI workspace\" Stop. So sad to see the AI emphasis/pivot. I'll stop recommending this to people.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id1232780281"
+        }
+      ]
+    },
+    {
+      "name": "Privacy and Cost Concerns",
+      "segment": "Long-time users",
+      "description": "Users express growing concerns about privacy, cost, and the increasing reliance on paid features, which they feel are becoming a barrier to continued use.",
+      "signalCount": 23,
+      "emotionalIntensity": 60,
+      "recurrence": 8,
+      "segmentImpact": "Medium",
+      "recommendation": "Offer more transparent pricing models, enhance privacy controls, and consider free tiers for core functionality.",
+      "quotes": [
+        {
+          "text": "A lot of this can be disabled. For example, using a local account and not a Microsoft account. I'm guessing that's where the author got his notion of \"contact details, passwords, demographic data and credit card specifics\". Also, if you go to the Privacy settings, you can disable",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9992192"
+        },
+        {
+          "text": "I think at this point, most people have a really screwed notion of price ... 1. preinstalled &#x2F; bundled Windows is not free, the \" Windows tax \" being very real 2. this upgrade is not free for XP &#x2F; Vista users 3. Windows 10 is not free and will probably cost about the sa",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9970643"
+        },
+        {
+          "text": "As a Linux user myself I guess I'll have to explain... I have been hearing this since I was a child screwing around with Knoppix in the early 00s (this will sound really impressive in about 20 years but at least one person reading this is rolling their eyes because they were disc",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9979079"
+        }
+      ]
+    },
+    {
+      "name": "Data Loss and Stability",
+      "segment": "Long-time users",
+      "description": "Users report sudden data loss, workspace suspension, and instability, especially with AI integration, leading to frustration and distrust in data security and reliability.",
+      "signalCount": 14,
+      "emotionalIntensity": 80,
+      "recurrence": 5,
+      "segmentImpact": "High",
+      "recommendation": "Improve data backup and recovery mechanisms, enhance AI integration stability, and provide clearer communication during data-related incidents.",
+      "quotes": [
+        {
+          "text": "Don't put anything important into Notion. I'm working in a workspace together with teammates and a professor at university, researching AI agents together. Today the workspace suddenly got suspended, and everyone lost all their AI chats. Notion said something about a safety filte",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/Notion/comments/1vn54hk/dont_put_anything_important_into_notion/"
+        },
+        {
+          "text": "That’s a great question, its one we struggled with for months and we are still refining the details of the future offering. The short answer is that compensation will be initially capped to a predetermined level, at least at first, because there is still so much that we cannot ye",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9971439"
+        },
+        {
+          "text": "Yes. The entire notion of the hash tree is designed to prevent it.",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9970080"
+        }
+      ]
+    },
+    {
+      "name": "Feature Limitations",
+      "segment": "Power users",
+      "description": "Users report missing features like advanced widgets, color customization, and improved mobile functionality, which limit the app's utility for certain workflows.",
+      "signalCount": 15,
+      "emotionalIntensity": 50,
+      "recurrence": 5,
+      "segmentImpact": "Medium",
+      "recommendation": "Expand feature set, especially on mobile, and prioritize user feedback for new functionality.",
+      "quotes": [
+        {
+          "text": "Bugs. Lots of unresponsive buttons. i can’t color my text at all. highlighting a text will only let me color,bold,italic, etc a half of the text. constant freezing, i have to close the app a bunch of times.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id1232780281"
+        },
+        {
+          "text": "Can’t make checklists in Mobil app. You can only make check boxes one at a time in the mobile app. I uploaded a list of things to do, I want to create a checklist, and I cannot. Insane for this team to not have that feature.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id1232780281"
+        },
+        {
+          "text": "what's happening?. So far notion has been great, my number 1 go to for note taking among other things. But now the app has been more of nuisance than anything because it has several glitches now. For one, whenever I highlight a paragraph and try applying italic, or bold to it, it",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id1232780281"
+        }
+      ]
+    },
+    {
+      "name": "User Experience and Performance",
+      "segment": "Mobile users",
+      "description": "Users report performance issues like lag, crashes, and poor integration with external tools, which negatively impact the overall user experience.",
+      "signalCount": 9,
+      "emotionalIntensity": 50,
+      "recurrence": 3,
+      "segmentImpact": "Medium",
+      "recommendation": "Optimize app performance, improve integration with external tools, and address known bugs.",
+      "quotes": [
+        {
+          "text": "Too slow and takes up too much data storage. .",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id1232780281"
+        },
+        {
+          "text": "It would be great if it worked. I'm just trying to read a journal. It crashes repeatedly.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id1232780281"
+        },
+        {
+          "text": "Consistently buggy. Consistently buggy",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id1232780281"
+        }
+      ]
+    }
+  ],
+  "competitors": []
+}

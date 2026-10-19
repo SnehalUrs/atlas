@@ -1,10 +1,15 @@
 # Atlas
 
-**Find your way to what users want.** Atlas reads public feedback about any product (Reddit, App Store reviews, Hacker News) and ranks the friction underneath it by emotional intensity, recurrence and segment impact.
+**Find your way to what users want.** Atlas reads public feedback about a product (Reddit, App Store reviews, Hacker News), groups it into themes and ranks each one by emotional intensity, recurrence and the user segment it affects. Each report is drawn as a topographic map: the higher the peak, the sooner it needs fixing.
 
-Designed & built by Snehal N Urs.
+A project by Snehal N Urs.
 
-## Run locally (free, no API key)
+## What's in it
+
+- **Report library** (`/reports`): 44 real products analyzed from public feedback, with search and categories.
+- **Live analysis** (`/experience`): analyze any product on demand. Runs when an AI model is available (see below); the hosted site falls back to searching the library.
+
+## Run locally
 
 ```bash
 brew install ollama && brew services start ollama
@@ -14,16 +19,32 @@ npm install
 npm run dev
 ```
 
-Open http://localhost:3000. A full analysis takes a few minutes on a 16 GB Mac. `/experience?sample=1` shows a sample report instantly.
+Open http://localhost:3000. A live analysis takes a few minutes on a laptop.
 
-## Optional: use Claude instead
+Optional settings go in `.env.local` (see `.env.local.example`):
 
-Put `ANTHROPIC_API_KEY=...` in `.env.local` (see `.env.local.example`). With a key set, analysis runs on Claude, which is faster and labels every signal directly. Set `LLM_PROVIDER=ollama` to force the local path.
+- `ANTHROPIC_API_KEY`: analyze with Claude instead of the local model (faster, sharper).
+- `REDDIT_CLIENT_ID` / `REDDIT_CLIENT_SECRET`: use the official Reddit API instead of its public feeds.
+- `LIVE_ANALYSIS=on|off`: force live analysis on or off.
+
+## Deploy
+
+Deploys to Vercel as-is. Without an API key there's no model on the server, so live analysis is switched off and the site serves the report library. Add `ANTHROPIC_API_KEY` in Vercel to enable live analysis there.
+
+## Regenerate the library
+
+With the app running locally, add products to `src/data/catalog.json` and run:
+
+```bash
+node scripts/generate-reports.mjs http://localhost:3000
+```
+
+Existing reports are skipped; delete a file in `src/data/reports/` to redo it.
 
 ## How it works
 
-- `src/lib/sources.ts` collects signals. Reddit uses the official API when `REDDIT_CLIENT_ID`/`REDDIT_CLIENT_SECRET` are set, otherwise its public RSS feeds (rate-limited).
-- `src/lib/local.ts` is the free path: a local LLM names and scores themes from a sample, then embeddings assign every signal to its nearest theme and estimate sentiment.
-- `src/lib/analyze.ts` is the Claude path, using structured outputs; counts come from the signal ids Claude assigns.
-- `src/app/api/analyze/route.ts` streams progress and the final report as NDJSON to `/experience`.
-- Brand name, tagline and author live in `src/lib/brand.ts`.
+- `src/lib/sources.ts` collects signals from Reddit (RSS feeds or the official API), the App Store reviews feed and Hacker News search.
+- `src/lib/local.ts` is the local path: a small LLM names and scores themes from a sample, then embeddings assign every signal to its nearest theme and estimate sentiment.
+- `src/lib/analyze.ts` is the Claude path, using structured outputs.
+- `src/lib/terrain.ts` turns ranked themes into contour-map peaks.
+- `src/app/api/analyze/route.ts` streams progress and the final report to the browser.

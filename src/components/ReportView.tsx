@@ -153,7 +153,7 @@ export function ReportView({ report, isSample }: { report: Report; isSample: boo
           </div>
           <div>
             <Figure label="Negative signals" value={report.negativeRate} suffix="%" />
-            <Figure label="Top intensity" value={report.themes[0]?.emotionalIntensity ?? 0} />
+            <Figure label="Top intensity" value={Math.max(0, ...report.themes.map((t) => t.emotionalIntensity))} />
             <Figure label="Signals analyzed" value={report.totalSignals} />
           </div>
           <div>

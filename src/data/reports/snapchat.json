@@ -1,0 +1,179 @@
+{
+  "slug": "snapchat",
+  "category": "Social",
+  "product": "Snapchat",
+  "generatedAt": "2026-10-18T22:44:08.738Z",
+  "totalSignals": 294,
+  "negativeRate": 58,
+  "sourceCounts": {
+    "reddit": 97,
+    "appstore": 100,
+    "hackernews": 97
+  },
+  "summary": "Snapchat faces challenges with privacy, security, and user experience, including sextortion, notification spam, and app bugs. Users also express frustration with ads, account bans, and the shift toward monetization. Some praise the app for its core features like stories and streaks, while others criticize its growing complexity and lack of control over content and notifications.",
+  "themes": [
+    {
+      "name": "Privacy and Security Concerns",
+      "segment": "Free-tier users",
+      "description": "Users report sextortion, scams, and unauthorized access to personal data. There are also concerns about AI moderation and false reporting leading to arrests or account bans.",
+      "signalCount": 77,
+      "emotionalIntensity": 80,
+      "recurrence": 26,
+      "segmentImpact": "High",
+      "recommendation": "Enhance security measures, improve AI moderation transparency, and provide clearer reporting guidelines.",
+      "quotes": [
+        {
+          "text": "With the whole SnapChat snafu where 3rd party clients were leaking photos, or getting hacked, it's pretty clear that ADP has a legal mandate to protect their customer's data.",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9686719"
+        },
+        {
+          "text": "Security must, by its very nature, prevent you from doing insecure things. This manifests as an obstacle to users, so they end up choosing the insecure route (writing down passwords etc etc). Decentralised systems tend to lose to centralised ones because there's no money locus fo",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9931039"
+        },
+        {
+          "text": "Read some articles on it back in the day, most security leaks are fixed now. But you used to be able to send large data over bash to snapchat accounts, entire movies even. Bad coders is maybe a bad term. Their requirements were shaky for months.",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9837662"
+        }
+      ]
+    },
+    {
+      "name": "Notification Overload and Spam",
+      "segment": "All users",
+      "description": "Users complain about excessive, irrelevant notifications, including suggested friends, ads, and spammy alerts that disrupt the user experience.",
+      "signalCount": 53,
+      "emotionalIntensity": 70,
+      "recurrence": 18,
+      "segmentImpact": "High",
+      "recommendation": "Refine notification settings, reduce algorithmic spam, and allow more granular control over content visibility.",
+      "quotes": [
+        {
+          "text": "Annoying Notifications. Spam Ridden App",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id447188370"
+        },
+        {
+          "text": "Spammy notifications. It has recently started a desperate attempt at attention by sending me random notifications like “trending search”, despite me having turned off all categories of promotional/marketing notifications. Extremely disrespectful of its users.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id447188370"
+        },
+        {
+          "text": "Constant Notifications I Never Asked For. App constantly adds new notifications and proceeds to spam you with them without ever asking for approval. Sports, trending searches ect. ect. It’s annoying af. No one asked for it.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id447188370"
+        }
+      ]
+    },
+    {
+      "name": "Core Features and Engagement",
+      "segment": "All users",
+      "description": "Users praise the core features like stories, streaks, and ephemeral messaging, but some feel the app has lost its original appeal and become too complex.",
+      "signalCount": 66,
+      "emotionalIntensity": 50,
+      "recurrence": 22,
+      "segmentImpact": "Medium",
+      "recommendation": "Reinforce core features, simplify the interface, and maintain the app's original appeal.",
+      "quotes": [
+        {
+          "text": "Yes. 1) Declining active user numbers. 2) They have not improved their product since it's inception. 3) They cannot increase the advertising load by much more, so do not expect a big jump in revenue. 4) Lots of engineering talent has left and more is in the process of leaving. Me",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9779383"
+        },
+        {
+          "text": "Snapchat runs off the back of App Engine, I don't think they're going to ditch it anytime soon.",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9686010"
+        },
+        {
+          "text": "If user experience is your advantage, then you should go native. Some product like xamarin or nativescript able to provide standard native experience with little effort. You can call it write once read anywhere. But if you want big customize UI just like snapchat or instagram, i ",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9733976"
+        }
+      ]
+    },
+    {
+      "name": "App Stability and Technical Issues",
+      "segment": "All users",
+      "description": "Users report bugs like FaceTime redirection, notification misbehavior, and issues with Apple Watch integration.",
+      "signalCount": 49,
+      "emotionalIntensity": 60,
+      "recurrence": 17,
+      "segmentImpact": "Medium",
+      "recommendation": "Fix critical bugs, improve cross-platform compatibility, and prioritize app stability.",
+      "quotes": [
+        {
+          "text": "Kind of a weird article. Sure, many companies are waiting because they're not sure how to make a compelling experience for their app on the Watch. But that seems kind of obvious. The article said that 5 of the top 20 apps (by popularity) have Watch apps. It suggests this is a bad",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9914373"
+        },
+        {
+          "text": "App keeps sending False push alerts. The app keeps sending push alerts to my phone and adding the badge icon with a red number similar to when you have new messages, however there are no messages and it is just an app bug. Please fix it.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id447188370"
+        },
+        {
+          "text": "The camera issues on the Nexus 4 are ridiculous. Google has done absolutely nothing to address the issue. On the other hand, I'm pretty sure Snapchat is doing really stupid things with the camera API, since the stability issues are not nearly as pronounced with other camera-using",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9885934"
+        }
+      ]
+    },
+    {
+      "name": "Monetization and Ads",
+      "segment": "All users",
+      "description": "Users are frustrated with the introduction of ads in conversations, the shift to a subscription model, and the perceived prioritization of monetization over user experience.",
+      "signalCount": 25,
+      "emotionalIntensity": 70,
+      "recurrence": 9,
+      "segmentImpact": "High",
+      "recommendation": "Balance monetization with user value, reduce intrusive ads, and offer more flexible subscription options.",
+      "quotes": [
+        {
+          "text": "The problem is monetization. It's not like Snapchat where you have a potential $1+ billion advertising behemoth . I was surprised it was valued as high as it is",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9972095"
+        },
+        {
+          "text": "Not worth it anymore. Progressive use of ads to extract more money out of you to keep them out of your chat feed. I had the premium subscription when that was the only thing but then they started putting ads in my chat feed and then unveiled a new higher tier premium subscription",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id447188370"
+        },
+        {
+          "text": "used to be good. there's way too many ads now. i try to watch snapchat spotlight and every 2 videos is an ad. same with the snapchat explore page stories. stop showing me so many ads.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id447188370"
+        }
+      ]
+    },
+    {
+      "name": "User Experience and Control",
+      "segment": "All users",
+      "description": "Users feel the app has become too strict, with quick bans and limited control over content and notifications.",
+      "signalCount": 24,
+      "emotionalIntensity": 60,
+      "recurrence": 8,
+      "segmentImpact": "Medium",
+      "recommendation": "Offer more customization, reduce false bans, and improve user control over content and privacy settings.",
+      "quotes": [
+        {
+          "text": "Fall From Grace. The app used to be great. Then it became just fine. Now it’s absolute suggestion and advertisement slop. Unwanted ads in chat feeds. Stories that I don’t care about (a whole page of strangers I don’t know doing uninteresting things) with engagement bait titles. I",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id447188370"
+        },
+        {
+          "text": "Bad app. My device is been banned for no reason",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id447188370"
+        },
+        {
+          "text": "I’m disappointed. This app I’ve had for a few years and yes I sent someone something against community guidelines but yall did not have to ban me a warning would be nice and I would never do it again I haven’t had this app on my phone for months and im so Disappointed yall won’t ",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id447188370"
+        }
+      ]
+    }
+  ],
+  "competitors": []
+}

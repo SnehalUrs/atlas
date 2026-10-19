@@ -1,0 +1,125 @@
+{
+  "slug": "trello",
+  "category": "Productivity",
+  "product": "Trello",
+  "generatedAt": "2026-10-18T23:15:10.793Z",
+  "totalSignals": 291,
+  "negativeRate": 48,
+  "sourceCounts": {
+    "reddit": 97,
+    "appstore": 100,
+    "hackernews": 94
+  },
+  "summary": "Trello's main friction themes are simplicity vs. complexity, reliability, pricing, and user experience.",
+  "themes": [
+    {
+      "name": "Simplicity vs. Complexity",
+      "segment": "Paying subscribers",
+      "description": "Users appreciate Trello's simplicity but feel it's becoming dated and less intuitive over time. Some find it too basic for complex project management needs, while others prefer its straightforward approach over more complex tools like Jira or Asana.",
+      "signalCount": 195,
+      "emotionalIntensity": 40,
+      "recurrence": 67,
+      "segmentImpact": "High",
+      "recommendation": "Maintain simplicity while adding more customization and structure for advanced users.",
+      "quotes": [
+        {
+          "text": "I've used Trello. Project management seems like a more appropriate model than issue tracking.",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9782201"
+        },
+        {
+          "text": "What do you do when Trello is too basic but Jira is too much?. Our team seems to be struggling to start using a platform as Trello is barely customizable and Jira becomes too complicated for us to use (we are a hardware team). We do acknowledge that we need a system, just not sur",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/ProductManagement/comments/1tp83bj/what_do_you_do_when_trello_is_too_basic_but_jira/"
+        },
+        {
+          "text": "Alternative to Trello. I've been using Trello for 7+ years now, and I'm just fed up of Atlassian providing random updates, and freezing the UI. I really miss how simple the tool was. I had even automated my entire business using just Trello + make.com. I moved to Jira, because I ",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/alternativeto/comments/1v7p4pz/alternative_to_trello/"
+        }
+      ]
+    },
+    {
+      "name": "User Experience and Interface",
+      "segment": "All users",
+      "description": "Users find the interface confusing, especially with recent updates that added friction (e.g., moving the 'Attachment' button). Some feel the app is not intuitive for managing tasks and projects efficiently.",
+      "signalCount": 57,
+      "emotionalIntensity": 30,
+      "recurrence": 20,
+      "segmentImpact": "Medium",
+      "recommendation": "Simplify the UI, reduce friction in workflows, and improve discoverability of key features.",
+      "quotes": [
+        {
+          "text": "Not user Friendly. When we first got this app, it was easy to use, but then someone bought it out or changed it or something and now it’s got glitches and it’s confusing and it’s not user-friendly. I liked it before, but when they made all these changes, it’s not as good. I’m wil",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id461504587"
+        },
+        {
+          "text": "iOS user - not intuitive. I am looking for an app that is easy to track tasks throughout our team (we are exclusively using this app on our Apple phones) with assigning and capabilities to make that they are completed - ChatGPT was confident that this was the top choice for simpl",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id461504587"
+        },
+        {
+          "text": "Very confusing. Was hoping to use this as an organizational tool but the app seems very confusing to set up basic tasks. Since I am unable to work it myself I see no ability to train my staff to use it to help us.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id461504587"
+        }
+      ]
+    },
+    {
+      "name": "Reliability and Stability",
+      "segment": "Power users",
+      "description": "Users report frequent data loss, app freezes, and syncing issues, especially with the inbox widget and cross-device sync. These issues disrupt workflow and reduce trust in the app's reliability.",
+      "signalCount": 33,
+      "emotionalIntensity": 50,
+      "recurrence": 11,
+      "segmentImpact": "High",
+      "recommendation": "Fix data loss, improve syncing, and stabilize the inbox widget and cross-device experience.",
+      "quotes": [
+        {
+          "text": "Super buggy. Logs you out a lot; synchronizing across devices is very slow and often hit-and-miss; low confidence that my lists and data will be maintained. Had to fully recreate all of my boards and lists once already when my account was locked out for no reason. Customer servic",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id461504587"
+        },
+        {
+          "text": "Huge bug makes it impossible to use. Site is way better but a shame that the app doesn’t work properly, after creating a list, the sync constantly updates to “enabling finish status” and Disabling finish status” every second and it slows the app to an impossible crawl that makes ",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id461504587"
+        },
+        {
+          "text": "Glitching non stop. The mobile app is unbelievably glitchy and slow, with no improvement in years that I’ve been using it. Pretty much unusable.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id461504587"
+        }
+      ]
+    },
+    {
+      "name": "Pricing and Value",
+      "segment": "Businesses and teams",
+      "description": "Users are frustrated with the recent price increases, especially the shift to annual billing and the lack of transparency. Some feel the cost is no longer justified for the features provided.",
+      "signalCount": 6,
+      "emotionalIntensity": 40,
+      "recurrence": 2,
+      "segmentImpact": "High",
+      "recommendation": "Offer more flexible pricing models and ensure value is clearly communicated.",
+      "quotes": [
+        {
+          "text": "Way too expensive. Trello is a pretty good app but all of the sudden the parent company (Atlassian) started charging outrageous annual pricing now $ 120/annually. Atlassian did the same with Evernote, now $250 annually. If you decide to subscribe, do so on a non-recurring basis o",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id461504587"
+        },
+        {
+          "text": "Summary: since you are new, charge fixed but add buffer on your gut instinct. Referrals are amazing. You likely aren't good at estimating, so you don't want to have to come back to them later and ask for more money. That sours the relationship. You have to look at it from both pe",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9698107"
+        },
+        {
+          "text": "Free version sucks now. Apparently if you don’t pay, it’s trash now? Idk. I’m looking at it and seemingly can’t do things I could do before even though I’ve never paid. I guess I’ll just go back to Obsidian Vault or something.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id461504587"
+        }
+      ]
+    }
+  ],
+  "competitors": []
+}

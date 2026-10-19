@@ -1,0 +1,125 @@
+{
+  "slug": "todoist",
+  "category": "Productivity",
+  "product": "Todoist",
+  "generatedAt": "2026-10-18T23:13:07.980Z",
+  "totalSignals": 294,
+  "negativeRate": 19,
+  "sourceCounts": {
+    "reddit": 97,
+    "appstore": 100,
+    "hackernews": 97
+  },
+  "summary": "Most of the frustration centres on usability and ux, followed by complexity and overload and feature requests. Users feel overwhelmed by the accumulation of projects, tags, sections, and recurring tasks, leading to disorganization and frustration with task management complexity.",
+  "themes": [
+    {
+      "name": "Complexity and Overload",
+      "segment": "Long-time users",
+      "description": "Users feel overwhelmed by the accumulation of projects, tags, sections, and recurring tasks, leading to disorganization and frustration with task management complexity.",
+      "signalCount": 142,
+      "emotionalIntensity": 70,
+      "recurrence": 48,
+      "segmentImpact": "High",
+      "recommendation": "Simplify task organization and provide better tools for managing large task sets.",
+      "quotes": [
+        {
+          "text": "Sucks for recurring tasks. I really wanted to like Todoist, but it’s terrible at handling recurring activities, which is my main use case for it.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id572688855"
+        },
+        {
+          "text": "Okay Todoist, Time to Step. It. up.. This is getting just silly at this point. They keep responding to user requests that are flooded with people calling out and validating needs with 'we're working on it, submit it as a feature request' but it goes into a literal void where devs",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/todoist/comments/1py19sm/okay_todoist_time_to_step_it_up/"
+        },
+        {
+          "text": "\"While the time spent in the role activation stage may be minimal, it quickly adds up when you continually switch back and forth. And once you switch from one task to another, _it takes an average of 23 minutes and 15 seconds to get back to the original task._ \" https:&#x2F;&#x2F",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9489615"
+        }
+      ]
+    },
+    {
+      "name": "Usability and UX",
+      "segment": "All users",
+      "description": "Frustrations with gesture-based interactions, app crashes, and poor widget support, especially on iOS.",
+      "signalCount": 75,
+      "emotionalIntensity": 80,
+      "recurrence": 26,
+      "segmentImpact": "High",
+      "recommendation": "Improve gesture responsiveness, fix crashes, and enhance widget functionality.",
+      "quotes": [
+        {
+          "text": "Horrible Interface. This apps SUCKS. It’s impossible to add members, I literally only wanted to add one member to a project and it failed over 20 times. The interface sucks. Instead of it being easy to use and track, the setup itself was a nightmare to navigate and the page so me",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id572688855"
+        },
+        {
+          "text": "Great app but…... I love this app. Great for making categories of to dos. Problem is when you go to swipe a done item it swipes away the whole page. It takes a light touch to just swipe your item. Hope they fix this",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id572688855"
+        },
+        {
+          "text": "Complicated app.. I was trying to create a medium sized widget to have a simple task list and I can check them off once complete. The app didn’t let me do that. The app made me move all the tasks to the inbox, but for some reason I can’t see the inbox on the widget. Defeats the w",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id572688855"
+        }
+      ]
+    },
+    {
+      "name": "Feature Requests",
+      "segment": "All users",
+      "description": "Requests for advanced features like task batching, calendar integration, AI enhancements, and more customization options.",
+      "signalCount": 69,
+      "emotionalIntensity": 70,
+      "recurrence": 23,
+      "segmentImpact": "High",
+      "recommendation": "Prioritize feature roadmap based on user feedback and expand integration capabilities.",
+      "quotes": [
+        {
+          "text": "Pay-to-play. This app could be perfect if you didn’t have to pay for the essential features. You can’t have alerts (pretty important for a calendar app/to-do list).",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id572688855"
+        },
+        {
+          "text": "Mostly great but notifications suck. It’s extremely difficult to find comments made on tasks. I get a notification, but what task does it belong to???",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id572688855"
+        },
+        {
+          "text": "Calendar is the one big disappointment. I’m confused why I can’t sync my iCloud or a CalDav calendar with Todoist. I was hoping to move away from Google Calendar so it sucks that the options are so limited. I considered creating my own Todoist integration, but I don’t think the S",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id572688855"
+        }
+      ]
+    },
+    {
+      "name": "Pricing and Value",
+      "segment": "Free-tier users",
+      "description": "Concerns over recent price hikes and perceived lack of value for the Pro plan, especially compared to alternatives.",
+      "signalCount": 8,
+      "emotionalIntensity": 60,
+      "recurrence": 3,
+      "segmentImpact": "Medium",
+      "recommendation": "Re-evaluate pricing strategy and communicate value proposition clearly.",
+      "quotes": [
+        {
+          "text": "Todoist pricing update: Addressing your Questions (from the Todoist team). Hey everyone 👋🏽 Dominique here, Head of Product at Doist, makers of Todoist. I want to address some of the questions and concerns you’ve shared about the upcoming pricing changes. Firstly, thank you to t",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/todoist/comments/1otieep/todoist_pricing_update_addressing_your_questions/"
+        },
+        {
+          "text": "Todoist: Price Change, Recap. TL;DR Long-time Todoist Pro users feel disappointed after the recent pricing change and being moved into a \"legacy\" plan without access to new features. The issue is not the price increase itself, but how the change was handled and communicated, espe",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/todoist/comments/1oqsdnr/todoist_price_change_recap/"
+        },
+        {
+          "text": "price increase for Todoist. I just received the email about the price increase for Todoist Business. Currently, according to the website, it costs €72 per year per user (Business). From the next period onwards, I’m supposed to pay €96 per year per user. Have you also received an ",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/todoist/comments/1opwvid/price_increase_for_todoist/"
+        }
+      ]
+    }
+  ],
+  "competitors": []
+}

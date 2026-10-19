@@ -1,0 +1,125 @@
+{
+  "slug": "zoom",
+  "category": "Communication",
+  "product": "Zoom",
+  "generatedAt": "2026-10-18T23:00:36.194Z",
+  "totalSignals": 297,
+  "negativeRate": 49,
+  "sourceCounts": {
+    "reddit": 97,
+    "appstore": 100,
+    "hackernews": 100
+  },
+  "summary": "Zoom's main friction themes are: **Security & Privacy Concerns**, **User Experience & Interface Issues**, **Technical Reliability & Performance**, and **Feature Limitations**.",
+  "themes": [
+    {
+      "name": "User Experience & Interface Issues",
+      "segment": "Mobile users",
+      "description": "Users report difficulties with navigation, zoom functionality, and inconsistent UI behavior across devices.",
+      "signalCount": 152,
+      "emotionalIntensity": 70,
+      "recurrence": 51,
+      "segmentImpact": "High",
+      "recommendation": "Simplify UI, improve zoom controls, and ensure cross-device consistency.",
+      "quotes": [
+        {
+          "text": "Bad UI and battery hog. Coming from other video apps I must say I’m unimpressed with Zoom. Issues: 1. Mute and camera controls are hidden 2. No obvious way to disable the camera automatically panning 3. Super high battery drain, worse of video apps I’ve seen 4. Buggy and unusable",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id546505307"
+        },
+        {
+          "text": "OK, so you're suggesting that we not enable a \"usability feature\" because Apple's guidelines suggest that there are alternative ways to specify the correct viewport? I get the design angle, and I don't disagree that setting the correct viewport is a good idea, but you shouldn't a",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9918288"
+        },
+        {
+          "text": "Nothing in my list was meant to be a justification for disabling zoom. My justifcation for that is: I am a formally trained designer and I design UI properly for the devices and hardware my projects are intended to be accessed with. The other stuff I mentioned were just other exa",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9916843"
+        }
+      ]
+    },
+    {
+      "name": "Feature Limitations",
+      "segment": "Mobile users",
+      "description": "Users request more customization, better screen sharing, and improved collaboration tools.",
+      "signalCount": 64,
+      "emotionalIntensity": 50,
+      "recurrence": 22,
+      "segmentImpact": "Medium",
+      "recommendation": "Add customization options, enhance screen sharing, and improve collaboration features.",
+      "quotes": [
+        {
+          "text": "Any business \"dashboard\" or management portal that relies on data and developer efficiency might... Account manager says: \"I want to be able to view charts for all our sales data by time, with the ability to zoom in on a range... and make it pretty too!\" Developer [if smart] says",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9936735"
+        },
+        {
+          "text": "The people that are taking those screenshots to generate that content make up a tiny minority of users. Most people don't know how to screenshot, and the basic point that you shouldn't have to take a screenshot to zoom into a page is still a good one.",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9917456"
+        },
+        {
+          "text": "Unable to turn off useless push notifications. I'm getting a bunch of notifications when people join a meeting that I was invited to. They're very annoying and the app has no way to turn them off.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id546505307"
+        }
+      ]
+    },
+    {
+      "name": "Technical Reliability & Performance",
+      "segment": "Mobile users",
+      "description": "Users face issues with app crashes, subscription cancellation problems, and poor performance on older devices.",
+      "signalCount": 53,
+      "emotionalIntensity": 60,
+      "recurrence": 18,
+      "segmentImpact": "High",
+      "recommendation": "Stabilize app performance, simplify subscription management, and optimize for older hardware.",
+      "quotes": [
+        {
+          "text": "Does not play well with Apple updates. Junk",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id546505307"
+        },
+        {
+          "text": "Not worth the effort. How is it even possible that this app takes 15 MINUTES TO DOWNLOAD. There’s better choices out there folks!",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id546505307"
+        },
+        {
+          "text": "My app deleted itself. I have issues everytime I need to go to use this app",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id546505307"
+        }
+      ]
+    },
+    {
+      "name": "Security & Privacy Concerns",
+      "segment": "Mobile users",
+      "description": "Users express concerns about privacy, security, and data handling, including unauthorized access, data leaks, and lack of transparency in data usage.",
+      "signalCount": 28,
+      "emotionalIntensity": 80,
+      "recurrence": 9,
+      "segmentImpact": "High",
+      "recommendation": "Enhance transparency, improve encryption, and provide clearer privacy controls.",
+      "quotes": [
+        {
+          "text": "First: in case you're wondering, this is not a complete or even representative history of the early days of ISS. I like Chris fine, but there was a long time ISS ran as a 2-3 person company and those people are the ones HN folks probably want to know about. Second, while I admire",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=997566"
+        },
+        {
+          "text": "Hacking. This zoom has hacked my life . I signed up for one of your clients , using zoom, an early childhood site and they have since , hacked all my life thinking they will get a degree off me . Jamberee or some mess like that . Church folks have invaded my life for 10 years abu",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id546505307"
+        },
+        {
+          "text": "If you zoom out far enough, everything can be viewed as a political&#x2F;business issue. So why all the fuss about it? Because what you plainly stated is often (usually?) not acknowledged, and pushed back against if pointed out.",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9990072"
+        }
+      ]
+    }
+  ],
+  "competitors": []
+}

@@ -1,0 +1,179 @@
+{
+  "slug": "doordash",
+  "category": "Food & Shopping",
+  "product": "DoorDash",
+  "generatedAt": "2026-10-18T23:31:21.799Z",
+  "totalSignals": 295,
+  "negativeRate": 58,
+  "sourceCounts": {
+    "reddit": 97,
+    "appstore": 100,
+    "hackernews": 98
+  },
+  "summary": "Most of the frustration centres on driver behavior and communication, followed by delivery experience issues and pricing and fees. Users report inconsistent delivery times, missing items, cold food, and poor tracking. Some orders are marked as delivered when they clearly weren't, leading to disputes and no refunds.",
+  "themes": [
+    {
+      "name": "Delivery Experience Issues",
+      "segment": "Free-tier users",
+      "description": "Users report inconsistent delivery times, missing items, cold food, and poor tracking. Some orders are marked as delivered when they clearly weren't, leading to disputes and no refunds.",
+      "signalCount": 91,
+      "emotionalIntensity": 80,
+      "recurrence": 31,
+      "segmentImpact": "High",
+      "recommendation": "Improve tracking transparency, ensure delivery confirmation accuracy, and streamline refund processes.",
+      "quotes": [
+        {
+          "text": "Terrible. Won’t refund. Food cold, bad food, and wasted purchases. No refunds available after a certain amount of time even if the order was ruined by bad employees. Boycott please. Door dash is the worst.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id719972451"
+        },
+        {
+          "text": "Terrible service. DoorDash is so money hungry to me. I’ve been waiting 30 minutes now for someone to accept my order and yet they’ve already taken it upon themselves to take my money. I’m already guessing I won’t receive the food by this point and I’m guessing even more that I wo",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id719972451"
+        },
+        {
+          "text": "Im so sick of DoorDash. Im considered blind. I dont have transportation and I live alone so I rely on ordering out. Today is my legal Birthday so I ordered a meal. Paid extra from Urban Bird for hot honey, Mac and cheese, and Fries. What came was a sealed bag with only two pieces",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/doordash/comments/1uqa1xf/im_so_sick_of_doordash/"
+        }
+      ]
+    },
+    {
+      "name": "Pricing and Fees",
+      "segment": "Free-tier users",
+      "description": "Users complain about high service fees, delivery fees, and unexpected charges. Promotional discounts often don't apply, and refunds are denied for missing items or incorrect orders.",
+      "signalCount": 68,
+      "emotionalIntensity": 80,
+      "recurrence": 23,
+      "segmentImpact": "High",
+      "recommendation": "Review pricing structure, ensure discounts are honored, and improve refund policies for service issues.",
+      "quotes": [
+        {
+          "text": "(I work at DoorDash) For restaurants that we haven't yet partnered with, we have a slightly increased price in order to pay for the cost of delivery. However, many of our restaurants pay this fee as a commission, and the price on our website is the same as at the restaurant. We t",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=7787752"
+        },
+        {
+          "text": "Could Be Better. In these economically difficult times, with various needs and disabilities on the rise, it would be great if DoorDash was more reasonable on their service fees. They alone make a simple and affordable order so ridiculously high that I’m moving away from the platf",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id719972451"
+        },
+        {
+          "text": "It’s alright. It’s an okay app BUT the fees are way to high and they should give more to the drivers instead of charging the customers $8 worth of fees per transaction.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id719972451"
+        }
+      ]
+    },
+    {
+      "name": "Driver Behavior and Communication",
+      "segment": "Free-tier users",
+      "description": "Drivers are reported as rude, unprofessional, and disrespectful. Some drivers refuse to deliver to certain floors, act aggressively toward restaurant staff, and engage in inappropriate chat with customers.",
+      "signalCount": 55,
+      "emotionalIntensity": 90,
+      "recurrence": 19,
+      "segmentImpact": "High",
+      "recommendation": "Implement stricter driver vetting, enforce communication guidelines, and provide customer support for conflict resolution.",
+      "quotes": [
+        {
+          "text": "Order last night. Driver made me walk literately a block and half to get my food and. Was rude",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id719972451"
+        },
+        {
+          "text": "Incredibly rude and unprofessional doordash driver. I ordered delivery from Pizza Hut, and they outsource their drivers to Doordash. This driver did nothing but whine, saying he did not want to go up to the 4th floor because he \"didn't feel like it\", then was mad I didn't pick up",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/doordash/comments/1wxrauq/incredibly_rude_and_unprofessional_doordash_driver/"
+        },
+        {
+          "text": "DoorDash driver is mad lol. submitted by /u/IndividualWonder2533 to r/PublicFreakout",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/PublicFreakout/comments/1ws3m40/doordash_driver_is_mad_lol/"
+        }
+      ]
+    },
+    {
+      "name": "App Usability and Reliability",
+      "segment": "Free-tier users",
+      "description": "Users report app glitches, including failed refunds, incorrect order processing, and issues with promotions not applying. The app is also criticized for poor customer support and lack of transparency.",
+      "signalCount": 38,
+      "emotionalIntensity": 70,
+      "recurrence": 13,
+      "segmentImpact": "Medium",
+      "recommendation": "Fix app bugs, improve customer support channels, and enhance transparency in order and refund processes.",
+      "quotes": [
+        {
+          "text": "APP WONT GIVE ME A REFUND. I made an order for housten hot chicken and I received the complete wrong order with a spice lever that I couldn’t enjoy and I requested a refund and they denied it",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id719972451"
+        },
+        {
+          "text": "The disabled are screwed by ai. The ai in this app have no sensitivity toward those with disabilities and it is impossible to get a human. Don’t expect refunds or care if your order is late, missing or not put in a spot convenient for those who struggle.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id719972451"
+        },
+        {
+          "text": "Good app, too many up charges. It's a good app and makes things easier but the up charges are insane",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id719972451"
+        }
+      ]
+    },
+    {
+      "name": "Customer Support and Accountability",
+      "segment": "Free-tier users",
+      "description": "Users report poor customer support, with no accountability for errors. When issues arise, such as missing food or incorrect orders, the response is often dismissive or unhelpful.",
+      "signalCount": 22,
+      "emotionalIntensity": 80,
+      "recurrence": 7,
+      "segmentImpact": "High",
+      "recommendation": "Enhance customer support responsiveness, provide clear accountability for errors, and improve resolution processes.",
+      "quotes": [
+        {
+          "text": "Zero Accountability. I am a DoorDash pass member, and I order pretty regularly. Despite this, whenever I receive a writing order, or have a missing item, all I get is “Sorry for the inconvenience, but the system isn’t allowing me to issue a compensation at this time.” So I get ch",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id719972451"
+        },
+        {
+          "text": "Impossible to get a refund even for a frequent customer. .",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id719972451"
+        },
+        {
+          "text": "Worst Customer Service. Didn’t receive my food-only drinks and bread I did not order. I called customer service to get it resolved. Glenda was condescending and rude and did not help me at all. Told me they needed proof in a way that made it seem like I was lying then told me wai",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id719972451"
+        }
+      ]
+    },
+    {
+      "name": "Driver Compensation and Treatment",
+      "segment": "Free-tier users",
+      "description": "Drivers are reported as being underpaid, overworked, and treated poorly. Some drivers are described as being forced into unfair work conditions, with no job security or benefits.",
+      "signalCount": 21,
+      "emotionalIntensity": 70,
+      "recurrence": 7,
+      "segmentImpact": "High",
+      "recommendation": "Improve driver pay, provide better benefits, and ensure fair treatment of workers.",
+      "quotes": [
+        {
+          "text": "didn't all the Fedex drivers start out as contractors, until a court case ruled that they are actually employees? Time will tell if this will happen to DoorDash and Uber.",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9273821"
+        },
+        {
+          "text": "> DoorDash has a great business, in many ways better than Uber's. Have you considered what happens to that business if DoorDash is forced to reclassify its workers as employees? A delivery business is particularly sensitive to classification because of all the expenses that drive",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9273584"
+        },
+        {
+          "text": "Pretty sure a DoorDash driver now gets paid better than a 19th century farmer inflation adjusted ? Over a single lifetime, there are no guarantees because there's too many variables, but civilization-ally, the progress seems to always hold up.",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=50120499"
+        }
+      ]
+    }
+  ],
+  "competitors": []
+}

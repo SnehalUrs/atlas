@@ -1,0 +1,125 @@
+{
+  "slug": "canva",
+  "category": "Design",
+  "product": "Canva",
+  "generatedAt": "2026-10-18T23:19:36.760Z",
+  "totalSignals": 297,
+  "negativeRate": 25,
+  "sourceCounts": {
+    "reddit": 97,
+    "appstore": 100,
+    "hackernews": 100
+  },
+  "summary": "Canva's main friction themes include user experience degradation, AI integration backlash, and feature complexity. Positive feedback highlights its ease of use, versatility, and value for non-designers.",
+  "themes": [
+    {
+      "name": "User Experience Degradation",
+      "segment": "Paying subscribers",
+      "description": "Users report clunky interface, loss of fine control, and overall poor UX, especially in the free version. Complaints include difficulty zooming, positioning elements, and navigating the app.",
+      "signalCount": 46,
+      "emotionalIntensity": 80,
+      "recurrence": 15,
+      "segmentImpact": "High",
+      "recommendation": "Revisit core UX design, restore fine control features, and improve navigation.",
+      "quotes": [
+        {
+          "text": "This app gets worse by the day!. I have used this app for years now and never have I had so many problems. I seemed to do better with the free version that I do with the paid one! I use Canva daily for my businesses and every day. 20 minute tasks take 6-7 hours to complete. I hav",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id897446215"
+        },
+        {
+          "text": "WTF Happened to Canva?!. It's been awhile since I last used Canva for creating artwork. I am surprised at how HORRIBLE the user experience has become. No longer able to zoom in. Unable to nudge an item a pixel at a time. I just spent over 60 minutes trying to figure out how to li",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/canva/comments/1wcz0q9/wtf_happened_to_canva/"
+        },
+        {
+          "text": "As a blind user and developer I am absolutely terrified by such a prospect. We've just started to get decent accessibility for the plethora of new web features with ARIA and similar. But if you render everything to graphics output directly to a canvas you lose any capability of e",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9964583"
+        }
+      ]
+    },
+    {
+      "name": "Feature Complexity",
+      "segment": "New users",
+      "description": "Users find the app overwhelming due to the number of features, especially when trying to create more complex designs. Some feel the learning curve is steep.",
+      "signalCount": 48,
+      "emotionalIntensity": 60,
+      "recurrence": 16,
+      "segmentImpact": "Medium",
+      "recommendation": "Add more onboarding and tutorial content to help users navigate the app.",
+      "quotes": [
+        {
+          "text": "Clunky. Very clunky, has lots of features but the flow is hard to work with.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id897446215"
+        },
+        {
+          "text": "Interestingly WebGL is way slower than SVG and Canvas in this case (Chrome, rMBP): https:&#x2F;&#x2F;jonobr1.github.io&#x2F;two.js&#x2F;examples&#x2F;particle-sandbox.h...",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9899973"
+        },
+        {
+          "text": "I'm building a multi page app that has a single page which is extremely complex (it's an image based marketing tool, the complex page is the visual editor) and I'm finding browser extremely finicky in their memory management. I don't know how making a real single page app could b",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9883698"
+        }
+      ]
+    },
+    {
+      "name": "AI Integration Backlash",
+      "segment": "Power users",
+      "description": "Strong pushback against AI features, with users feeling they're forced into AI-driven workflows and losing control over design elements.",
+      "signalCount": 17,
+      "emotionalIntensity": 70,
+      "recurrence": 6,
+      "segmentImpact": "High",
+      "recommendation": "Offer AI as an optional feature, not a default, and provide clear opt-out mechanisms.",
+      "quotes": [
+        {
+          "text": "Was great until AI. I loved Canva up until they integrated AI and there is no way to opt out of it.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id897446215"
+        },
+        {
+          "text": "Frustrating, hallucinating, maddening AI BS. The most awful experience I\u2019ve ever had, trying to use a design program, especially one that\u2019s supposedly for non-designers! I attempted to create a classical concert program, feeding in the precise wording, logos, and some general des",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id897446215"
+        },
+        {
+          "text": "Canva AI is atrocious.. I was forced to use Slopva at my college course specifically to design a logo for a milkshake company, and the next minute AI is shoved in my face while trying to edit the work naturally without using clanker-driven elements or graphics that Canva has thro",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/canva/comments/1wp7ho1/canva_ai_is_atrocious/"
+        }
+      ]
+    },
+    {
+      "name": "Premium Feature Limitations",
+      "segment": "Free-tier users",
+      "description": "Users feel many advanced features are locked behind paywalls, and some premium features (like magic layer) are not working as expected.",
+      "signalCount": 12,
+      "emotionalIntensity": 60,
+      "recurrence": 4,
+      "segmentImpact": "Medium",
+      "recommendation": "Ensure premium features are functional and consider offering more free tools to retain users.",
+      "quotes": [
+        {
+          "text": "CANVA AI. CANVA AI WAS A JIP IT TOLD ME IT COLD DO SOMETHING BYR I HAD TO PAY TO UNLOCK IT PAID AND NOTHING JUST A WASTE OF A SUBSCRIPTION .",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id897446215"
+        },
+        {
+          "text": "Ah, I only read the part I quoted, so I didn't realize that. No wonder I got downvoted. I know GitHub has at least some considerations because if you press tab, it shows a hidden \"Skip to content\" button (which I thought was a bug, but learned it's for screen readers). But I can ",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9977820"
+        },
+        {
+          "text": "I'd say no it isn't in the aggregate harder. There are a few of forces at play that I think lead to this. First of all you can now buy pretty good hacking tools in a can (CANVAS, Core Impact) that come complete with non public exploits. If you don't have the money, metasploit is ",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=985658"
+        }
+      ]
+    }
+  ],
+  "competitors": []
+}

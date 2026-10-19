@@ -1,0 +1,179 @@
+{
+  "slug": "headspace",
+  "category": "Health & Fitness",
+  "product": "Headspace",
+  "generatedAt": "2026-10-19T00:45:44.223Z",
+  "totalSignals": 297,
+  "negativeRate": 49,
+  "sourceCounts": {
+    "reddit": 97,
+    "appstore": 100,
+    "hackernews": 100
+  },
+  "summary": "Most of the frustration centres on loss of core meditation focus, followed by paywall and pricing issues and poor user experience. Users feel the app has shifted from a meditation tool to a platform with AI-driven content and commercial features, losing its original mindfulness focus.",
+  "themes": [
+    {
+      "name": "Lack of Longer Meditations",
+      "segment": "Mobile users",
+      "description": "Users find the app lacking in longer meditation sessions, which are needed for deeper relaxation and focus.",
+      "signalCount": 95,
+      "emotionalIntensity": 60,
+      "recurrence": 32,
+      "segmentImpact": "Medium",
+      "recommendation": "Expand meditation lengths and offer more variety in session options.",
+      "quotes": [
+        {
+          "text": "Lacking meditations over 20 minutes. If you search sleep meditation there’s only one over 20 minutes. In general they a plethora of short meditations. Lacking longer meditations.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id493145008"
+        },
+        {
+          "text": "Needs new content. I’ve meditated for more than 10,000 minutes on this app, but it feels like there is no new meditation content and the daily meditations are just repeating now. It needs a content refresh. The meditations should help me become more mindful, but when they are con",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id493145008"
+        },
+        {
+          "text": "Good app, too compilciated not intuitive. Very hard to find specific meditations. Can’t go back to find older meditations. Get stuck in the multiple days",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id493145008"
+        }
+      ]
+    },
+    {
+      "name": "Poor Customer Support",
+      "segment": "Mobile users",
+      "description": "Users report difficulty in canceling subscriptions and poor customer service, leading to frustration and churn.",
+      "signalCount": 63,
+      "emotionalIntensity": 70,
+      "recurrence": 21,
+      "segmentImpact": "High",
+      "recommendation": "Improve cancellation process, provide clear support channels, and enhance customer service.",
+      "quotes": [
+        {
+          "text": "Difficult to cancel. The instructions to cancel do not cancel, seems this app makes it difficult just to collect more $",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id493145008"
+        },
+        {
+          "text": "False advertising and charging without notice. Terrible experience, during the sign up process, on multiple pages was it listed that a free 14 day trial was available, even once I signed into an old account from years ago it still told me a free trial was available. Once I entere",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id493145008"
+        },
+        {
+          "text": "Cancelled, still billed. This app wasn’t for me so I cancelled. Just received a bill for the month.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id493145008"
+        }
+      ]
+    },
+    {
+      "name": "Poor User Experience",
+      "segment": "Mobile users",
+      "description": "Users report a cluttered, confusing UI that makes it hard to find content, leading to frustration and disengagement.",
+      "signalCount": 55,
+      "emotionalIntensity": 70,
+      "recurrence": 19,
+      "segmentImpact": "High",
+      "recommendation": "Simplify navigation, improve content organization, and enhance discoverability.",
+      "quotes": [
+        {
+          "text": "Cluttered with content. Ironically, this app is not mindful in its UX design. There are so many levels and types of content, without any clear organization, that it makes it so frustrating to navigate. I don’t open the app because its so overwhelming",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id493145008"
+        },
+        {
+          "text": "Terrible navigation. UI leaves be more anxious than before I opened the app",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id493145008"
+        },
+        {
+          "text": "Love the content-Hate the App. I've had the app through two \"upgrades\". The content is wonderful, but the app's organization has now gotten so bad succeeding changes that if it gets any worse, I will drop it.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id493145008"
+        }
+      ]
+    },
+    {
+      "name": "Over-commercialization",
+      "segment": "Mobile users",
+      "description": "Users feel the app has become too commercialized with AI chatbots and intrusive features that detract from the meditation experience.",
+      "signalCount": 35,
+      "emotionalIntensity": 70,
+      "recurrence": 12,
+      "segmentImpact": "High",
+      "recommendation": "Reduce commercialization, limit AI integration, and focus on core meditation features.",
+      "quotes": [
+        {
+          "text": "Concerns. This app has been a good thing, but I believe ai chatbots have no place in a service designed for meditation and mindfulness.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id493145008"
+        },
+        {
+          "text": "Another paid scam app. $70 to use a meditation app that should be free. Not worth it",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id493145008"
+        },
+        {
+          "text": "Great until Ebb. This is a great app, especially for people just getting into mental health and meditation. The addition of an AI is not only unhelpful but unethical as well. We should not be encouraging people with mental health issues to rely on AI for help. It is unsafe and th",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id493145008"
+        }
+      ]
+    },
+    {
+      "name": "Paywall and Pricing Issues",
+      "segment": "Mobile users",
+      "description": "Users are frustrated with the paywall, lack of free content, and the cost of accessing even basic features.",
+      "signalCount": 27,
+      "emotionalIntensity": 80,
+      "recurrence": 9,
+      "segmentImpact": "High",
+      "recommendation": "Offer more free content, improve trial options, and consider tiered pricing models.",
+      "quotes": [
+        {
+          "text": "Paywall. This app used to be great. I returned to it today after some time away only to find the entire app locked behind a pay wall. So much for easy stress relief!",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id493145008"
+        },
+        {
+          "text": "Why do you have to pay. This app used to be free not anymore",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id493145008"
+        },
+        {
+          "text": "Money grabber. I downloaded this app because I loved their content on Netflix for sleeping, turns out you have to pay for practically every single thing. It’s only $5 a month, not bad, but unnecessary. They post on YouTube for free. Making others pay for this app is absurd when I",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id493145008"
+        }
+      ]
+    },
+    {
+      "name": "Loss of Core Meditation Focus",
+      "segment": "Mobile users",
+      "description": "Users feel the app has shifted from a meditation tool to a platform with AI-driven content and commercial features, losing its original mindfulness focus.",
+      "signalCount": 20,
+      "emotionalIntensity": 80,
+      "recurrence": 7,
+      "segmentImpact": "High",
+      "recommendation": "Re-focus on meditation content, reduce AI integration, and maintain core mindfulness features.",
+      "quotes": [
+        {
+          "text": "Too many AI features. Headspace used to be a great app for mindfulness. However, they’ve recently added more and more AI features which feel unnecessary. It’s hard to find relevant meditations, and it feels like the app is trying to accomplish too many goals at once.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id493145008"
+        },
+        {
+          "text": "No longer a meditation app. This app used to be phenomenal for building a real meditation practice back in 2018 or so. Since being bought out by $4B AI health tech company Sword Health, they’ve gutted the core focus on mindfulness and replaced it with a flood of 4-minute snippet ",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id493145008"
+        },
+        {
+          "text": "There is really no need for AI in a meditation app.. I love the app's content. It has amazing, simple guided meditations. The only thing I dislike is that there is an AI pop-up in the new version like a suggestion if you would like to talk to it after your meditation. In my exper",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id493145008"
+        }
+      ]
+    }
+  ],
+  "competitors": []
+}

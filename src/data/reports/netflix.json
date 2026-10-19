@@ -1,0 +1,125 @@
+{
+  "slug": "netflix",
+  "category": "Entertainment",
+  "product": "Netflix",
+  "generatedAt": "2026-10-18T22:09:05.031Z",
+  "totalSignals": 296,
+  "negativeRate": 53,
+  "sourceCounts": {
+    "reddit": 97,
+    "appstore": 100,
+    "hackernews": 99
+  },
+  "summary": "Netflix's main friction themes include content quality and variety, pricing and value, account sharing and accessibility, and user experience and app functionality.",
+  "themes": [
+    {
+      "name": "Content Quality and Variety",
+      "segment": "Paying subscribers",
+      "description": "Users express frustration with declining content quality, poor show pacing, and lack of diverse genres like horror. Some criticize specific shows for being unoriginal or poorly executed, while others request more niche content like horror movies or specific series (e.g., Minecraft, One Piece).",
+      "signalCount": 103,
+      "emotionalIntensity": 70,
+      "recurrence": 35,
+      "segmentImpact": "High",
+      "recommendation": "Invest in original content, improve show pacing, and expand genre offerings.",
+      "quotes": [
+        {
+          "text": "Netflix Viewers Are Abandoning Shows After One Season. submitted by /u/joe4942 to r/technology",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/technology/comments/1uofnpe/netflix_viewers_are_abandoning_shows_after_one/"
+        },
+        {
+          "text": "He never complained about the quality of television shows, just about television. And I concur. The quality of television has gone down a lot. Too many ads, too many channels filled with rubbish. I stopped watching too, and turned to Netflix instead.",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9997672"
+        },
+        {
+          "text": "\"Building something cool in minecraft is pretty different from watching spongebob on netflix.\" Is it? Why is watching and thinking about something less valuable than \"building\" something?",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9990196"
+        }
+      ]
+    },
+    {
+      "name": "Pricing and Value",
+      "segment": "Paying subscribers",
+      "description": "Users are frustrated with rising subscription costs and feel they are not getting enough value for the price, especially when compared to piracy or other streaming services. Some users also complain about the cost of specific content (e.g., movies) not being available on the platform.",
+      "signalCount": 87,
+      "emotionalIntensity": 60,
+      "recurrence": 29,
+      "segmentImpact": "High",
+      "recommendation": "Reevaluate pricing strategy and offer more value through content or bundling.",
+      "quotes": [
+        {
+          "text": "Expensive. As much as we appreciate all the perks Netflix has to offer. I believe the prices rise too often. There could be more discounts for long time and loyal customers.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id363590051"
+        },
+        {
+          "text": "Stop raising prices. Too expensive for subpar content.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id363590051"
+        },
+        {
+          "text": "Price increases. There’s been a lot of price increases but it seems there’s micro shows and movies. Why?????? You don’t even have every season of many shows. As far as choosing another plan that will have ads, if I wanted to watch shows with ads then I’d stream them from a free s",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id363590051"
+        }
+      ]
+    },
+    {
+      "name": "User Experience and App Functionality",
+      "segment": "All users",
+      "description": "Users praise the app for being intuitive and having a vast library of content, but some complain about technical issues like signing out unexpectedly, poor app performance on older devices, and the lack of features like full-season availability.",
+      "signalCount": 68,
+      "emotionalIntensity": 40,
+      "recurrence": 23,
+      "segmentImpact": "Medium",
+      "recommendation": "Optimize app performance, improve device compatibility, and enhance user control over content access.",
+      "quotes": [
+        {
+          "text": "Can't. What good is the app if you can not use it on the internet or off the internet and you are paying for services and not getting it",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id363590051"
+        },
+        {
+          "text": "Now if only they'd fix their apps so A) could easily find shows they offer B) won't play a video and just shows a spinning circle if the app sits idle for 5 minutes or just finished playing another video and going to the next episode (always have to restart the app to fix it, hap",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9974556"
+        },
+        {
+          "text": "So glad I canceled. The app continued to have me verify location and having to re log in… would not work when I was traveling. Probably why their stock is down so much due to people leaving! from their passwords always having to be entered and not working while traveling…So many ",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id363590051"
+        }
+      ]
+    },
+    {
+      "name": "Account Sharing and Accessibility",
+      "segment": "Paying subscribers",
+      "description": "Users are concerned about account sharing and the lack of control over who can access their content. Some users also mention the inconvenience of not being able to watch content on older devices or the inability to watch entire seasons at once.",
+      "signalCount": 37,
+      "emotionalIntensity": 50,
+      "recurrence": 13,
+      "segmentImpact": "Medium",
+      "recommendation": "Implement stricter account management and improve device compatibility.",
+      "quotes": [
+        {
+          "text": "At least part of this is going to be \"helped\" by netflix's per account streaming limits. i.e. I can run 2 streams at once, and if I paid more, I could do up to 4. But that means as you add people sharing an account, you either pay more, or get pissed at the other people, cause if",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9951380"
+        },
+        {
+          "text": "Reed Hastings mentioned recently they don't view Netflix account sharing as a big enough problem worth addressing: http:&#x2F;&#x2F;www.businessinsider.com&#x2F;password-sharing-isnt-a-probl...",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9998024"
+        },
+        {
+          "text": "I believe Amazon knew about all the sharing that was going on but waited until there was enough users hooked to pull the trigger. An example of another company where people share accounts is Netflix which I think will do something similar to Amazon in the near future.",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9997413"
+        }
+      ]
+    }
+  ],
+  "competitors": []
+}

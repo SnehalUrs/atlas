@@ -1,0 +1,179 @@
+{
+  "slug": "spotify",
+  "category": "Entertainment",
+  "product": "Spotify",
+  "generatedAt": "2026-10-18T22:07:06.878Z",
+  "totalSignals": 294,
+  "negativeRate": 53,
+  "sourceCounts": {
+    "reddit": 97,
+    "appstore": 100,
+    "hackernews": 97
+  },
+  "summary": "Spotify users express a mix of loyalty, frustration, and exploration of alternatives. The main friction themes revolve around cost, reliability, and user experience.",
+  "themes": [
+    {
+      "name": "Alternative Solutions and Piracy",
+      "segment": "Paying subscribers",
+      "description": "Users are exploring alternatives and pirated versions of Spotify due to cost and accessibility issues.",
+      "signalCount": 85,
+      "emotionalIntensity": 40,
+      "recurrence": 29,
+      "segmentImpact": "High",
+      "recommendation": "Address pricing and accessibility concerns to reduce reliance on pirated versions.",
+      "quotes": [
+        {
+          "text": "Any Spotify alternatives. That are selfhoster and local but can also sync over devices? I want to stop using Spotify but the features are keeping me, only downside is the music that's not on there submitted by /u/RoboAK4 to r/Piracy",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/Piracy/comments/1wfjukg/any_spotify_alternatives/"
+        },
+        {
+          "text": "So did Spotify win?. can't remember the last time I saw a reliable cracked version. Yes, I am aware of the many other private options + free options. I just really miss Spotify submitted by /u/OneBelowAlI to r/Piracy",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/Piracy/comments/1sl7bd7/so_did_spotify_win/"
+        },
+        {
+          "text": "This was never hard to do. The reason no one did this is that it will spoil things. We have a company Spotify trying to do the right thing: pay artists and have us listening to music easily anywhere. When you subscribe to Spotify you do not expect to own or keep the music you exp",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9921234"
+        }
+      ]
+    },
+    {
+      "name": "Content Discovery and Personalization",
+      "segment": "Paying subscribers",
+      "description": "Users appreciate Spotify's ability to find new music and recommend tracks, which is a key feature for many.",
+      "signalCount": 108,
+      "emotionalIntensity": 30,
+      "recurrence": 37,
+      "segmentImpact": "High",
+      "recommendation": "Continue improving recommendation algorithms and content discovery.",
+      "quotes": [
+        {
+          "text": "Spotify is horrible.. Spotify feels built for people who don’t know exactly what they want to hear. If you’re picky about music, the free version can be frustrating since basic features like unlimited skips are locked behind a paywall. I don’t want an algorithm deciding what play",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/unpopularopinion/comments/1sq0znz/spotify_is_horrible/"
+        },
+        {
+          "text": "Mix it up. I wish Spotify would more accurately suggest music. A majority of the Spotify playlists created have the songs I have saved to another playlist It’d be great if suggestions were based on music I saved rather than being the same song. I am also curious why the daily pla",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id324684580"
+        },
+        {
+          "text": "Sad news. Josh created a service that was a pleasure to use. I discovered so much music using it. When Grooveshark closed, I moved to Spotify, which, IMO, has a very long way to go before it becomes what Grooveshark was in terms of music diversity.",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9918130"
+        }
+      ]
+    },
+    {
+      "name": "Reliability and Account Restrictions",
+      "segment": "Paying subscribers",
+      "description": "Users are frustrated with account restrictions, such as regional bans, and the difficulty of accessing Spotify without paying.",
+      "signalCount": 28,
+      "emotionalIntensity": 50,
+      "recurrence": 10,
+      "segmentImpact": "High",
+      "recommendation": "Improve account accessibility and reduce regional restrictions.",
+      "quotes": [
+        {
+          "text": "Usage of such tools violates TOS of Spotify, with Premium account or not. They can cancel your account because of this.",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9921288"
+        },
+        {
+          "text": "I echo your sentiments. I felt that it was the music service that put its users' experience before all other concerns (which surely lead to its legal issues). When there was a song I wanted to listen to, I came back to it time and time again, rebuffing Spotify and its ilk.",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9919389"
+        },
+        {
+          "text": "spotify sucks so damn bad. one of my playlists is over 100 hours long, yet every time i hit the shuffle button, either normal shuffle or smart shuffle, it plays the same songs in the same order every time. Theyve just put their subscription fee up as well. oh and also the app suc",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/mildlyinfuriating/comments/1tmytdg/spotify_sucks_so_damn_bad/"
+        }
+      ]
+    },
+    {
+      "name": "User Experience and App Functionality",
+      "segment": "Paying subscribers",
+      "description": "Users report issues with app stability, playlist sync, and ad interruptions, which affect their experience.",
+      "signalCount": 28,
+      "emotionalIntensity": 40,
+      "recurrence": 10,
+      "segmentImpact": "Medium",
+      "recommendation": "Enhance app stability and reduce ad frequency.",
+      "quotes": [
+        {
+          "text": "Buggy, trying to do too much, and inconsistent. I’m disappointed in the app experience. It’s deteriorating rapidly. Please take better care of your core users, people that like music and large playlists. Fix your shuffle!",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id324684580"
+        },
+        {
+          "text": "All of those problems? Users don't know, don't understand, or don't care. Native? Regular users don't care if an app is native or not - they just want a well designed app that works across their laptop and tablet. Updates? That's probably one they do care about - they want it to ",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9965459"
+        },
+        {
+          "text": "Problem. This is a great app for listening to music I just have one problem every time I finish a song on my playlist it just wouldn’t go to the next song, it plays some random song that isn’t in my playlist I turned off autoplay but it still wouldn’t work, I tried turning off sm",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id324684580"
+        }
+      ]
+    },
+    {
+      "name": "Cost and Pricing Concerns",
+      "segment": "Paying subscribers",
+      "description": "Users are concerned about the cost of Spotify Premium, with some feeling it's overpriced and others frustrated by regional pricing differences and account restrictions.",
+      "signalCount": 24,
+      "emotionalIntensity": 40,
+      "recurrence": 8,
+      "segmentImpact": "High",
+      "recommendation": "Review pricing models and consider regional pricing adjustments.",
+      "quotes": [
+        {
+          "text": "Spotify is hiking prices again / Premium, Duo, Family, and Student users in the US will be charged more from their next billing date.. submitted by /u/MarvelsGrantMan136 to r/Music",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/Music/comments/1qdikn1/spotify_is_hiking_prices_again_premium_duo_family/"
+        },
+        {
+          "text": "Spotify once again increases subscription prices. This is their fourth consecutive year increasing rates for premium subscribers. The US premium subscriber changes are as follows: Individual Plan $11.99->$12.99, Duo Plan $16.99->$18.99, Family Plan $19.99->$21.99, Student Plan $5",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/popculturechat/comments/1r5wa8v/spotify_once_again_increases_subscription_prices/"
+        },
+        {
+          "text": "I had always assumed that the P2P was to help mitigate the cost of data so that the Spotify team could better use their limited (at the time) funds to secure more music contracts. Were operational costs not as drastic as I might be assuming?",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9989025"
+        }
+      ]
+    },
+    {
+      "name": "Privacy and Data Concerns",
+      "segment": "Paying subscribers",
+      "description": "Users express concerns about Spotify's data practices, including privacy and data sharing with third parties.",
+      "signalCount": 21,
+      "emotionalIntensity": 30,
+      "recurrence": 7,
+      "segmentImpact": "Medium",
+      "recommendation": "Improve transparency and privacy controls.",
+      "quotes": [
+        {
+          "text": "Spotify's music catalog leaked in massive data breach.. This pirate activist group has extracted and released Spotify's entire music catalog, distributing approximately 300 terabytes of audio files and metadata across peer-to-peer networks in what experts are calling an unprecede",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/Piracy/comments/1psul8g/spotifys_music_catalog_leaked_in_massive_data/"
+        },
+        {
+          "text": "Spotify did this for years. I don't think it's right to be opaque, but it's not radical.",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9989363"
+        },
+        {
+          "text": "So did spotify, if they didn't then no one will opt-in not because they care about their \"privacy\" but because it takes effort and knowledge. They set the LAN option for enterprise and education SKU's not because they care about their privacy but because the network setup will no",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9989811"
+        }
+      ]
+    }
+  ],
+  "competitors": []
+}

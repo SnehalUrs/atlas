@@ -1,0 +1,287 @@
+{
+  "slug": "slack",
+  "category": "Communication",
+  "product": "Slack",
+  "generatedAt": "2026-10-18T22:58:51.569Z",
+  "totalSignals": 296,
+  "negativeRate": 47,
+  "sourceCounts": {
+    "reddit": 97,
+    "appstore": 100,
+    "hackernews": 99
+  },
+  "summary": "Most of the frustration centres on information overload & thread fragmentation, followed by ui/ux & feature changes and performance & stability. Users struggle to find specific information in a sea of threads, leading to confusion and inefficiency in team communication.",
+  "themes": [
+    {
+      "name": "Onboarding & Access Issues",
+      "segment": "Free-tier users",
+      "description": "Users face confusion and delays in accessing Slack, including issues with invitation links and credentials.",
+      "signalCount": 102,
+      "emotionalIntensity": 50,
+      "recurrence": 34,
+      "segmentImpact": "Medium",
+      "recommendation": "Simplify onboarding and improve access management.",
+      "quotes": [
+        {
+          "text": "SLACK INVITATION. I have been invited to join slack as a certified expert. When i click on the email link, my email does not go through. Please anyone to help me submitted by /u/Evans5131 to r/micro1_ai",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/micro1_ai/comments/1upa06n/slack_invitation/"
+        },
+        {
+          "text": "Got Selected! Background Check and Slack still pending?. I got selected for a project and my onboarding is almost done, except for the background check and being added to a Slack channel. It says that I will be receiving an invite for background check -- what is the usual ETA for",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/micro1_ai/comments/1wwxb4e/got_selected_background_check_and_slack_still/"
+        },
+        {
+          "text": "Slack invitation confusion. I have received an invitation for slack invite however it is in my personal email. I was told that it should be received in my expert email. I have not received any to my expert email submitted by /u/pinoybetlords to r/micro1_ai",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/micro1_ai/comments/1x3a394/slack_invitation_confusion/"
+        }
+      ]
+    },
+    {
+      "name": "Work-Life Balance & Monitoring",
+      "segment": "Free-tier users",
+      "description": "Users feel pressured by constant notifications and monitoring, such as tracking Slack activity for punctuality.",
+      "signalCount": 66,
+      "emotionalIntensity": 50,
+      "recurrence": 22,
+      "segmentImpact": "Medium",
+      "recommendation": "Offer more flexible notification settings and respect user boundaries.",
+      "quotes": [
+        {
+          "text": "No notifications. The most frustrating thing about Slack is that unless you see the initial notification come through, you have no idea that there has been activity on Slack. It does not give you a “1” or “2”, etc. on your Home Screen. Since communication is what Slack is all abo",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id618783545"
+        },
+        {
+          "text": "Not a fan. I only have Slack because my church uses it. However, I am not a fan as it's just another app for me to have to check for communication. I think because I don't work and need to have this app for any other purpose of my life, and it doesn't send me notification saying ",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id618783545"
+        },
+        {
+          "text": "How the mighty have fallen. It used to be easy and fun to use but now it’s a mess of notifications and new features that make it hard to navigate and find what I’m looking for. What I’m looking for is messages. That’s never changed, but Slack has.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id618783545"
+        }
+      ]
+    },
+    {
+      "name": "Integration & Compatibility",
+      "segment": "Free-tier users",
+      "description": "Limited integration with other tools and poor mobile app performance (e.g., static gifs) reduce overall utility.",
+      "signalCount": 41,
+      "emotionalIntensity": 50,
+      "recurrence": 14,
+      "segmentImpact": "Medium",
+      "recommendation": "Improve cross-platform integration and mobile app performance.",
+      "quotes": [
+        {
+          "text": "paywall and gifs suck. there are features like the canvases and workflows that i think should not be locked behind a pay wall, and the gifs don’t move on the mobile app.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id618783545"
+        },
+        {
+          "text": "Discord is free and significantly better.. Stop spending your budget vibe coding AI features literally nobody wants and instead fix the bugs that makes your ram hungry electron desktop app take minutes to load on startup.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id618783545"
+        },
+        {
+          "text": "Use it cause I have to. The app is abandonware. The support over email is glacial. I use this because there is nothing else that won’t go out of business in a year or isn’t MS Teams. If only they’d hire one competent product person to make this not such an unmanageable dumpster f",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id618783545"
+        }
+      ]
+    },
+    {
+      "name": "Information Overload & Thread Fragmentation",
+      "segment": "Free-tier users",
+      "description": "Users struggle to find specific information in a sea of threads, leading to confusion and inefficiency in team communication.",
+      "signalCount": 19,
+      "emotionalIntensity": 80,
+      "recurrence": 6,
+      "segmentImpact": "High",
+      "recommendation": "Improve search functionality and reduce thread fragmentation.",
+      "quotes": [
+        {
+          "text": "Huge distraction. Few tools for organizing messages and summarizing what is important to actually pay attention to in channels. A disorganized mess.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id618783545"
+        },
+        {
+          "text": "14 channel, I don't know how many there are on the server. Not sure on the number of messages &#x2F; hour, but it is quite a lot. Leaving slack on overnight has my numbers up to about 800MB. Regardless of how many messages, 800MB for a chat client is nuts.",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9980767"
+        },
+        {
+          "text": "Slacks asks Cr1t a question. submitted by /u/jerryfrz to r/DotA2",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/DotA2/comments/1s3hqa5/slacks_asks_cr1t_a_question/"
+        }
+      ]
+    },
+    {
+      "name": "UI/UX & Feature Changes",
+      "segment": "Free-tier users",
+      "description": "Frequent and disruptive UI changes, such as rebranding saved messages as 'todos', frustrate users and reduce usability.",
+      "signalCount": 17,
+      "emotionalIntensity": 70,
+      "recurrence": 6,
+      "segmentImpact": "High",
+      "recommendation": "Stabilize UI and provide clear communication about changes.",
+      "quotes": [
+        {
+          "text": "Stop changing the UI. Saved messages is now “to dos”",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id618783545"
+        },
+        {
+          "text": "Outdated Anti-Productive Workspace. Never has my organization been as unproductive as post-Slack migration. Unintuitive sorting systems, messages getting hidden, no “home” page that shows all messages in chronological order. This interface that hasn’t been updated in 10+ years.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id618783545"
+        },
+        {
+          "text": "Update - still a Nightmare. Generates too much noise. Changes ui too much. Update Oct 2026; still a nightmare",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id618783545"
+        }
+      ]
+    },
+    {
+      "name": "Performance & Stability",
+      "segment": "Free-tier users",
+      "description": "Consistent performance issues, including failed image uploads and server-side instability, affect user trust and reliability.",
+      "signalCount": 17,
+      "emotionalIntensity": 70,
+      "recurrence": 6,
+      "segmentImpact": "High",
+      "recommendation": "Stabilize server performance and improve app reliability.",
+      "quotes": [
+        {
+          "text": "CEO. Upload speed is very bad",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id618783545"
+        },
+        {
+          "text": "We've cut Google enough slack for poor Pixel updates. Now it's time to hold it accountable. submitted by /u/pussiant_prole to r/GooglePixel",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/GooglePixel/comments/1u5rt99/weve_cut_google_enough_slack_for_poor_pixel/"
+        },
+        {
+          "text": "Fix your update. Since you're update 4 hours ago, my app just crashes. Good update :(",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id618783545"
+        }
+      ]
+    },
+    {
+      "name": "Search & Navigation",
+      "segment": "Free-tier users",
+      "description": "Poor search functionality and confusing navigation make it hard to locate messages or groups efficiently.",
+      "signalCount": 18,
+      "emotionalIntensity": 60,
+      "recurrence": 6,
+      "segmentImpact": "Medium",
+      "recommendation": "Enhance search capabilities and simplify navigation.",
+      "quotes": [
+        {
+          "text": "The search feature could be much better. The experience using search feature is overall not very friendly.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id618783545"
+        },
+        {
+          "text": "Not user friendly. Navigation is painful. They have forgotten what seamless means. Ooh and hire someone who knows search",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id618783545"
+        },
+        {
+          "text": "Challenging to use. Not user-friendly. The opposite of frictionless. Search functionality is a joke.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id618783545"
+        }
+      ]
+    },
+    {
+      "name": "User Experience & Customization",
+      "segment": "Free-tier users",
+      "description": "Lack of customization options, such as folder structures or horizontal layouts, limits user flexibility.",
+      "signalCount": 8,
+      "emotionalIntensity": 50,
+      "recurrence": 3,
+      "segmentImpact": "Medium",
+      "recommendation": "Allow more customization and user control over interface.",
+      "quotes": [
+        {
+          "text": "Ok I cut this game a lot of slack but come on Gamefreak.... You didnt even make a room for this... The justification was they wanted to unleash volcanion in a place to minimize the damage, but a BASEMENT? An empty void with a box around you. They established we have pocket dimens",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/PokemonLegendsZA/comments/1pm2wf0/ok_i_cut_this_game_a_lot_of_slack_but_come_on/"
+        },
+        {
+          "text": "4.5 Stars. Slack has a nice user experience. I would say my biggest pain point is searching for a relevant group, thread. I find myself scrolling a little more than ideal more often than not. Maybe a folder option, or horizontal optional. Maybe this is already available but I hav",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id618783545"
+        },
+        {
+          "text": "Great product - exceptionally designed. Great features, thoughtfully designed. i love the experience- It makes my day better.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id618783545"
+        }
+      ]
+    },
+    {
+      "name": "Pricing & Feature Lock",
+      "segment": "Free-tier users",
+      "description": "Many features are locked behind a paywall, limiting the free version's usefulness for small teams.",
+      "signalCount": 5,
+      "emotionalIntensity": 60,
+      "recurrence": 2,
+      "segmentImpact": "Medium",
+      "recommendation": "Offer more value in the free tier or provide clear feature differentiation.",
+      "quotes": [
+        {
+          "text": "More access. Great app for communicating with peers in company but it lacks a lot of freemdpm to do things pretty much everything is locked in the paid version",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id618783545"
+        },
+        {
+          "text": "Their message-deletion period on the free tier sucks!. I was out of the country for a bit and returned to find that several critical company threads and decisions had completely vanished. For small teams or anyone taking extended leave, losing context this quickly is a major draw",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id618783545"
+        },
+        {
+          "text": "V24.07.10. The release note claim that this fact “cannot be challenged or undermined” is a ridiculous marketing overstatement, as improvements can always be subject to further scrutiny and evaluation.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id618783545"
+        }
+      ]
+    },
+    {
+      "name": "Privacy & Security Concerns",
+      "segment": "Free-tier users",
+      "description": "Users worry about data privacy, including the potential for admin access to private messages and accidental data leaks.",
+      "signalCount": 3,
+      "emotionalIntensity": 60,
+      "recurrence": 1,
+      "segmentImpact": "Medium",
+      "recommendation": "Clarify privacy policies and enhance security measures.",
+      "quotes": [
+        {
+          "text": "See http:&#x2F;&#x2F;mjg59.dreamwidth.org&#x2F;33981.html . It does increase security, since for instance in spite of its complexity Secure Boot has proven to be reasonably secure, and thus it is simpler to attack the firmware. However I agree with Garrett and disagree with aaron",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9934379"
+        },
+        {
+          "text": "I know exactly what you're saying; that stuff would drive me crazy in his podcasts. I figured out he was just very much biased toward things that are exciting . Things like the moon landing being fake, or bigfoot being real, etc. And while he gave that stuff probably too much ben",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9942378"
+        },
+        {
+          "text": "Cut _____ some slack. \"I can't believe she didn't see it\" if it actually was Johnny and Tara, and Maura voted out Rob you would've said the same thing. She doesn't see what we do, she doesn't see the footage of Rob in the turret. The biggest thing I haven't seen anyone mention: E",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/TheTraitorsUS/comments/1rg597o/cut_some_slack/"
+        }
+      ]
+    }
+  ],
+  "competitors": []
+}

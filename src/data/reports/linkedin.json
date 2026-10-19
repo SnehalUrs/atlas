@@ -1,0 +1,206 @@
+{
+  "slug": "linkedin",
+  "category": "Social",
+  "product": "LinkedIn",
+  "generatedAt": "2026-10-18T22:49:19.352Z",
+  "totalSignals": 297,
+  "negativeRate": 50,
+  "sourceCounts": {
+    "reddit": 97,
+    "appstore": 100,
+    "hackernews": 100
+  },
+  "summary": "Most of the frustration centres on app usability, followed by monetization practices and job search experience. Recruiters prioritize premium users, leading to frustration with job application processes and visibility for non-premium users.",
+  "themes": [
+    {
+      "name": "Job Search Experience",
+      "segment": "Free-tier users",
+      "description": "Recruiters prioritize premium users, leading to frustration with job application processes and visibility for non-premium users.",
+      "signalCount": 100,
+      "emotionalIntensity": 80,
+      "recurrence": 34,
+      "segmentImpact": "High",
+      "recommendation": "Improve visibility for non-premium users and streamline job application processes.",
+      "quotes": [
+        {
+          "text": "Job Search is Broken. Thanks to their move to AI job searching, filters do not work properly, despite them rolling back the change and rolling it out again. What a joke.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id288429040"
+        },
+        {
+          "text": "$40 for premium?. For what? Jobs being posted and reposted for 9 months collecting hundreds of applications and hiring no one? Or the thousands of self-congratualting posts, ads and AI slop?",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id288429040"
+        },
+        {
+          "text": "Can’t filter jobs by salary. I canceled my premium subscription because LinkedIn deprecated the ability to filter job search results based on compensation (as of October 2026). That was the primary benefit I’d been willing to pay for. Bring it back.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id288429040"
+        }
+      ]
+    },
+    {
+      "name": "App Usability",
+      "segment": "Mobile users",
+      "description": "Poor design, screen rotation issues, and inconsistent functionality make the app frustrating to use.",
+      "signalCount": 44,
+      "emotionalIntensity": 90,
+      "recurrence": 15,
+      "segmentImpact": "High",
+      "recommendation": "Revamp app design for better usability and user control over interface settings.",
+      "quotes": [
+        {
+          "text": "Could have been better. The application is a much better experience than the website, but the developer of the application failed in the implementation for the iPad. It only uses a small fraction of the screen real estate available and wastes a lot of it with nothing making the a",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id288429040"
+        },
+        {
+          "text": "Fix bugs. Worst app on my phone, insane amount of bugs",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id288429040"
+        },
+        {
+          "text": "App full of spam useless content and it crashes all the time.. A lot of unfixed flaws, poor client service, frozen response when clicking a button, broken functionalities which do not respond, metrics with error on tracking reports, not for true professionals.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id288429040"
+        }
+      ]
+    },
+    {
+      "name": "Monetization Practices",
+      "segment": "Free-tier users",
+      "description": "Unethical subscription model, difficulty canceling, and aggressive monetization tactics lead to distrust.",
+      "signalCount": 42,
+      "emotionalIntensity": 90,
+      "recurrence": 14,
+      "segmentImpact": "High",
+      "recommendation": "Re-evaluate subscription model and improve transparency and user control over payments.",
+      "quotes": [
+        {
+          "text": "Unethical business model. Intentionally making it hard to cancel premium subscription is clearly unethical",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id288429040"
+        },
+        {
+          "text": "Premium subscription flaw. To automatically sign people up for a subscription that they did not purchase charge them $40 after an apparent seven day trial and not send them any email or any indication that they're about to be charged or that a trial is about to end is crazy and n",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id288429040"
+        },
+        {
+          "text": "40 dollars taken automatically without a subscription. I’ve been using LinkedIn a while now and somehow it made a subscription that I never had a subscription for and made me pay 40 dollars.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id288429040"
+        }
+      ]
+    },
+    {
+      "name": "Privacy and Security",
+      "segment": "All users",
+      "description": "Account security issues, including unauthorized access and spam, raise concerns about platform safety.",
+      "signalCount": 43,
+      "emotionalIntensity": 70,
+      "recurrence": 14,
+      "segmentImpact": "Medium",
+      "recommendation": "Enhance security features and provide better account management tools.",
+      "quotes": [
+        {
+          "text": "Privacy Problems. I just finished a puzzle and it automatically logged me out and wants me to use some kind of persona verification after using Google to login, I have deleted my account in the past because of computer problems after logging into their website, I don’t know that ",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id288429040"
+        },
+        {
+          "text": "Why!. Fixing it can help you have so much spam and Identity Theft You should have this under control by now this is a serious issue with your Site!",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id288429040"
+        },
+        {
+          "text": "Privacy. Perhaps the worst privacy policy and data sharing scheme of any app. Possibly even worse than Meta due to the professional aspect. I uninstalled and will not use this app. Not to mention, the increasing number of scams, incredibly poor job search preferences, and prevale",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id288429040"
+        }
+      ]
+    },
+    {
+      "name": "Content Quality",
+      "segment": "All users",
+      "description": "Over-saturation of AI-generated content and spam leads to a decline in perceived value.",
+      "signalCount": 38,
+      "emotionalIntensity": 70,
+      "recurrence": 13,
+      "segmentImpact": "Medium",
+      "recommendation": "Implement better content moderation and reduce AI-generated spam.",
+      "quotes": [
+        {
+          "text": "PURE AI SLOP. This app that was once touted as necessary for industry networking and job searches has devolved into a revolving door of AI slop posts, AI propaganda, and TikTok style short form video. Absolute joke of a platform and a sign of the times. Society has lost the plot.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id288429040"
+        },
+        {
+          "text": "People have clicked the \"Seems like AI slop\" button on LinkedIn over a million times already. submitted by /u/AdSpecialist6598 to r/technology",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/technology/comments/1vwfbas/people_have_clicked_the_seems_like_ai_slop_button/"
+        },
+        {
+          "text": "AI Slop. AI Slop everywhere! Every other post is an AI-generated infographic about whatever subject… I’ve flagged more than 50 posts as AI Slop but I keep seeing them. I wish LI had an option to filter these AI posts..",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id288429040"
+        }
+      ]
+    },
+    {
+      "name": "User Experience",
+      "segment": "All users",
+      "description": "Feed is overwhelming with irrelevant content, leading to disengagement and frustration.",
+      "signalCount": 24,
+      "emotionalIntensity": 80,
+      "recurrence": 8,
+      "segmentImpact": "High",
+      "recommendation": "Refine feed algorithm to prioritize relevant content and reduce noise.",
+      "quotes": [
+        {
+          "text": "Really bad feed design. Incredibly frustrating design where you can’t control what’s on your feed at all. I only want to see posts from people I follow, not strangers, but my feed is intentionally filled with posts from strangers.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id288429040"
+        },
+        {
+          "text": "Dumb notifications, dumb feed. Gives notifications for jobs that have already been marked as applied to. Massive waste of time and attention. Also, now has an insane number of ads. Usually have to scroll through a dozen posts to see one from one of my 1000’s of 1st connections. T",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id288429040"
+        },
+        {
+          "text": "Remove content from non-contacts from feed. LinkedIn is good for connecting with people professionally, but the feed is flooded with garbage content from people you’re not connected to. Remove this, and it would be a great app.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id288429040"
+        }
+      ]
+    },
+    {
+      "name": "Platform Value",
+      "segment": "All users",
+      "description": "Perceived lack of value from premium features and poor user experience leads to disengagement.",
+      "signalCount": 6,
+      "emotionalIntensity": 80,
+      "recurrence": 2,
+      "segmentImpact": "High",
+      "recommendation": "Re-evaluate premium features and ensure they deliver clear value to users.",
+      "quotes": [
+        {
+          "text": "Any attempt to use revenues as justification of the valuation is missing the point, also comments regarding git hosting being a commodity misses it. The valuation imho is a bet that GitHub will be ingrained in developer's workflow and continue to occupy developer mindshare for at",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9973285"
+        },
+        {
+          "text": "Bad software. Tell me why the software engineers are paid so much, and yet the software runs at a subpar level",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id288429040"
+        },
+        {
+          "text": "Can not agree with you anymore. GitHub is two things: 1. LinkedIn for Programmers, 2. Development Platform&#x2F;Toolchains for Programmers. Considering Atlassian valued at 3.3B in last round, GitHub has more potential. However, GitHub should prove itself with real money sooner or",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9973362"
+        }
+      ]
+    }
+  ],
+  "competitors": []
+}

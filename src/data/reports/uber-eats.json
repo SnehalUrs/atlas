@@ -1,0 +1,152 @@
+{
+  "slug": "uber-eats",
+  "category": "Food & Shopping",
+  "product": "Uber Eats",
+  "generatedAt": "2026-10-18T23:34:02.135Z",
+  "totalSignals": 297,
+  "negativeRate": 70,
+  "sourceCounts": {
+    "reddit": 97,
+    "appstore": 100,
+    "hackernews": 100
+  },
+  "summary": "Uber Eats is a food delivery platform that has faced criticism for its treatment of drivers, unreliable delivery times, and poor customer service. While some users praise its convenience and ease of use, others highlight significant issues with the platform's business model and user experience.",
+  "themes": [
+    {
+      "name": "Business Model and Fairness",
+      "segment": "Paying subscribers",
+      "description": "Users criticize Uber Eats for being greedy, charging high fees, and prioritizing profits over customer satisfaction. There are also concerns about the company's expansion and regulatory challenges.",
+      "signalCount": 99,
+      "emotionalIntensity": 70,
+      "recurrence": 33,
+      "segmentImpact": "High",
+      "recommendation": "Review pricing and fee structures, ensure transparency in business practices, and address regulatory concerns.",
+      "quotes": [
+        {
+          "text": "Uber Eats is making us lazy and poor, while eroding hard-won rights. Let's have a conversation about Uber Eats. Yes, it's convenient. Yes you want your food now. But what is it really doing to you, your health and the country? We're paying more. 25% over the in-restaurant price. ",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/newzealand/comments/1swuswe/uber_eats_is_making_us_lazy_and_poor_while/"
+        },
+        {
+          "text": "Uber kept fares artificially low while simultaneously paying high bonuses to drivers to build a massive network. After burning through roughly $30+ billion over its first decade, Uber then pivoted its business model by raising rider fares, increasing restaurant fees on Uber Eats,",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=48558344"
+        },
+        {
+          "text": "Uber Eats customer service is horrendous. Uber Eats as a delivery app is not without its flaws however, the customer service aspect of this company is simply disgusting. The representatives do not assist with any issues, they do not care about resolving any problems and they are ",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id1058959277"
+        }
+      ]
+    },
+    {
+      "name": "Driver Treatment and Compensation",
+      "segment": "Paying subscribers",
+      "description": "Drivers report being underpaid, facing high competition for delivery slots, and being treated as disposable labor. There are concerns about unfair tipping practices and the company's prioritization of profit over driver welfare.",
+      "signalCount": 31,
+      "emotionalIntensity": 80,
+      "recurrence": 10,
+      "segmentImpact": "High",
+      "recommendation": "Improve driver compensation, reduce competition for delivery slots, and ensure fair tipping practices.",
+      "quotes": [
+        {
+          "text": "They do not care about you. I\u2019ve had two drivers just keep my orders in the past month. Uber was not very helpful in resolving the issue and after refunding my order, did not refund the tip. So the driver gets to keep my order and the tip, and I just wasted my time and money and ",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id1058959277"
+        },
+        {
+          "text": "Regulators say DoorDash and Uber Eats chiseled NYC delivery workers out of $550M in tips. submitted by /u/SnoozeDoggyDog to r/technology",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/technology/comments/1qcx709/regulators_say_doordash_and_uber_eats_chiseled/"
+        },
+        {
+          "text": "UberEats Driver Upset Over No Tip. submitted by /u/Flashmemory256 to r/PublicFreakout",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/PublicFreakout/comments/1wfoypw/ubereats_driver_upset_over_no_tip/"
+        }
+      ]
+    },
+    {
+      "name": "Delivery Reliability and Transparency",
+      "segment": "Paying subscribers",
+      "description": "Users report inconsistent delivery times, incorrect delivery estimates, and instances of fake deliveries. There are also complaints about the app misleading users about delivery status and timing.",
+      "signalCount": 34,
+      "emotionalIntensity": 70,
+      "recurrence": 11,
+      "segmentImpact": "High",
+      "recommendation": "Improve delivery tracking transparency, ensure accurate delivery estimates, and address fake delivery issues.",
+      "quotes": [
+        {
+          "text": "Knowingly lie about delivery times. Hate this app they knowingly lie to my face about delivery times. Ad 45 minutes to whatever the estimated time is. Yet DoorDash and others are consistently on the",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id1058959277"
+        },
+        {
+          "text": "Age of technology????. The designers of this app are moving further and further from reality. Or maybe i am the frog they are slowly boiling unawares. Lies, deception, unaccountable. My delivery was placed at 11:56. Delivery expected by 12:23. The restaurant (actually fast food) ",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id1058959277"
+        },
+        {
+          "text": "Worst delivery experience possible. i've never been so compelled to write a review before, on multiple occasions, I've had food not arrive, and no refund given! trying to navigate to customer support just get on the phone with somebody is a 30 minute, to an hour long process wher",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id1058959277"
+        }
+      ]
+    },
+    {
+      "name": "Customer Service and Support",
+      "segment": "Paying subscribers",
+      "description": "Users report poor customer service, including unhelpful chatbots, long wait times, and a lack of resolution for issues like incorrect orders or delivery problems.",
+      "signalCount": 34,
+      "emotionalIntensity": 60,
+      "recurrence": 11,
+      "segmentImpact": "High",
+      "recommendation": "Enhance customer support with human agents, improve chatbot functionality, and streamline issue resolution.",
+      "quotes": [
+        {
+          "text": "Chat Bot Customer Service is Bad. Trying to cancele undeliverable orders while talking to automated responses is extremely difficult.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id1058959277"
+        },
+        {
+          "text": "Worst Customer Service. The customer service is impossible to get in touch with they hang up the phone in your face. They don\u2019t do anything and they\u2019re extremely disrespectful.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id1058959277"
+        },
+        {
+          "text": "Food doesn\u2019t arrive, customer service does nothing. Ordered with a guaranteed arrival time. Hours later I\u2019m told it\u2019s cancelled with no other details. Customer service sends you to an unhelpful bot that repeats the same phrases over and over. I cancelled my sub and am switching t",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id1058959277"
+        }
+      ]
+    },
+    {
+      "name": "User Experience and App Performance",
+      "segment": "Paying subscribers",
+      "description": "Some users praise the app for being easy to use and convenient, but others report technical issues like app glitches, poor performance, and difficulty navigating the interface.",
+      "signalCount": 14,
+      "emotionalIntensity": 50,
+      "recurrence": 5,
+      "segmentImpact": "Medium",
+      "recommendation": "Optimize app performance, improve user interface, and address technical glitches.",
+      "quotes": [
+        {
+          "text": ".. Very difficult app to use.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id1058959277"
+        },
+        {
+          "text": "Disgustingly slow. The drivers are great the app overcharges and has gotten just absolutely terrible. Scam!!! Won\u2019t use again.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id1058959277"
+        },
+        {
+          "text": "AI help does not work. I am going to stop using the app after this latest fiasco with AI tech support. It asks me to choose from options but gives no options!",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id1058959277"
+        }
+      ]
+    }
+  ],
+  "competitors": []
+}

@@ -3,9 +3,12 @@ import { Footer, Nav } from "@/components/chrome";
 import { HeroMap } from "@/components/HeroMap";
 import { Reveal } from "@/components/motion";
 import { Teams, Problems, KeyFigures, Metrics, Method, SectionHead, Spread, SurveyInput } from "@/components/sections";
+import { LibraryPreview } from "@/components/LibraryPreview";
 import { brand } from "@/lib/brand";
+import { getLibrary } from "@/lib/library";
 
 export default function Home() {
+  const library = getLibrary();
   return (
     <>
       <Nav />
@@ -24,8 +27,8 @@ export default function Home() {
             </p>
             <div className="mt-10">
               <SurveyInput id="survey-hero" />
-              <Link href="/experience?sample=1" className="mt-5 inline-block font-display text-lg italic text-muted underline decoration-rule underline-offset-4 transition hover:text-ink">
-                or view a sample report →
+              <Link href={library.length ? "/reports" : "/experience?sample=1"} className="mt-5 inline-block font-display text-lg italic text-muted underline decoration-rule underline-offset-4 transition hover:text-ink">
+                {library.length ? `or browse ${library.length} real reports →` : "or view a sample report →"}
               </Link>
             </div>
           </Reveal>
@@ -37,6 +40,8 @@ export default function Home() {
         <section className="mx-auto max-w-7xl px-4 pb-24 sm:px-8">
           <KeyFigures />
         </section>
+
+        <LibraryPreview reports={library} />
 
         <section id="problem" className="mx-auto max-w-7xl scroll-mt-20 px-4 py-20 sm:px-8">
           <SectionHead n="I." kicker="The problem">

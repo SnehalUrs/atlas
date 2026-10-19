@@ -1,0 +1,152 @@
+{
+  "slug": "duolingo",
+  "category": "Education",
+  "product": "Duolingo",
+  "generatedAt": "2026-10-18T22:01:52.312Z",
+  "totalSignals": 294,
+  "negativeRate": 37,
+  "sourceCounts": {
+    "reddit": 97,
+    "appstore": 100,
+    "hackernews": 97
+  },
+  "summary": "Most of the frustration centres on gamification stress and paywall fatigue, followed by limited language depth and curriculum gaps and user retention and streak obsession. Users feel pressured by gamified elements like streaks and energy systems, and are frustrated by paywalls that limit progress without subscription.",
+  "themes": [
+    {
+      "name": "Lack of Advanced Language Theory",
+      "segment": "Long-time users",
+      "description": "Users feel the app lacks depth in grammar, theory, and cultural context, especially for languages like German or Japanese.",
+      "signalCount": 151,
+      "emotionalIntensity": 60,
+      "recurrence": 51,
+      "segmentImpact": "Medium",
+      "recommendation": "Add grammar and theory modules, include cultural context, and offer more advanced learning paths.",
+      "quotes": [
+        {
+          "text": "I literally can’t get past wi tbh translating. The app is fine, I learned some new words out of it… it’s the checks-ins that are the problem. I have a hard time memorizing stuff so I can’t get past this stage, and it won’t let me skip so I can’t go to other lessons. So the only o",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id570060128"
+        },
+        {
+          "text": "That makes sense to me. Automated translation software has made huge strides in the past decade, so Duolingo's crowdfunded approach (as cool as it is) will likely be obsolete in the fairly near future anyways.",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9692952"
+        },
+        {
+          "text": "Great app for beginners. Honestly it’s great I used it to learn German and get a head start on Spanish but one thing that grinds my gears is how it doesn’t have Tagalog or Cebuano or any Filipino language I would like to see it added but overall good app",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id570060128"
+        }
+      ]
+    },
+    {
+      "name": "Limited Language Depth and Curriculum Gaps",
+      "segment": "Long-time users",
+      "description": "Advanced learners feel the curriculum lacks depth, especially in grammar and theory, and some languages are under-supported.",
+      "signalCount": 61,
+      "emotionalIntensity": 70,
+      "recurrence": 21,
+      "segmentImpact": "Medium",
+      "recommendation": "Add advanced grammar modules, expand language offerings, and include more theoretical content.",
+      "quotes": [
+        {
+          "text": "I wish Duolingo had a Vietnamese course. You can translate the site to Vietnamese but they can't teach it to you, come on.",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9694691"
+        },
+        {
+          "text": "> it was the way you learned your first language. Duolingo is almost exclusively focused on translation, which is absolutely not how most of us learned our first languages.",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9696081"
+        },
+        {
+          "text": "Why is duolingo teaching American English? They should let people choose the type of english they want to learn. submitted by /u/92233720368547758080 to r/duolingo",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/duolingo/comments/1r5973g/why_is_duolingo_teaching_american_english_they/"
+        }
+      ]
+    },
+    {
+      "name": "Gamification Stress and Paywall Fatigue",
+      "segment": "Free-tier users",
+      "description": "Users feel pressured by gamified elements like streaks and energy systems, and are frustrated by paywalls that limit progress without subscription.",
+      "signalCount": 31,
+      "emotionalIntensity": 80,
+      "recurrence": 11,
+      "segmentImpact": "High",
+      "recommendation": "Simplify gamification, offer more free content, and reduce paywall friction.",
+      "quotes": [
+        {
+          "text": "Gamification out of control. I have used Duolingo for over two years with 1,000+ day streak, but the gamification is out of control, it’s gone from fun to stressful to very repetitive",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id570060128"
+        },
+        {
+          "text": "Not enough to merely take your money. Features are always either being taken away or being made more annoying, even when you have a paid version. Of course, they never bother making the app any better.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id570060128"
+        },
+        {
+          "text": "Paying gems to do previous incomplete puzzles is crazy. I can’t believe it. It used to be free to do the incomplete puzzles that you missed now you are making people pay gems 😡",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id570060128"
+        }
+      ]
+    },
+    {
+      "name": "App Usability and Interface Issues",
+      "segment": "New users",
+      "description": "Users report confusion with features like 'my words' and flashcards, and some find the app clunky or buggy.",
+      "signalCount": 36,
+      "emotionalIntensity": 60,
+      "recurrence": 12,
+      "segmentImpact": "Medium",
+      "recommendation": "Simplify UI, improve navigation, and fix bugs for better user experience.",
+      "quotes": [
+        {
+          "text": "Gamified Trash. This app constantly updates and changes the learning paths. The training exercises do not update with the learning path. The exercises for leagues are have repeat activities that cover maybe 20% of the words I know and constantly repeat. Likely not update or rando",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id570060128"
+        },
+        {
+          "text": "I hate how much stuff I have to click through after a Duolingo lesson. I miss the old Duolingo where it was just the streak counter. It feels like the app is filled with so much stuff I don't care about now. Why could I possibly need nine different screens to click through? submi",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/hatethissmug/comments/1vwhw9u/i_hate_how_much_stuff_i_have_to_click_through/"
+        },
+        {
+          "text": "\"Duolingo has detected your screenshot\". Sorry, what? Nope, giving up my 1,173 day streak and uninstalling the app after I saw that message. Does anyone else feel like that's something an app shouldn't be able to do without permission or even the ability to opt out? submitted by ",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/duolingo/comments/1x7z5q5/duolingo_has_detected_your_screenshot/"
+        }
+      ]
+    },
+    {
+      "name": "User Retention and Streak Obsession",
+      "segment": "Long-time users",
+      "description": "Users feel pressured to maintain streaks, leading to burnout and frustration with the gamified streak system.",
+      "signalCount": 15,
+      "emotionalIntensity": 70,
+      "recurrence": 5,
+      "segmentImpact": "High",
+      "recommendation": "Offer streak flexibility, reduce streak pressure, and focus on progress over perfection.",
+      "quotes": [
+        {
+          "text": "Annoying streak freezes. This is absolute madness. You can’t even start your perfect streak over because Duo keeps freezing it for weeks at a time under the guise of “caring about the user.” Hey, here’s what actually caring about users looks like: letting them decide for themselv",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id570060128"
+        },
+        {
+          "text": "No. I HATE THIS APP I CLEARLY DID IT AND IT SAID ‘NoOoO 0 sTrEaK” and I did it",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id570060128"
+        },
+        {
+          "text": "Not as good when it came out. I used to love this app but now I get harassed by an owl for losing streaks. THERE IS NO POINT IN A STREAK WITH THIS STUPID CASH GRAB MOVE OF USING ENERGY THAT DEPLETES WITH EACH QUESTION MORE THAN IT RECHARGES. I’m not paying. Apps get money from se",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id570060128"
+        }
+      ]
+    }
+  ],
+  "competitors": []
+}

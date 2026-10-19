@@ -1,0 +1,179 @@
+{
+  "slug": "tinder",
+  "category": "Dating",
+  "product": "Tinder",
+  "generatedAt": "2026-10-19T00:53:26.816Z",
+  "totalSignals": 295,
+  "negativeRate": 60,
+  "sourceCounts": {
+    "reddit": 97,
+    "appstore": 100,
+    "hackernews": 98
+  },
+  "summary": "Most of the frustration centres on user experience issues, followed by safety and privacy concerns and dating dynamics and miscommunication. Broken app functionality, poor customer support, and unresponsive features like group hangouts and text copying.",
+  "themes": [
+    {
+      "name": "Social and Cultural Perception",
+      "segment": "Creators",
+      "description": "Negative social perceptions of Tinder as a hookup-focused app, and stigma around using it for serious relationships.",
+      "signalCount": 188,
+      "emotionalIntensity": 30,
+      "recurrence": 64,
+      "segmentImpact": "Low",
+      "recommendation": "Promote diverse use cases, highlight long-term relationships, and reduce stigma.",
+      "quotes": [
+        {
+          "text": "Using both tinder and okc, people use both apps in the same exact way. Tinder may have a reputation as a \"hook up app\", but most people are not using it that way.",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9525045"
+        },
+        {
+          "text": "What a JOKE. Tinder‘s always been a joke and they really catered to the women and don’t really find the women or as you would say block them when they’re the ones that typically want something from a Mail and when you put in your profile that you are not going to be a sugar daddy",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id547702041"
+        },
+        {
+          "text": "Tinder didn't go viral naturally, it was pure hustle",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9715309"
+        }
+      ]
+    },
+    {
+      "name": "User Experience Issues",
+      "segment": "Creators",
+      "description": "Broken app functionality, poor customer support, and unresponsive features like group hangouts and text copying.",
+      "signalCount": 52,
+      "emotionalIntensity": 50,
+      "recurrence": 18,
+      "segmentImpact": "High",
+      "recommendation": "Fix app bugs, improve customer support, and allow customization of features.",
+      "quotes": [
+        {
+          "text": "Meh. Overall this app is a 3. The fact that this app eats my messages and kinda gets in the way of actually connecting with some one. This isn’t the first time and it’s to the point I don’t want to use the app anymore.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id547702041"
+        },
+        {
+          "text": "App is seemingly regressing. Features are being removed while the price and bugs consistently increase.. fix the app please. 1) Sent Likes & Top Picks are being removed. Why would I pay higher prices for less features? 2) matches disappear/reappear randomly; sometimes, they will ",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id547702041"
+        },
+        {
+          "text": "Can’t tap or copy text. I don’t know who wants a dating app where you can’t send pictures or even links. Also tapping on my compatibility with an astrological sign doesn’t even work",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id547702041"
+        }
+      ]
+    },
+    {
+      "name": "Dating Dynamics and Miscommunication",
+      "segment": "Creators",
+      "description": "Issues with misaligned expectations, sexualization of interactions, and difficulty in forming meaningful connections.",
+      "signalCount": 21,
+      "emotionalIntensity": 40,
+      "recurrence": 7,
+      "segmentImpact": "Medium",
+      "recommendation": "Promote more meaningful communication, reduce sexualization, and improve match quality.",
+      "quotes": [
+        {
+          "text": "> The main problem of online dating is that men usually are looking for sex while women for long-term relationships this is an out-dated, stale, and dare i say sexist interpretation of modern gender relations. there are lots and lots of men looking for relationships and completel",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9715403"
+        },
+        {
+          "text": "No one wants a group chat in dating. Duh! And no one cares what music you like.. Go back to dating goals.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id547702041"
+        },
+        {
+          "text": "one date after year of highest tier. only went on one date over span of a year on platinum. people are not serious about meeting up or ghost frequently",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id547702041"
+        }
+      ]
+    },
+    {
+      "name": "Monetization and Fairness",
+      "segment": "Creators",
+      "description": "Criticism of paywalls, subscription scams, and unfair treatment of users (e.g., blocking women for being assertive).",
+      "signalCount": 20,
+      "emotionalIntensity": 40,
+      "recurrence": 7,
+      "segmentImpact": "Medium",
+      "recommendation": "Review monetization models, ensure fair treatment of all users, and improve transparency.",
+      "quotes": [
+        {
+          "text": "Terrible. Literally you have to pay to see who likes you, as soon as you pay for it you stop getting likes and as soon as your subscription ends you start getting likes again",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id547702041"
+        },
+        {
+          "text": "Paywalls. Sending a message before matching is locked behind a paywall. That’s stupid. Also, you can’t set sexuality as a preference to filter people.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id547702041"
+        },
+        {
+          "text": "Money hungry. Everything in this app is locked behind a pay wall",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id547702041"
+        }
+      ]
+    },
+    {
+      "name": "Safety and Privacy Concerns",
+      "segment": "Creators",
+      "description": "Concerns about catfishing, fake profiles, and privacy breaches, including harassment and stalking.",
+      "signalCount": 8,
+      "emotionalIntensity": 50,
+      "recurrence": 3,
+      "segmentImpact": "High",
+      "recommendation": "Enhance profile verification, improve reporting tools, and increase privacy controls.",
+      "quotes": [
+        {
+          "text": "AirBnB is pretty transparent about how their verification--or rather, the lack thereof--of tenant trustworthiness works. Can you hold Tinder responsible for matching you with someone that then goes on to rob your house?",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9622980"
+        },
+        {
+          "text": "Total BS. A lot of the profiles are fake and if you don’t pay; don’t expect matches…",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id547702041"
+        },
+        {
+          "text": "Have you ever tried fundraising with four Silicon Valley VCs subpoenaed in an SEC case against you? It's a bit like advertising you have an STD on your Tinder profile.",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9643108"
+        }
+      ]
+    },
+    {
+      "name": "App Design and Interface",
+      "segment": "Creators",
+      "description": "Criticism of the app's design, including confusing UI, lack of customization, and poor onboarding.",
+      "signalCount": 6,
+      "emotionalIntensity": 40,
+      "recurrence": 2,
+      "segmentImpact": "Medium",
+      "recommendation": "Simplify UI, improve onboarding, and allow more customization options.",
+      "quotes": [
+        {
+          "text": "This is actually an interesting question. In a lot of these examples, \"app constellation\" means everything the website does is too complicated so it needs to be broken down into several different apps. It's possible that this is just a bad question. Apps originally designed for m",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9967615"
+        },
+        {
+          "text": "> Have you never seen engineers essentially fail at building a spec because they couldn't implement something well enough? I've seen engineers fail at a task. I've never seen an entire startup fail because of bad engineering -- they fail because they don't have paying customers, ",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9689289"
+        },
+        {
+          "text": "Pyre, the console app, was built at the 2015 Stupid Shit No One Needs & Terrible Ideas Hackathon. The API was created by Tinder for reasons I don't know.",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9536144"
+        }
+      ]
+    }
+  ],
+  "competitors": []
+}

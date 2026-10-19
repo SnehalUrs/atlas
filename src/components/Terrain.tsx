@@ -6,6 +6,24 @@ import { GRID_COLS, MAP_H, MAP_W, type Peak, type PeakInput, elevationColor, lay
 
 const START: [number, number] = [34, 378];
 
+/** Split a long place name into at most two balanced lines. */
+function wrapLabel(name: string, max = 20): string[] {
+  if (name.length <= max) return [name];
+  const words = name.split(" ");
+  let best = [name];
+  let bestDiff = Infinity;
+  for (let i = 1; i < words.length; i++) {
+    const a = words.slice(0, i).join(" ");
+    const b = words.slice(i).join(" ");
+    const diff = Math.abs(a.length - b.length);
+    if (diff < bestDiff) {
+      best = [a, b];
+      bestDiff = diff;
+    }
+  }
+  return best;
+}
+
 function routeTo(p: Peak): string {
   const [sx, sy] = START;
   return `M${sx},${sy} C${sx + 90},${sy - 10} ${p.x - 150},${p.y + 120} ${p.x},${p.y + 4}`;
@@ -136,7 +154,10 @@ export function Terrain({
       {peaks.map((p, i) => {
         const color = elevationColor(p.intensity);
         const dim = active !== null && active !== i;
-        const lx = Math.min(MAP_W - 70, Math.max(70, p.x));
+        const lines = wrapLabel(p.name.toUpperCase());
+        // Keep the widest line inside the frame (~7.2 units per tracked capital at this size).
+        const half = (Math.max(...lines.map((l) => l.length)) * 7.2) / 2 + 6;
+        const lx = Math.min(MAP_W - half, Math.max(half, p.x));
         return (
           <motion.g
             key={p.name}
@@ -147,10 +168,14 @@ export function Terrain({
           >
             <path d={`M${p.x},${p.y - 6} L${p.x + 5},${p.y + 3} L${p.x - 5},${p.y + 3} Z`} fill="var(--ink)" />
             <text x={lx} y={p.y + 20} textAnchor="middle" className="fill-ink font-label text-[11px] font-semibold tracking-[0.18em]">
-              {p.name.toUpperCase()}
+              {lines.map((l, k) => (
+                <tspan key={k} x={lx} dy={k === 0 ? 0 : 13}>
+                  {l}
+                </tspan>
+              ))}
             </text>
             {!compact && (
-              <text x={lx} y={p.y + 33} textAnchor="middle" className="font-serif text-[10.5px] italic" style={{ fill: color }}>
+              <text x={lx} y={p.y + 33 + (lines.length - 1) * 13} textAnchor="middle" className="font-serif text-[10.5px] italic" style={{ fill: color }}>
                 intensity {p.intensity} · {p.count.toLocaleString()} signals
               </text>
             )}

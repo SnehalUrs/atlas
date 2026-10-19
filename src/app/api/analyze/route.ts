@@ -1,5 +1,6 @@
 import Anthropic from "@anthropic-ai/sdk";
 import { analyze, providerLabel } from "@/lib/analyze";
+import { liveAnalysisEnabled } from "@/lib/library";
 import { collectSignals } from "@/lib/sources";
 import type { Signal, StreamEvent } from "@/lib/types";
 
@@ -10,6 +11,9 @@ const PER_SOURCE = 100;
 const PER_SOURCE_COMPETITOR = 30;
 
 export async function POST(req: Request) {
+  if (!liveAnalysisEnabled()) {
+    return Response.json({ error: "Live analysis isn't available on the hosted site. Browse the report library instead." }, { status: 503 });
+  }
   const body = (await req.json().catch(() => ({}))) as { product?: string; competitors?: string };
   const product = body.product?.trim();
   if (!product) return Response.json({ error: "Product name is required." }, { status: 400 });

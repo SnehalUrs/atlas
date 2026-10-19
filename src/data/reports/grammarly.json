@@ -1,0 +1,152 @@
+{
+  "slug": "grammarly",
+  "category": "AI",
+  "product": "Grammarly",
+  "generatedAt": "2026-10-19T01:02:24.883Z",
+  "totalSignals": 292,
+  "negativeRate": 42,
+  "sourceCounts": {
+    "reddit": 97,
+    "appstore": 100,
+    "hackernews": 95
+  },
+  "summary": "Grammarly is a grammar and writing assistance tool that has seen mixed user feedback, with praise for its helpfulness and some criticism regarding recent changes, AI integration, and user experience issues.",
+  "themes": [
+    {
+      "name": "Autocorrect and Typing Issues",
+      "segment": "Mobile users",
+      "description": "Users report that the autocorrect feature is unreliable and disrupts typing, especially on mobile devices.",
+      "signalCount": 46,
+      "emotionalIntensity": 30,
+      "recurrence": 16,
+      "segmentImpact": "Medium",
+      "recommendation": "Improve autocorrect accuracy and mobile typing experience.",
+      "quotes": [
+        {
+          "text": "Auto correct. It's so difficult to type because not even Grammarly\u2019s autocorrect seem to work. No matter what small typos there are, the autocorrect doesn't pick it up compared to how apple does it. It is unreliable for fast typing and this is a deal breaker to me",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id1158877342"
+        },
+        {
+          "text": "It's ok. Grammarly sharpening essays is good, but the autocorrect doesn't work half the time, breaks text entirely, and I don't trust it not to store my data for selling purposes.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id1158877342"
+        },
+        {
+          "text": "Remove ai. hello, I am an Apple iPhone user and I use this app quite often, but one thing that really takes me off. Is the rampant use of AI, I would really like you to switch the AutoCorrect system back to dictionary, since the AI tries to correct me for spelling things correctl",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id1158877342"
+        }
+      ]
+    },
+    {
+      "name": "Cancellation and Support Issues",
+      "segment": "Paying subscribers",
+      "description": "Users report difficulty in canceling subscriptions and receiving poor support, including unsolicited emails and unhelpful customer service.",
+      "signalCount": 18,
+      "emotionalIntensity": 50,
+      "recurrence": 6,
+      "segmentImpact": "High",
+      "recommendation": "Improve cancellation process and customer support responsiveness.",
+      "quotes": [
+        {
+          "text": "PSA: Grammarly will send unhinged messages to all your users if you try to cancel. https://imgur.com/a/bMEeUmZ (edit: non-imgur link ) We let them know we weren't going to renew and they sent these unsolicited emails and popups in their app to all of the users who had licenses. T",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/sysadmin/comments/1wjdpgx/psa_grammarly_will_send_unhinged_messages_to_all/"
+        },
+        {
+          "text": "Support for customer service is poor. No customer service at all!!! If you get stuck you are fine!!!",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id1158877342"
+        },
+        {
+          "text": "Don\u2019t correct errors. If you don\u2019t have subscription it will never correct your errors, not even the easiest ones",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id1158877342"
+        }
+      ]
+    },
+    {
+      "name": "User Experience Degradation",
+      "segment": "Paying subscribers",
+      "description": "Users report that recent updates have made the product harder to use, with features like punctuation-by-punctuation editing disrupting workflow and reducing clarity.",
+      "signalCount": 17,
+      "emotionalIntensity": 50,
+      "recurrence": 6,
+      "segmentImpact": "High",
+      "recommendation": "Revisit UI/UX design and consider user feedback on editing workflows.",
+      "quotes": [
+        {
+          "text": "Grammarly went from mid to unusable. I despise this latest update which forces me to review my writing punctuation mark to punctuation mark instead of reviewing everything I highlighted at once. I can\u2019t tell whether the edits make sense or not if I can\u2019t see the entire section\u2026. ",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/Grammarly/comments/1wndw8q/grammarly_went_from_mid_to_unusable/"
+        },
+        {
+          "text": "Frequent errors. When reviewing documents for an extended amount of time, I get a server error message",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id1158877342"
+        },
+        {
+          "text": "Tried Grammarly, could you possibly include a few more onboarding animations and reminders to upgrade to the paid version? I almost finished typing a word.",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=48663056"
+        }
+      ]
+    },
+    {
+      "name": "AI Integration Concerns",
+      "segment": "Paying subscribers",
+      "description": "Users are concerned about the accuracy and reliability of AI-driven suggestions, with some reporting that the AI now makes incorrect or overly complex edits.",
+      "signalCount": 21,
+      "emotionalIntensity": 40,
+      "recurrence": 7,
+      "segmentImpact": "Medium",
+      "recommendation": "Improve AI accuracy and provide more control over suggestions.",
+      "quotes": [
+        {
+          "text": "AI was garbage quality or OK but unimportant (Grammarly-esque) in early 2025. A new study is needed.",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=49022752"
+        },
+        {
+          "text": "Of course, they can't realistically police every use of AI any more than they can police someone using Grammarly or similar tools. I think the core of the argument is really about drawing a hard line against low-quality \"write a response for me\" type usage. In reality, people are",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=48315270"
+        },
+        {
+          "text": "That's right. All their computers will have grammarly installed by default now. &#x2F;jk Ai is too broad a term even when it comes to movies. Which part of the pipeline will include an AI tool? Or are we saying he is going to prompt Seedance to generate an entire movie?",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=48370759"
+        }
+      ]
+    },
+    {
+      "name": "Privacy and Data Concerns",
+      "segment": "All users",
+      "description": "Some users express concerns about data privacy and whether their text is being stored or used for other purposes.",
+      "signalCount": 5,
+      "emotionalIntensity": 30,
+      "recurrence": 2,
+      "segmentImpact": "Medium",
+      "recommendation": "Clarify data policies and enhance privacy controls.",
+      "quotes": [
+        {
+          "text": "Grammarly is a keylogger and an asset of a spying agency[1]. No one should use them either willingly or unwillingly. [1] almost every cloud solution that exfiltrates your data to the cloud is, but that is besides the point",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=49813808"
+        },
+        {
+          "text": "Just wait until the emails threaten to reveal all the compromising messages that users unwittingly sent to Grammarly's servers ...",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=49812820"
+        },
+        {
+          "text": "AITA for calling the cops on a family that was using the chairs and umbrellas I left on the beach?. I'm staying with friends at the beach and since it's technically the off season, the beach we are at is barren, if you look up and down this 10 mile street of beach, there is maybe",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/AmItheAsshole/comments/1wj3d2j/aita_for_calling_the_cops_on_a_family_that_was/"
+        }
+      ]
+    }
+  ],
+  "competitors": []
+}

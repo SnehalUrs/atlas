@@ -1,0 +1,125 @@
+{
+  "slug": "revolut",
+  "category": "Finance",
+  "product": "Revolut",
+  "generatedAt": "2026-10-18T23:41:34.990Z",
+  "totalSignals": 297,
+  "negativeRate": 28,
+  "sourceCounts": {
+    "reddit": 97,
+    "appstore": 100,
+    "hackernews": 100
+  },
+  "summary": "Revolut's main friction themes are trust issues, account management problems, and customer service concerns.",
+  "themes": [
+    {
+      "name": "Pricing and Hidden Costs",
+      "segment": "All users",
+      "description": "Some users express dissatisfaction with hidden fees, such as the \u20ac55 break fee for downgrading accounts, and the lack of clarity around pricing models.",
+      "signalCount": 27,
+      "emotionalIntensity": 40,
+      "recurrence": 9,
+      "segmentImpact": "Medium",
+      "recommendation": "Clarify pricing structures and reduce hidden fees to improve user satisfaction.",
+      "quotes": [
+        {
+          "text": "\u20ac55 break fee. Don\u2019t upgrade to ultra. They change you \u20ac55 to downgrade. Losers.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id932493382"
+        },
+        {
+          "text": "> How long will this revolution last if content providers decide to not show content to iOS users? Good luck with that. iOS users make up a significant percentage of web traffic and are demographically the most valuable (generally of a higher socio-economic status). By alienating",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9974773"
+        },
+        {
+          "text": "Ad's delivered via the Internet ... gee, let's see some time around 1992 I guess I recall the first of them, they got obnoxious shortly after with pop-up's and blinky text. Which is too say nothing about today's websites has offered anything really new since the first webpage did",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9962486"
+        }
+      ]
+    },
+    {
+      "name": "Account Closure and Management Issues",
+      "segment": "Long-time users",
+      "description": "Users report being locked out of accounts, having accounts closed without explanation, and facing difficulties in retrieving funds. These issues are often linked to security checks, account verification, or unexpected account closures, leading to frustration and financial stress.",
+      "signalCount": 13,
+      "emotionalIntensity": 70,
+      "recurrence": 4,
+      "segmentImpact": "High",
+      "recommendation": "Streamline account verification processes, provide clear reasons for account closures, and improve support for users facing account restrictions.",
+      "quotes": [
+        {
+          "text": "Crash. Latest version just crashes on start. Love when this happens as there is no any other fkin way to access my account other than the app.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id932493382"
+        },
+        {
+          "text": "TIL from 1790 until 2015 bakers in Paris had to tell city hall before closing for holiday, so that half the city's bakeries shut in July and the other half in August. The rule was passed after the Revolution to make sure no neighbourhood ever ran out of bread.. submitted by /u/el",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/todayilearned/comments/1ws9yo6/til_from_1790_until_2015_bakers_in_paris_had_to/"
+        },
+        {
+          "text": "ELI5: why didn\u2019t the Great Depression produce a widespread revolution or anarchy?. During the Great Depression there was mass unemployment, people living in tents in Hoover towns, famine, starvation, cannibalism, etc. These similar conditions led to revolutions in the past, but w",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/explainlikeimfive/comments/1tchizw/eli5_why_didnt_the_great_depression_produce_a/"
+        }
+      ]
+    },
+    {
+      "name": "Trust and Security Concerns",
+      "segment": "Long-time users",
+      "description": "Users express deep concerns about data privacy, account security, and the company's handling of sensitive information, including passport details and financial data. Some users feel their money was frozen without explanation, leading to a loss of trust in the company's reliability and transparency.",
+      "signalCount": 11,
+      "emotionalIntensity": 80,
+      "recurrence": 4,
+      "segmentImpact": "High",
+      "recommendation": "Improve transparency in security processes, enhance data protection measures, and provide clearer communication during account freezes or security checks.",
+      "quotes": [
+        {
+          "text": "We have been in an economic feudalism for the last century. The fact that companies have all the right and none of the duty of a normal person in front of the law with the all power money can buy means there is a strong disparity between normal citizens and them. Corporation have",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9967182"
+        },
+        {
+          "text": "The author has some good insight on many things, but the insight is mixed up with ...something else, and that makes a conflated spaghetti. For example, why I and most of people I know opposed SOPA wasn't exactly because of piracy; I'd remind that opposition included also organiza",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9972186"
+        },
+        {
+          "text": "Ed Zitron isn\u2019t concerned about our AI revolution turning into a murder-robot nightmare. He\u2019s warning that the companies involved are spending insane amounts of money that they will never make back\u2014and that the rest of us will suffer the consequences.. submitted by /u/antihostile",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/technology/comments/1w9ulm5/ed_zitron_isnt_concerned_about_our_ai_revolution/"
+        }
+      ]
+    },
+    {
+      "name": "Customer Service and Support",
+      "segment": "All users",
+      "description": "Mixed feedback on customer service, with some users praising the support team and others complaining about unresponsive or inadequate assistance during critical situations like account freezes or fund retrieval.",
+      "signalCount": 11,
+      "emotionalIntensity": 50,
+      "recurrence": 4,
+      "segmentImpact": "Medium",
+      "recommendation": "Improve customer service responsiveness, especially during account issues, and provide multiple support channels for users in distress.",
+      "quotes": [
+        {
+          "text": "Just terrible. Cool features that I need for my business but TERRIBLE TERRIBLE TERRIBLE platform. You can not do anything on this app without it getting flagged or blocked transactions. Every single day since ive use this account it has been down for a couple hours literally cost",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id932493382"
+        },
+        {
+          "text": "Not working on iPhone 8 anymore though meets minimum OS. Not working on my iPhone 8 anymore through it meets the minimum security and OS updates. It just crashes when opening. Was opening earlier this week to a screen saying my device didn\u2019t meet the security standards\u2026 my other ",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id932493382"
+        },
+        {
+          "text": "> We also have no ability to screen ad exchange ads ahead of time; we get what they give us. We can and have set policies, for example, to disallow autoplay video or audio ads. But we get them anyway, even from Google. Whether advertisers make mistakes or try to sneak around the ",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9995245"
+        }
+      ]
+    }
+  ],
+  "competitors": []
+}

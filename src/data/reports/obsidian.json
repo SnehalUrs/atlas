@@ -1,0 +1,206 @@
+{
+  "slug": "obsidian",
+  "category": "Productivity",
+  "product": "Obsidian",
+  "generatedAt": "2026-10-18T23:08:30.752Z",
+  "totalSignals": 297,
+  "negativeRate": 48,
+  "sourceCounts": {
+    "reddit": 97,
+    "appstore": 100,
+    "hackernews": 100
+  },
+  "summary": "Obsidian is a powerful knowledge management tool that excels in interconnected note-taking, markdown support, and community-driven plugin ecosystem. It's praised for its flexibility, customization, and open-source ethos. However, it faces challenges with reliability, performance, and user onboarding, especially on mobile platforms.",
+  "themes": [
+    {
+      "name": "Onboarding & Learning Curve",
+      "segment": "New users",
+      "description": "Many users struggle to understand how to use Obsidian effectively. The learning curve is steep, and there's a lack of beginner-friendly resources.",
+      "signalCount": 105,
+      "emotionalIntensity": 50,
+      "recurrence": 35,
+      "segmentImpact": "Medium",
+      "recommendation": "Develop more beginner tutorials, templates, and onboarding guides to reduce the learning curve.",
+      "quotes": [
+        {
+          "text": "Tried to Switch to Obsidian, Experienced Hell. I'm a tech guy. Been in this industry for years. I kept reading on r/ObsidianMD about how incredible Obsidian is and all my friends have been talking about it recently. It's also been super mainstream as of lately. Like everywhere. E",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/Notion/comments/1w9a9ko/tried_to_switch_to_obsidian_experienced_hell/"
+        },
+        {
+          "text": "How to use Obsidian as a COMPLETE beginner. when i say im a beginner i mean i dont get how to use it at all. I'm really just starting my journey of note taking and before i downloaded Obsidian i used apple notes...yea. if theres a very good tutorial that throughly explains and he",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/ObsidianMD/comments/1v6dnh0/how_to_use_obsidian_as_a_complete_beginner/"
+        },
+        {
+          "text": "Formatting, syncing, and organization but yeah the benefits are too small for many people including me. I just use vscode. However, enough people find those things valuable enough that Obsidian has millions of paying users. I don't think software really need to penetrate more tha",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=50077801"
+        }
+      ]
+    },
+    {
+      "name": "Interconnected Knowledge Management",
+      "segment": "Paying subscribers",
+      "description": "Users value Obsidian's ability to connect notes, create relationships, and build a personal knowledge graph. It's seen as a tool for organizing complex information across multiple domains and devices.",
+      "signalCount": 58,
+      "emotionalIntensity": 80,
+      "recurrence": 20,
+      "segmentImpact": "High",
+      "recommendation": "Enhance visualization tools and make graph features more intuitive for new users.",
+      "quotes": [
+        {
+          "text": "I'm still new, Why Obsidian got 8 employees and 1 cat while other note apps got like 100+ employees? This makes no sense. submitted by /u/lune-soft to r/webdev",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/webdev/comments/1sm0004/im_still_new_why_obsidian_got_8_employees_and_1/"
+        },
+        {
+          "text": "People who care and don't want Obsidian to disappear should support them, not destroy them. They are providing fair price product. This is an example of why I don't think we're getting anywhere near an age of abundance with AI: we're using the power we've gained in a reductive wa",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=50080878"
+        },
+        {
+          "text": "Obsidian Is Now Under Bethesda As Xbox Lays Off Hundreds And Consolidates Multiple Studios. submitted by /u/genwz to r/rpg_gamers",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/rpg_gamers/comments/1wnce8v/obsidian_is_now_under_bethesda_as_xbox_lays_off/"
+        }
+      ]
+    },
+    {
+      "name": "Markdown & Customization",
+      "segment": "Power users",
+      "description": "Obsidian's markdown support and plugin ecosystem are highly appreciated. Users enjoy the flexibility to tailor the app to their workflow and integrate with other tools.",
+      "signalCount": 44,
+      "emotionalIntensity": 70,
+      "recurrence": 15,
+      "segmentImpact": "High",
+      "recommendation": "Continue expanding plugin support and improve documentation for advanced features.",
+      "quotes": [
+        {
+          "text": "What’s the benefit of tools like Obsidian vs using whatever code editor you have on hand? Why would I use it over vs, say, vs code?",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=50077410"
+        },
+        {
+          "text": "Unclear purpose. I have no idea what this app does. It is really bad as a markdown editor.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id1557175442"
+        },
+        {
+          "text": "This is what it looks like to import the bible into obsidian. I have created a tool in the past to download the bible to json . And yesterday I thought, wouldn't it be funny to convert it to markdown? So then I wrote a python script to do that. submitted by /u/oldmartijntje to r/",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/ObsidianMD/comments/1rdd7fr/this_is_what_it_looks_like_to_import_the_bible/"
+        }
+      ]
+    },
+    {
+      "name": "Reliability & Stability",
+      "segment": "All users",
+      "description": "Users report frequent crashes, broken shortcuts, and sync issues, especially on iOS. These problems affect both new and long-time users and can disrupt workflow.",
+      "signalCount": 37,
+      "emotionalIntensity": 60,
+      "recurrence": 12,
+      "segmentImpact": "High",
+      "recommendation": "Prioritize bug fixes, especially for mobile platforms, and improve update stability.",
+      "quotes": [
+        {
+          "text": "Both Android and iOS have issues with syncthing here for my obsidian syncing and it drives me nuts. I don't understand how people keep recommending Syncthing like it's a magical solution. It is not, it fails constantly, has weird, unfixed upstream bugs if you use encryption. It's",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=50116525"
+        },
+        {
+          "text": "Catastrophically broke all my shortcuts. Pushed an update and all the shortcut actions broke. I have dozens of functions on my phone that integrate obsidian and apple shortcuts and they are ALL BROKEN 😡. If you want to build something people rely on, make it reliable.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id1557175442"
+        },
+        {
+          "text": "Exactly this. I've tried hacking together a syncing solution on both Android and iOS, from Syncthing, to Git via Termux (Android) or Working Copy (iOS). I didn't try NextCloud or Dropbox etc, but that Obsidian Just Works(tm) as smoothly as Apple Notes (but is available as a full-",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=50079697"
+        }
+      ]
+    },
+    {
+      "name": "Performance & Speed",
+      "segment": "Mobile users",
+      "description": "Obsidian is slow to load on mobile, especially with large vaults or after updates. This hinders quick note-taking and user satisfaction.",
+      "signalCount": 30,
+      "emotionalIntensity": 50,
+      "recurrence": 10,
+      "segmentImpact": "Medium",
+      "recommendation": "Optimize app performance, especially on mobile, and reduce load times for large vaults.",
+      "quotes": [
+        {
+          "text": "Obsidian works on my phone without janky workarounds. That one simple trick makes it incredibly useful for its intended purpose.",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=50078876"
+        },
+        {
+          "text": "Obsidian - amazing, app - subpar. I love Obsidian so much. The tool itself is incredibly powerful. However, I have CONSTANT issues with the app. My vault functions as my second brain but half the time when I open the iPhone app it is stuck on “loading plugins…” so the thought I j",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id1557175442"
+        },
+        {
+          "text": "Very bad. I cannot use my obsidian right now, i must to wait before app is load. I very tired but on ipad obsidian load better iphone. Pls find the solition",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id1557175442"
+        }
+      ]
+    },
+    {
+      "name": "Privacy & Local Storage",
+      "segment": "Power users",
+      "description": "Users appreciate Obsidian's local-first approach and privacy features, especially compared to cloud-based alternatives. They value the ability to keep data offline and avoid subscription models.",
+      "signalCount": 18,
+      "emotionalIntensity": 70,
+      "recurrence": 6,
+      "segmentImpact": "High",
+      "recommendation": "Continue emphasizing privacy and local storage as key differentiators.",
+      "quotes": [
+        {
+          "text": "> Yes it's closed source but since all your files are markdown there is no lock-in risk Not true. The lock-in risk is the flow you get used to with Obsidian. If Obsidian disappears, I'm left with a bunch of MD files... so that's just like my file system, and if I needed just a fi",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=50075702"
+        },
+        {
+          "text": "Vault Locations Limited. The lack of versatility in vault locations on mobile is a real issue. It can ONLY be in their service, in the Obsidian iCloud folder, or local only. Let us pick where our vault is in Files.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id1557175442"
+        },
+        {
+          "text": "You don't have to, there is a world of things you can do with them without giving them access to your email or bank account. \"Hermes, clone this android app to my computer, add this and this feature and fix this annoyance and then rebuild it and push it to my phone\" \"Hermes summa",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=49978751"
+        }
+      ]
+    },
+    {
+      "name": "Community & Ecosystem",
+      "segment": "All users",
+      "description": "The community is active and supportive, with many plugins and resources available. Users value the collaborative nature of the platform and the ability to extend its functionality.",
+      "signalCount": 5,
+      "emotionalIntensity": 60,
+      "recurrence": 2,
+      "segmentImpact": "High",
+      "recommendation": "Foster community engagement and improve plugin discovery and support.",
+      "quotes": [
+        {
+          "text": "keeps wanting me to pay. keeps wanting me to pay",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id1557175442"
+        },
+        {
+          "text": "I am changing the world, and sometimes its a distraction from my startup, and sometimes it loops back in to help us out. Its a give and take relationship. I started a casual think tank in Milwaukee, Wisconsin to discuss problems like these outside of the walls of corporate or gov",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=57469"
+        },
+        {
+          "text": "Best app. It’s really the best app out there. Yes out of all apps that exist in the world this one is the best. It provides limitless freedom, and the community driven plugins just add even more value. Use it for just about everything and anything for yourself.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id1557175442"
+        }
+      ]
+    }
+  ],
+  "competitors": []
+}

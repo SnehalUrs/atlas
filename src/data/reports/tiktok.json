@@ -1,0 +1,125 @@
+{
+  "slug": "tiktok",
+  "category": "Social",
+  "product": "TikTok",
+  "generatedAt": "2026-10-18T22:34:38.957Z",
+  "totalSignals": 295,
+  "negativeRate": 64,
+  "sourceCounts": {
+    "reddit": 97,
+    "appstore": 100,
+    "hackernews": 98
+  },
+  "summary": "TikTok's main friction themes revolve around content moderation, gender sensitivity, and user experience issues.",
+  "themes": [
+    {
+      "name": "Platform Perception & Brand Image",
+      "segment": "All users",
+      "description": "TikTok is perceived as a platform that promotes simplistic, shallow, or politically charged content, which some users find concerning and potentially harmful to younger audiences.",
+      "signalCount": 151,
+      "emotionalIntensity": 70,
+      "recurrence": 51,
+      "segmentImpact": "High",
+      "recommendation": "Enhance content quality and moderation to reinforce a positive brand image and user trust.",
+      "quotes": [
+        {
+          "text": "[X] Using TikTok is a red flag. https://x.com/damirror91/status/2098883277935312939?s=46 submitted by /u/saucey_dawg0023 to r/GetNoted",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/GetNoted/comments/1wgbwgn/x_using_tiktok_is_a_red_flag/"
+        },
+        {
+          "text": "Don’t download. Everyone on this app is judgmental, homophobic, and racist, 2020 TikTok was more about cringe and happiness without judging. 2020 TIKTOK WAS BETTER",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id835599320"
+        },
+        {
+          "text": "I'm genuinely confused why you're so certain that the kids of rich parents don't use tiktok.",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=50045175"
+        }
+      ]
+    },
+    {
+      "name": "Content Moderation & Censorship",
+      "segment": "Free-tier users",
+      "description": "Users report that TikTok is censoring terms related to women and gender, such as 'woman', 'mujer', and other feminine identifiers, leading to frustration and accusations of sexism and misogyny.",
+      "signalCount": 111,
+      "emotionalIntensity": 80,
+      "recurrence": 38,
+      "segmentImpact": "High",
+      "recommendation": "Review and clarify content moderation policies to address user concerns about gender-related censorship.",
+      "quotes": [
+        {
+          "text": "censoring the word “WOMAN” in the search bar across multiple languages is unacceptable.. Disappointing. TikTok is supposed to be a platform where people can search for information freely, so censoring the word “WOMAN” in the search bar across multiple languages is unacceptable. T",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id835599320"
+        },
+        {
+          "text": "Is there any actual proof that self-censorship of certain language has any effect on a TikTok video’s reach or is it just misinformation that got really out of hand. submitted by /u/kelroid to r/CuratedTumblr",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/CuratedTumblr/comments/1ubi6zm/is_there_any_actual_proof_that_selfcensorship_of/"
+        },
+        {
+          "text": "Tik Tok is like a Male chauvinist. This app is attempting to distort the word \"woman\"—as if the word itself, or women, did not exist. It is appalling that one of the most widely used apps today is sexist and misogynistic.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id835599320"
+        }
+      ]
+    },
+    {
+      "name": "Search & Discovery Experience",
+      "segment": "All users",
+      "description": "Users are frustrated with the search bar's inability to correctly recognize and display terms related to women and gender, leading to confusion and a sense of being excluded.",
+      "signalCount": 17,
+      "emotionalIntensity": 70,
+      "recurrence": 6,
+      "segmentImpact": "High",
+      "recommendation": "Improve search algorithms to better handle gender-related terms and reduce user confusion.",
+      "quotes": [
+        {
+          "text": "Search bar. This app made me feel insignificant, why when you search up “woman” it corrects it to a man’s name??? what is wrong with this app.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id835599320"
+        },
+        {
+          "text": "Disgustingly disappising. How is it possible that one of the most downloaded platforms is deleting and censoring the search bar \"WOMAN\" in all languages",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id835599320"
+        },
+        {
+          "text": "Woman. Good app, but why remove the words “women,” “woman,” and “mujer” (woman in Spanish)? We exist. When you search for “woman,” the suggestion is “coman,” and when you search for “mujer,” the suggestion is “majer.” I request a review and that these words be restored to the sea",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id835599320"
+        }
+      ]
+    },
+    {
+      "name": "User Experience & Feature Requests",
+      "segment": "All users",
+      "description": "Users suggest adding video calling features and improving the chat system to make the platform more versatile for personal and professional interactions.",
+      "signalCount": 16,
+      "emotionalIntensity": 60,
+      "recurrence": 5,
+      "segmentImpact": "Medium",
+      "recommendation": "Consider adding video calling and enhancing chat features to improve user engagement and utility.",
+      "quotes": [
+        {
+          "text": "We need video calling. TikTok is already great but the thing is when u call someone it’s kinda boring and if ur dating someone then being able to take a video call is like pretty necessary and I’d say TikTok would be a lot better than it already is if they add just a few more fea",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id835599320"
+        },
+        {
+          "text": "The default setups are also _crazy_. So you search for company A wanting to buy their product. You check out. Basically every setup I've audited has every tracking product ever for everything. So you buy X, and the company sends that purchase event with your information to Meta, ",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=50107182"
+        },
+        {
+          "text": "GIVE ME MY BANNERRRRRR. Pls pls just give me my banner on ios I’ve been waiting and waiting for this DAM update and it WONT GOD DANG COMEEEEEE IM GETTING INPATIENT MAN LIKE PLEASE JUST GIVE ITTTTTT BUT OVERALL ITS A GOID APP JUST TAKES TO LONG FOR UPDATES TO ARRIVE",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id835599320"
+        }
+      ]
+    }
+  ],
+  "competitors": []
+}

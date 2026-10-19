@@ -1,0 +1,179 @@
+{
+  "slug": "amazon",
+  "category": "Food & Shopping",
+  "product": "Amazon",
+  "generatedAt": "2026-10-18T23:36:31.856Z",
+  "totalSignals": 297,
+  "negativeRate": 68,
+  "sourceCounts": {
+    "reddit": 97,
+    "appstore": 100,
+    "hackernews": 100
+  },
+  "summary": "Most of the frustration centres on customer service experience, followed by delivery reliability and ai integration. Orders frequently delayed or lost, especially with Prime. Late deliveries despite paying for expedited shipping. Packages misplaced or delivered to wrong locations (e.g., recycling bins).",
+  "themes": [
+    {
+      "name": "Workplace & Ethical Concerns",
+      "segment": "Long-time users",
+      "description": "Concerns about Amazon's labor practices, including layoffs, poor working conditions, and ethical issues like book destruction and AI waivers.",
+      "signalCount": 128,
+      "emotionalIntensity": 60,
+      "recurrence": 43,
+      "segmentImpact": "Low",
+      "recommendation": "Improve transparency around labor practices. Address ethical concerns in AI and product handling.",
+      "quotes": [
+        {
+          "text": "Amazon is trying to rehire workers it laid off, emails show. submitted by /u/Logical_Welder3467 to r/technology",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/technology/comments/1wo49k1/amazon_is_trying_to_rehire_workers_it_laid_off/"
+        },
+        {
+          "text": "Amazon confirms 16,000 job cuts after accidental email. submitted by /u/lurker_bee to r/technology",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/technology/comments/1qpbn37/amazon_confirms_16000_job_cuts_after_accidental/"
+        },
+        {
+          "text": "aui-hn@amazon.com I know the little js function feels clever, like its some kind of filter for people that might be interested in a job at Amazon. But all its doing is being a bit annoying. The kind of people you would really want to work with just see this as symptomatic of the ",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9999939"
+        }
+      ]
+    },
+    {
+      "name": "Delivery Reliability",
+      "segment": "Free-tier users",
+      "description": "Orders frequently delayed or lost, especially with Prime. Late deliveries despite paying for expedited shipping. Packages misplaced or delivered to wrong locations (e.g., recycling bins).",
+      "signalCount": 58,
+      "emotionalIntensity": 80,
+      "recurrence": 20,
+      "segmentImpact": "High",
+      "recommendation": "Improve logistics tracking and delivery accuracy. Enhance customer communication during delays.",
+      "quotes": [
+        {
+          "text": "Sporadic delivery. Items are marked as being delivered in a time slot but when you add items to delivery they come at a later time or individually. Grocery delivery this morning at 4 AM with perishable products. Never can tell what is coming or when. At least two items deleted fr",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id297606951"
+        },
+        {
+          "text": "It’s okay. The main problem I have is when Amazon says the package willl be delivered A certain day or the present day then it doesn’t arrive. Then continues to say it will arrive the next day but doesn’t.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id297606951"
+        },
+        {
+          "text": "Horrible delivery. I am beyond frustrated with Amazon and their constant delivery issues. Almost every time I order something, my package gets delivered to the WRONG ADDRESS or an entirely DIFFERENT APARTMENT COMPLEX, despite my delivery instructions clearly stating exactly where",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id297606951"
+        }
+      ]
+    },
+    {
+      "name": "App Usability & Performance",
+      "segment": "Mobile users",
+      "description": "App crashes, slow performance, and UI bugs. Issues with search, favorites, and navigation. Forced AI integration disrupts user experience.",
+      "signalCount": 48,
+      "emotionalIntensity": 70,
+      "recurrence": 16,
+      "segmentImpact": "Medium",
+      "recommendation": "Fix app stability and performance. Allow customization of search and favorite systems. Reduce intrusive AI features.",
+      "quotes": [
+        {
+          "text": "Slow. Hate the addition of AI and searching has become slow. The longer I spend on a search result the slower it gets and eventually the product selections won’t load. Super annoying.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id297606951"
+        },
+        {
+          "text": "Eww AI. I used this app for years now there’s suddenly ai everywhere gross go die",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id297606951"
+        },
+        {
+          "text": "After sorting by price it failed to open the selection and AI return app you cannot enter. After sorting by price it failed to open the selection I have to exit the app every time and retry every time…. Gets annoying real fast When you try to return you cannot submit your answers",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id297606951"
+        }
+      ]
+    },
+    {
+      "name": "Customer Service Experience",
+      "segment": "All users",
+      "description": "Inaccessible or unresponsive customer support. AI chatbots fail to resolve issues. No ability to dispute refunds or get human assistance.",
+      "signalCount": 19,
+      "emotionalIntensity": 90,
+      "recurrence": 6,
+      "segmentImpact": "High",
+      "recommendation": "Revamp customer service channels. Provide clear refund dispute options. Reduce reliance on AI for critical support.",
+      "quotes": [
+        {
+          "text": "Horrific Customer Support. Repeat cycle. Empty promises. Reading a script. Getting no where. Chatting and calling for same issues for 3 weeks. No resolution. Shop elsewhere.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id297606951"
+        },
+        {
+          "text": "Amazon might have just found it's downfall. I've just spent a 1/2 an hour trying every way.I possibly could to speak or chat with a customer service representative or even an AI it is no longer possible and for all of Amazon's convenience.The one thing they could do that would st",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/amazonprime/comments/1x3fcqd/amazon_might_have_just_found_its_downfall/"
+        },
+        {
+          "text": "service is terrible. no live chat. i shouldnt be receiving orders past 8 pm let alone 1040pm the last time",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id297606951"
+        }
+      ]
+    },
+    {
+      "name": "Prime Value Perception",
+      "segment": "Free-tier users",
+      "description": "Prime membership feels like a poor value due to frequent delays, lack of customer support, and forced AI features. Users feel misled by Prime promises.",
+      "signalCount": 24,
+      "emotionalIntensity": 70,
+      "recurrence": 8,
+      "segmentImpact": "Medium",
+      "recommendation": "Re-evaluate Prime value proposition. Improve delivery and support for Prime members. Offer clearer benefits.",
+      "quotes": [
+        {
+          "text": "Prime Membership. Why with the prime membership does it take over a week to deliver? And why does it take up to 3 days for Amazon to bill for an instant purchase? I’ve had nothing but trouble with purchasing items only for the money to not be taken from my bank card and the order",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id297606951"
+        },
+        {
+          "text": "Prime is a sign that Amazon has to some degree given up on the simple business model of just selling stuff with a margin. It's gone from chasing Walmart to chasing Costco, and that's a much smaller market. That's not to say it doesn't make business sense. The problem is that mone",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9998349"
+        },
+        {
+          "text": "Don’t sign up for prime. This is the most disloyal business on the web. I pay for prime to get the fast delivery. I run my business with their products and have spent over $5000 so far this year and my last 7 deliveries were late. Why would I pay for prime delivery if I’m going t",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id297606951"
+        }
+      ]
+    },
+    {
+      "name": "AI Integration",
+      "segment": "All users",
+      "description": "AI features like search, recommendations, and customer service are seen as intrusive, irrelevant, or spammy. Users resist AI-driven personalization and forced AI interactions.",
+      "signalCount": 20,
+      "emotionalIntensity": 80,
+      "recurrence": 7,
+      "segmentImpact": "High",
+      "recommendation": "Offer opt-out for AI features. Improve relevance of AI-driven content. Allow users to control AI interactions.",
+      "quotes": [
+        {
+          "text": "Stop ruining the favoriting system. I can’t hold down the heart anymore to designate where to store it. It just shows me ai customer reviews now. All I want is to have a simple system to add to wish list or other lists.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id297606951"
+        },
+        {
+          "text": "In order to make Windows 10 upgrades free, the customer is now the product. Most AI stuff collects data like that anyway. Anything you say to Siri in iOS goes to Apple. Ubuntu has Amazon adware in it. Most operating systems these days have some way to collect data on the user and",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9992206"
+        },
+        {
+          "text": "> They pioneered sending back all your search terms (to Amazon). You don't have to use Unity to use Ubuntu. There is an abundant choice of WMs on Linux. And besides, even if you had this turned on, it's about nothing compared to what Microsoft does.",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9993278"
+        }
+      ]
+    }
+  ],
+  "competitors": []
+}

@@ -1,0 +1,206 @@
+{
+  "slug": "airbnb",
+  "category": "Travel & Transport",
+  "product": "Airbnb",
+  "generatedAt": "2026-10-19T01:09:24.803Z",
+  "totalSignals": 297,
+  "negativeRate": 83,
+  "sourceCounts": {
+    "reddit": 97,
+    "appstore": 100,
+    "hackernews": 100
+  },
+  "summary": "Most of the frustration centres on damage and reimbursement failures, followed by poor customer support and trust and transparency issues. Hosts report failure of Airbnb's damage reimbursement system, including cases of total home destruction and lack of support for claims. Guests also report being charged for damages without proper recourse or transparency in the process.",
+  "themes": [
+    {
+      "name": "Trust and Transparency Issues",
+      "segment": "All users",
+      "description": "Users report lack of trust in Airbnb's policies, including staged reviews, inconsistent damage claims, and lack of accountability for hosts and guests.",
+      "signalCount": 117,
+      "emotionalIntensity": 80,
+      "recurrence": 39,
+      "segmentImpact": "High",
+      "recommendation": "Increase transparency in review and damage processes, and improve accountability mechanisms for both hosts and guests.",
+      "quotes": [
+        {
+          "text": "Unsafe Rentals and Bad Customer Support. Airbnb advertised a safe and clean rental. We paid over $600. There was black mold, dirt, grime, and drugs in the common spaces of the rental. Despite photographic evidence, Airbnb support claims that their refund/complaint policy prevents",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id401626263"
+        },
+        {
+          "text": "Airbnb no longer stands behind its listings or policies. After years of using Airbnb, I’m done with the platform. This isn’t based on one bad host or one unfavorable customer-service decision. I’ve now repeatedly experienced situations where listings did not match what was advert",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id401626263"
+        },
+        {
+          "text": "I joined AirBnB as a host when it transitioned from being an A to B crowd thing into a general mass public service with all the warts and inconsistencies with hosts and guests that brings. There has to be some magic filter introduced (other than good judgment) to clean out the de",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9994572"
+        }
+      ]
+    },
+    {
+      "name": "Legal and Community Resistance",
+      "segment": "Long-time users",
+      "description": "Hosts and users report increasing legal challenges and community opposition to Airbnb, including zoning issues, noise complaints, and local regulations.",
+      "signalCount": 86,
+      "emotionalIntensity": 70,
+      "recurrence": 29,
+      "segmentImpact": "High",
+      "recommendation": "Engage with local communities, improve compliance with regulations, and support host education on legal issues.",
+      "quotes": [
+        {
+          "text": "This is a nonstarter for Airbnb because if they gave the type of data suggested here you'd be able to extremely easily analyze it and find all the places where illegal sublets were happening, which is a major part of their business. There is no way around Airbnb's problems withou",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9938211"
+        },
+        {
+          "text": "I agree, it could work. The problem people have is that AirBnB is unregulated. Normally you do have to share rental income. There may also be local regulations prohibiting rental, sublets, short-term rentals, etc.",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9939296"
+        },
+        {
+          "text": "Yep. And then you need to multiply that by the fact that most of their business undoubtedly comes from major metro areas, in which almost all have laws which make AirBnB illegal.",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9938762"
+        }
+      ]
+    },
+    {
+      "name": "Host and Guest Misalignment",
+      "segment": "All users",
+      "description": "Users report mismatch between listing descriptions and actual experiences, including lack of amenities, poor communication, and unexpected disruptions.",
+      "signalCount": 27,
+      "emotionalIntensity": 60,
+      "recurrence": 9,
+      "segmentImpact": "Medium",
+      "recommendation": "Improve listing accuracy, enhance communication tools, and enforce better quality control for listings.",
+      "quotes": [
+        {
+          "text": "Airbnb host wants to increase my rate by 35% weeks after accepting my booking. I booked a weeklong Airbnb in Costa Rica, doing so for a week to get a long-term discount. It was $230/night, which was on the upper end of what I was willing to spend (especially for 1 bedroom in Cost",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/mildlyinfuriating/comments/1x4918v/airbnb_host_wants_to_increase_my_rate_by_35_weeks/"
+        },
+        {
+          "text": "This is the worst way to book an accommodation. Wednesday is my first day using this app and it is the most difficult thing to use and at the same time I was canceled bc a host had insufficient appliances (no working refrigerator) and when I asked if there’s any reasonable accomm",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id401626263"
+        },
+        {
+          "text": "My Airbnb host used some creative lighting in the listing. It was still ok, just a little bit of a letdown. submitted by /u/mtbguy1981 to r/ExpectationVsReality",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/ExpectationVsReality/comments/1s5i1yx/my_airbnb_host_used_some_creative_lighting_in_the/"
+        }
+      ]
+    },
+    {
+      "name": "Damage and Reimbursement Failures",
+      "segment": "Long-time users",
+      "description": "Hosts report failure of Airbnb's damage reimbursement system, including cases of total home destruction and lack of support for claims. Guests also report being charged for damages without proper recourse or transparency in the process.",
+      "signalCount": 17,
+      "emotionalIntensity": 90,
+      "recurrence": 6,
+      "segmentImpact": "High",
+      "recommendation": "Improve damage claims process, increase transparency, and provide better support for both hosts and guests.",
+      "quotes": [
+        {
+          "text": "Insurance, burglary.. Good luck getting any of your money back when you get robbed while sleeping at your airbnb. They allow hosts to lie. They almost cancelled my claim because the host said they settled with me outside of insurance and they believed them without any proof.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id401626263"
+        },
+        {
+          "text": "Guests Burned Down our Home. Airbnb: Thoughts & Prayers.. I am a 12 year host / Superhost / 300+ reviews . None of what I’m about to share should surprise this community of Airbnb hosts. Once again, the company’s Aircover failed to deliver on reimbursing a host for guest damage —",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/airbnb_hosts/comments/1wjzjkl/guests_burned_down_our_home_airbnb_thoughts/"
+        },
+        {
+          "text": "Service Animal ≠ $597 in Blanket Damage. After 9 YEARS and 40 TRIPS with Airbnb, I never expected this to be the experience that made me seriously question ever using the platform again. I have been a loyal Airbnb customer for nearly a decade. My profile shows 40 trips and 24 rev",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id401626263"
+        }
+      ]
+    },
+    {
+      "name": "Safety and Hygiene Concerns",
+      "segment": "All users",
+      "description": "Users report unsafe and unclean accommodations, including mold, lack of cleaning, and dangerous conditions like water leaks and unsafe stairs.",
+      "signalCount": 20,
+      "emotionalIntensity": 70,
+      "recurrence": 7,
+      "segmentImpact": "High",
+      "recommendation": "Strengthen safety and hygiene standards, improve listing verification, and enforce cleaning protocols.",
+      "quotes": [
+        {
+          "text": "My Airbnb had a sink in the toilet. submitted by /u/brian_c94 to r/mildlyinteresting",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/mildlyinteresting/comments/1r6aspp/my_airbnb_had_a_sink_in_the_toilet/"
+        },
+        {
+          "text": "AirBnB host told me soap was supplied. Just recently booked an AirBnB in Utah which quite honestly wasn’t bad at all. But you could clearly tell they cut corners. All of the sponges on the sink were very old/worn and dirty. They told us they had plenty of soap they supplied so no",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/mildlyinfuriating/comments/1st8134/airbnb_host_told_me_soap_was_supplied/"
+        },
+        {
+          "text": "Why are airbnbs allowed to charge you a cleaning fee and still make you clean. i’m no stranger to traveling and even when staying at hotels i don’t leave my room a wreck but these expectations from airbnbs while i’m already paying a $150 cleaning fee is insane. recently i stayed ",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/NoStupidQuestions/comments/1uv7nw6/why_are_airbnbs_allowed_to_charge_you_a_cleaning/"
+        }
+      ]
+    },
+    {
+      "name": "App Functionality Issues",
+      "segment": "All users",
+      "description": "Users report bugs, crashes, and poor user experience in the app, including notification errors, identity verification issues, and poor navigation.",
+      "signalCount": 18,
+      "emotionalIntensity": 60,
+      "recurrence": 6,
+      "segmentImpact": "Medium",
+      "recommendation": "Fix app bugs, improve UI/UX, and streamline verification processes.",
+      "quotes": [
+        {
+          "text": "Low quality app. For a company this big, I’d expect the app to function properly. Instead, it keeps showing notification when there’s none, and it’s impossible to get rid of it. Also, they have nothing better to do and love moving things around without any visible improvements",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id401626263"
+        },
+        {
+          "text": "Buggy on iOS27. The app has a serious problem running on iOS27 and iPhone 17. Waking the phone while the app is running results every time in the screen turning black so I cannot use it and must restart the phone. Where is your Quality Assurance on this app?",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id401626263"
+        },
+        {
+          "text": "Broke Horrible App. The app is broke. I’m using ios26. Will not let you return messages from hosts for critical communication. Navigation within the app is also completely broke. Can’t give them my money 😂",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id401626263"
+        }
+      ]
+    },
+    {
+      "name": "Poor Customer Support",
+      "segment": "All users",
+      "description": "Users report slow, unhelpful, and unresponsive customer support, including failure to resolve issues like noise complaints, cancellations, and refund disputes.",
+      "signalCount": 12,
+      "emotionalIntensity": 80,
+      "recurrence": 4,
+      "segmentImpact": "High",
+      "recommendation": "Revamp customer support systems, improve response times, and provide more personalized assistance.",
+      "quotes": [
+        {
+          "text": "Horrendous customer support. Ignored customers and leaves them stranded in unsafe apartments",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id401626263"
+        },
+        {
+          "text": "Worst customer support. Their support is the worst to deal with, they will side with a host of larger magnitude simply based on word and make you submit a 10 page essay to “prove” your claim, it’s a simple numbers game. Stay clear of this company.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id401626263"
+        },
+        {
+          "text": "Worst Support Ever. Customer support is atrocious. They just keep ping ponging your cases amongst various teams based in India. They don’t do anything. They repeatedly say they are investigating or they are sending this over to another team for further review. But they are just p",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id401626263"
+        }
+      ]
+    }
+  ],
+  "competitors": []
+}

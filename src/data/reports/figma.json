@@ -1,0 +1,152 @@
+{
+  "slug": "figma",
+  "category": "Design",
+  "product": "Figma",
+  "generatedAt": "2026-10-18T23:22:02.603Z",
+  "totalSignals": 297,
+  "negativeRate": 55,
+  "sourceCounts": {
+    "reddit": 97,
+    "appstore": 100,
+    "hackernews": 100
+  },
+  "summary": "Figma's main friction themes include performance issues on mobile, lack of intuitive mobile functionality, and growing competition from AI-driven design tools. Users also express concerns about Figma's business direction and its ability to innovate.",
+  "themes": [
+    {
+      "name": "Mobile App Performance & Stability",
+      "segment": "Creators",
+      "description": "Figma's mobile app is often unstable, crashes, and has poor performance, especially with large files and prototypes. Users report frequent restarts and issues with loading content properly on iOS devices.",
+      "signalCount": 87,
+      "emotionalIntensity": 80,
+      "recurrence": 29,
+      "segmentImpact": "High",
+      "recommendation": "Improve mobile app stability and performance, especially for handling large files and prototypes.",
+      "quotes": [
+        {
+          "text": "Figma tablet sucks. Figma has made some impressive leaps and bounds in design for code but the iPad app is really disappointing.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id1152747299"
+        },
+        {
+          "text": "Great app but…. For several weeks now the app is stuck on “attempting to contact Figma’s servers” — the only solution is to delete the app and re-download the app almost on a daily basis in order to load.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id1152747299"
+        },
+        {
+          "text": "Still a buggy mess years later. I wrote this original review years ago and everything I wrote still applies. Figma doesn’t care about this app. Still goes to black trying to use prototypes. No idea how this app has five stars. Constantly going black forcing you to reload. Trying ",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id1152747299"
+        }
+      ]
+    },
+    {
+      "name": "AI Competition & Market Position",
+      "segment": "Creators",
+      "description": "Figma faces increasing competition from AI-driven design tools like Claude Design and Google's Stitch. Users are questioning Figma's ability to innovate and maintain its market leadership.",
+      "signalCount": 90,
+      "emotionalIntensity": 60,
+      "recurrence": 30,
+      "segmentImpact": "High",
+      "recommendation": "Accelerate AI integration and innovation to stay competitive with emerging tools.",
+      "quotes": [
+        {
+          "text": "Figma will be a penny stock soon. Figma has dropped almost 90 percent in the past year from its failure to innovate and compete with top AI companies such as Google and Anthropic and in a couple months they will fall again when OpenAI releases their own AI design tool. Every time",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/stocks/comments/1sp3al3/figma_will_be_a_penny_stock_soon/"
+        },
+        {
+          "text": "To speak more broadly, Figma is in a really tough spot right now. I see more and more designers in my circle saying they are skipping design tools entirely to prototype in code or ship directly in their product's code base. Honestly I find myself doing the same. Figma's main valu",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=49923960"
+        },
+        {
+          "text": "Every AI \"design in one prompt\" tool drops Figma stock. The market is confused about what Figma actually is.. A new tool drops. \"Generate your entire UI from a single prompt.\" Twitter goes wild. Figma stock dips. And designers and engineers everywhere collectively sigh. Figma was",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/FigmaDesign/comments/1spwocp/every_ai_design_in_one_prompt_tool_drops_figma/"
+        }
+      ]
+    },
+    {
+      "name": "User Experience & Interface",
+      "segment": "Creators",
+      "description": "Users report confusion with the UI, especially on mobile, and difficulty finding elements in large design files. The lack of keyword search and intuitive navigation is a pain point.",
+      "signalCount": 48,
+      "emotionalIntensity": 60,
+      "recurrence": 16,
+      "segmentImpact": "Medium",
+      "recommendation": "Simplify UI and add features like keyword search to improve navigation in large projects.",
+      "quotes": [
+        {
+          "text": "How this is so highly rated is astounding…. Try using the iPhone iOS app and tell me how you would give it more than 1 star. You literally get stuck in a presentation once you start it, and it doesn’t even show you something as basic as notes. Real miss from the old king of desig",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id1152747299"
+        },
+        {
+          "text": "Can't edit design files. I downloaded this app thinking I could design on the fly and it doesn't do that. It's just for viewing, commenting and sharing prototypes. Huge let down IMHO.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id1152747299"
+        },
+        {
+          "text": "Need keyword search. Very hard to find a screen in large designs without search",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id1152747299"
+        }
+      ]
+    },
+    {
+      "name": "Business Strategy & User Focus",
+      "segment": "Creators",
+      "description": "Some users feel Figma has shifted focus from designers to investors and hype-driven features. This has led to concerns about the product's long-term viability and user-centricity.",
+      "signalCount": 45,
+      "emotionalIntensity": 50,
+      "recurrence": 15,
+      "segmentImpact": "Medium",
+      "recommendation": "Reinforce user-centric design and transparency in business decisions to rebuild trust.",
+      "quotes": [
+        {
+          "text": "Built for investors. Figma no longer cares about building for the needs of their actual users: designers. Now they’re building for investors chasing whatever the latest industry hype is. It’s time for a competitor to replace them by offering a tool that meets the needs of design ",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id1152747299"
+        },
+        {
+          "text": "Figma is crashing. I don’t really understand why it’s been crashing this hard since IPO. I’m a UI/UX designer myself and use Figma pretty regularly. From a product standpoint, it still feels solid to me. A lot of people around me are still using it, and it doesn’t feel like deman",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/StockMarket/comments/1sa77kj/figma_is_crashing/"
+        },
+        {
+          "text": "Figma Over?. I still cant tell if FIG is dead due to SaaS apocalypse. All the UX/UI designers are still locked in the FIG ecosystem. Most are using AI to aid in design, some connect claude to figma. Nobody I know has successfully skipped Figma as a design repository / drop Figma ",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/figmaStock/comments/1x5sfnr/figma_over/"
+        }
+      ]
+    },
+    {
+      "name": "Mobile Functionality Limitations",
+      "segment": "Creators",
+      "description": "The mobile app lacks essential features like comment creation, file management, and full editing capabilities. Users find it difficult to perform tasks that are straightforward on desktop.",
+      "signalCount": 27,
+      "emotionalIntensity": 70,
+      "recurrence": 9,
+      "segmentImpact": "High",
+      "recommendation": "Expand mobile functionality to match desktop capabilities, including comment tools and full editing.",
+      "quotes": [
+        {
+          "text": "Adding comments. Where do you add comments? Why is it so difficult on the mobile app? Am I an idiot or is this function not possible on mobile?",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id1152747299"
+        },
+        {
+          "text": "Worthless app. App has zero functionality, all files open as comment mode only, no context menus, zero usability. It’s as good as worthless",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id1152747299"
+        },
+        {
+          "text": "Useless. For a company designing software that helps designers create software for users, this company sure doesn’t understand their own users. An iPad is a useful creative tool, but Figma can’t prioritize making their web software work on the iPad because they’d have to tackle d",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id1152747299"
+        }
+      ]
+    }
+  ],
+  "competitors": []
+}

@@ -1,0 +1,152 @@
+{
+  "slug": "robinhood",
+  "category": "Finance",
+  "product": "Robinhood",
+  "generatedAt": "2026-10-18T23:39:13.647Z",
+  "totalSignals": 296,
+  "negativeRate": 42,
+  "sourceCounts": {
+    "reddit": 97,
+    "appstore": 100,
+    "hackernews": 99
+  },
+  "summary": "Most of the frustration centres on account restrictions and security concerns, followed by positive user experience and poor customer support. Users report sudden account freezes, restrictions, and difficulty accessing funds, raising concerns about security and transparency in account management and transaction processing.",
+  "themes": [
+    {
+      "name": "Trust and Transparency Issues",
+      "segment": "All users",
+      "description": "Users express skepticism about the company's motives, especially regarding fee structures, referral programs, and data privacy.",
+      "signalCount": 23,
+      "emotionalIntensity": 70,
+      "recurrence": 8,
+      "segmentImpact": "High",
+      "recommendation": "Improve transparency around fees, data usage, and business practices to build user trust.",
+      "quotes": [
+        {
+          "text": "FYI. Your site is missing some key credibility elements that is hurting your adoption rate. You are asking people to blindly commit money to something without passing the critical trust measures. This site could be a phishing site at worst. You tried the simple Robinhood approach",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9650983"
+        },
+        {
+          "text": "Referral SCAM program. I really thought this was a respectable company. It\u2019s not. It\u2019s sad that I have to report this but I feel an obligation to society to do so. I really thought this was a respectable company. It\u2019s not. It\u2019s sad that I have to report this but I feel an obligat",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id938003185"
+        },
+        {
+          "text": "This is pure speculation on my part and I have no basis for saying it so take it with a gigantic grain of salt. It is important to remember when someone offers you a free service you are NOT their customer. So you need to determine who is the customer. In this case the obvious, t",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9506158"
+        }
+      ]
+    },
+    {
+      "name": "Limited Features and Functionality",
+      "segment": "Free-tier users",
+      "description": "Users report missing features like tax reporting, stop-loss orders, and multi-leg options trading, which are available in paid tiers.",
+      "signalCount": 23,
+      "emotionalIntensity": 60,
+      "recurrence": 8,
+      "segmentImpact": "Medium",
+      "recommendation": "Expand free-tier features to meet user expectations and reduce the need for paid upgrades.",
+      "quotes": [
+        {
+          "text": "Tax slot. Tax slot sell is not immediately available, takes more than 24 hours",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id938003185"
+        },
+        {
+          "text": "Too many taps. Very difficult to find anything on this app unless you are only trading crypto. Cannot easily find open orders let alone make changes to them. Cannot make quick trades. Cannot quickly access and view any custom watch lists. Everything is hidden within areas that si",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id938003185"
+        },
+        {
+          "text": "Restrictions on purchases. I don\u2019t know what\u2019s wrong with this junky I can\u2019t buy stocks and I have 100k portfolio this is ridiculous just because I didn\u2019t reply to email of stupid api trading which I never did all the trades I did in app now I have to buy all and move back to my ",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id938003185"
+        }
+      ]
+    },
+    {
+      "name": "Account Restrictions and Security Concerns",
+      "segment": "Free-tier users",
+      "description": "Users report sudden account freezes, restrictions, and difficulty accessing funds, raising concerns about security and transparency in account management and transaction processing.",
+      "signalCount": 12,
+      "emotionalIntensity": 80,
+      "recurrence": 4,
+      "segmentImpact": "High",
+      "recommendation": "Improve account security transparency and provide clearer communication during account restrictions.",
+      "quotes": [
+        {
+          "text": "Blocks access to bank accounts. Tried to link my Fidelity brokerage account to Robinhood. The Plaid bank verification service used by Robinhood is flagged as suspicious/malicious third party software by Fidelity servers, causing me to be locked out of my account and lose multiple",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id938003185"
+        },
+        {
+          "text": "Cool Dashboard Sketchy Policy. The look of the app is great. However, I had a problem trying to link a debit card for many weeks. I flagged it, made it known, and tried to get it fixed for a long time. Nothing was ever done, so I tried to withdraw all my funds and leave RH. Nope!",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id938003185"
+        },
+        {
+          "text": "Robinhood is blocking a transfer of $45k+. I (23 m) have been trying to withdraw/transfer this money from my taxable brokerage account on Robinhood into my main taxable account on Fidelity for months. I tried over five times, and Every time, Robinhood came back saying it won\u2019t go",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/ClassActionRobinHood/comments/1om1xai/robinhood_is_blocking_a_transfer_of_45k/"
+        }
+      ]
+    },
+    {
+      "name": "Poor Customer Support",
+      "segment": "Free-tier users",
+      "description": "Users report slow or unresponsive customer support, with some being blocked from accessing their funds or resolving issues.",
+      "signalCount": 9,
+      "emotionalIntensity": 70,
+      "recurrence": 3,
+      "segmentImpact": "High",
+      "recommendation": "Enhance customer support responsiveness and provide clear escalation paths for critical issues.",
+      "quotes": [
+        {
+          "text": "Requirement within your app is causing you to lose customers .. I had a Robinhood account before and I recently lost access to it due to phone reset and I lost everything connected to my old phone number including my gmail, phone number and login associated with previous email. I",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id938003185"
+        },
+        {
+          "text": "Scam. Lots of AI bot support, no honesty in dealing with customers",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id938003185"
+        },
+        {
+          "text": "My experience with Robinhood has been completely negative. I recently worked on a loan and needed to show the Robinhood transfer to my bank. Since there's no web interface you can't get the current month printout. There's no phone number to call, and it took them 3 days to reply ",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9505128"
+        }
+      ]
+    },
+    {
+      "name": "Gamification and Behavioral Influence",
+      "segment": "All users",
+      "description": "Users report that the app's gamified interface and features like free shares and trading incentives may encourage impulsive or risky behavior.",
+      "signalCount": 11,
+      "emotionalIntensity": 50,
+      "recurrence": 4,
+      "segmentImpact": "Medium",
+      "recommendation": "Balance gamification with educational content to promote responsible investing.",
+      "quotes": [
+        {
+          "text": "I agree that a mobile-only interface is just not enough when you're dealing with something as intricate as investing. They've tried to abstract away the many layers of paperwork from investing&#x2F;trading, but it leads to things like the problems you've had. I tried Robinhood fo",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9505913"
+        },
+        {
+          "text": "This app is the definition of over engineered. For real? How is it soo hard to get to my list of stocks? How is this update better for the user ? Everything is not user friendly and confusing AF. I would run from this app if I did have so much invested from before but now I\u2019m loo",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id938003185"
+        },
+        {
+          "text": "iPad Rotation Bug Still Not Fixed. The screen rotation issue I previously reported still persists in the latest Robinhood update. On my iPad Pro running iPadOS 27.0.1, the app interface rotates 90 degrees incorrectly when using Stage Manager in landscape mode. The charts and navi",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id938003185"
+        }
+      ]
+    }
+  ],
+  "competitors": []
+}

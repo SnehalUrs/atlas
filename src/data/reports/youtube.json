@@ -1,0 +1,206 @@
+{
+  "slug": "youtube",
+  "category": "Entertainment",
+  "product": "YouTube",
+  "generatedAt": "2026-10-18T22:11:23.312Z",
+  "totalSignals": 297,
+  "negativeRate": 48,
+  "sourceCounts": {
+    "reddit": 97,
+    "appstore": 100,
+    "hackernews": 100
+  },
+  "summary": "Most of the frustration centres on ad experience, followed by ui/ux issues and content discovery. Poor UI updates causing confusion and frustration, especially with layout changes and navigation issues on iOS devices.",
+  "themes": [
+    {
+      "name": "Ad Experience",
+      "segment": "All users",
+      "description": "Excessive and intrusive ads, including non-skippable ads and ad-related playback issues.",
+      "signalCount": 60,
+      "emotionalIntensity": 40,
+      "recurrence": 20,
+      "segmentImpact": "High",
+      "recommendation": "Improve ad experience with better ad controls and less intrusive ad placement.",
+      "quotes": [
+        {
+          "text": "Awful. The ads are so intrusive now at this point that it’s unbearable to even get through a 5 min video.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id544007664"
+        },
+        {
+          "text": "Constant ads. Now when you’re watching a video, ads pop up and take half the screen. These are the between ad ads. It’s not a video, just a still that you have to close. Then, constant video ads. After the video ads are over, you have to close the pop up that lingers. You can wat",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id544007664"
+        },
+        {
+          "text": "Skip ad button is now next ad button.. WTH. also re-enter app and you get a black screen . Also 3 minutes of watching between the ads. You say there is fewer interruptions after the ads but it is still ad ad ad",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id544007664"
+        }
+      ]
+    },
+    {
+      "name": "Monetization Concerns",
+      "segment": "All users",
+      "description": "Perceived increase in monetization efforts, including price hikes and ad-heavy content.",
+      "signalCount": 61,
+      "emotionalIntensity": 30,
+      "recurrence": 21,
+      "segmentImpact": "Medium",
+      "recommendation": "Balance monetization with user experience and content quality.",
+      "quotes": [
+        {
+          "text": "YouTube Premium is getting yet another price hike for users across the globe. submitted by /u/MarvelsGrantMan136 to r/technology",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/technology/comments/1vx5g5o/youtube_premium_is_getting_yet_another_price_hike/"
+        },
+        {
+          "text": "Boss Boss. YouTube used to be free now they’re money hungry",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id544007664"
+        },
+        {
+          "text": "YouTube Premium just got more expensive again: now $16 a month, or $27 for families. submitted by /u/AdSpecialist6598 to r/technology",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/technology/comments/1tyg8yb/youtube_premium_just_got_more_expensive_again_now/"
+        }
+      ]
+    },
+    {
+      "name": "Content Discovery",
+      "segment": "All users",
+      "description": "Poor recommendation algorithm leading to repetitive or outdated content suggestions.",
+      "signalCount": 48,
+      "emotionalIntensity": 30,
+      "recurrence": 16,
+      "segmentImpact": "High",
+      "recommendation": "Enhance recommendation algorithm for more personalized and relevant content.",
+      "quotes": [
+        {
+          "text": "What Happened?. I don’t know what happened but at some point my page is just bugged or something. I don’t get any new recommendations. All it shows is the same video over and over and it doesn’t matter if I hit “ not interested” it still continues to show up. Not only that but th",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id544007664"
+        },
+        {
+          "text": "Is YouTube dying?. Has YouTube become boring/ not as interesting to you too? Idk, but it’s always recommending old videos (from 4-6 years ago) or stuff I’ve already seen. Sometimes, it even shows the same videos repeatedly. Edit: ok so using “ dead” isn’t the right term, mb. More",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/youtube/comments/1wqx7fh/is_youtube_dying/"
+        },
+        {
+          "text": "What are some YouTube channels that were popular 10 years ago but have significantly lost their popularity or are no longer relevant?. submitted by /u/Salty_Pension5814 to r/AskReddit",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/AskReddit/comments/1ty3de9/what_are_some_youtube_channels_that_were_popular/"
+        }
+      ]
+    },
+    {
+      "name": "Feature Requests",
+      "segment": "All users",
+      "description": "Requests for new features like GIF support, better comment functionality, and improved video casting.",
+      "signalCount": 66,
+      "emotionalIntensity": 20,
+      "recurrence": 22,
+      "segmentImpact": "Medium",
+      "recommendation": "Prioritize user feedback for feature development and enhancement.",
+      "quotes": [
+        {
+          "text": "I WANT GIFS. Won’t give me gifs the only thing I want on YouTube I need to wait.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id544007664"
+        },
+        {
+          "text": "sorry. i dont know but i can not do the gufs things on videos so does anyone know how i already updated it",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id544007664"
+        },
+        {
+          "text": "Remove gif. Also remove the heart add the thumbs up back",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id544007664"
+        }
+      ]
+    },
+    {
+      "name": "UI/UX Issues",
+      "segment": "New users",
+      "description": "Poor UI updates causing confusion and frustration, especially with layout changes and navigation issues on iOS devices.",
+      "signalCount": 21,
+      "emotionalIntensity": 30,
+      "recurrence": 7,
+      "segmentImpact": "High",
+      "recommendation": "Revise UI/UX design for better usability and user experience.",
+      "quotes": [
+        {
+          "text": "Terrible new UI. This is the worst update in YouTube history with the layout of the app, I have no idea what YouTube was thinking with this.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id544007664"
+        },
+        {
+          "text": "This app is riddled with bugs in iOS 27. This this app is riddled with bugs. It cannot size correctly when I switch from landscape to portrait mode the top of the screen is cut off. Sometimes it claims I have lost Wi-Fi coverage and cellular coverage even though I have the right ",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id544007664"
+        },
+        {
+          "text": "App layout. The new app layout is terrible",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id544007664"
+        }
+      ]
+    },
+    {
+      "name": "Content Moderation",
+      "segment": "All users",
+      "description": "Content removal and moderation issues, including bans and censorship of certain types of content.",
+      "signalCount": 26,
+      "emotionalIntensity": 20,
+      "recurrence": 9,
+      "segmentImpact": "Medium",
+      "recommendation": "Improve content moderation policies with transparency and user feedback mechanisms.",
+      "quotes": [
+        {
+          "text": "Meta and YouTube found liable in social media addiction trial. submitted by /u/SteamerTheBeemer to r/news",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/news/comments/1s3hi18/meta_and_youtube_found_liable_in_social_media/"
+        },
+        {
+          "text": "YouTube Terminates Clavicular’s Channels for “Severe or Repeated Violations”. submitted by /u/mlg1981 to r/Fauxmoi",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/Fauxmoi/comments/1su1swu/youtube_terminates_claviculars_channels_for/"
+        },
+        {
+          "text": "What the fuck YouTube. submitted by /u/Critical_Mountain851 to r/whenthe",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/whenthe/comments/1rhyt0s/what_the_fuck_youtube/"
+        }
+      ]
+    },
+    {
+      "name": "App Performance",
+      "segment": "All users",
+      "description": "Bugs, crashes, and performance issues, especially on newer iOS versions.",
+      "signalCount": 15,
+      "emotionalIntensity": 30,
+      "recurrence": 5,
+      "segmentImpact": "High",
+      "recommendation": "Fix app bugs and improve performance across all iOS versions.",
+      "quotes": [
+        {
+          "text": "Getting glitchy. Restarts videos frequently, videos seem to randomly mute. Deteriorating app.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id544007664"
+        },
+        {
+          "text": "The YouTube AI doesn’t work at all. Every single time I try to make a video with your AI. It keeps giving me a loading error. I wasted 20% of my iPhone storage for loading errors. Really. I cannot even make a single video.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id544007664"
+        },
+        {
+          "text": "Now it won’t work. Updated the app over a week ago, now no videos will load",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id544007664"
+        }
+      ]
+    }
+  ],
+  "competitors": []
+}

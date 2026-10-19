@@ -1,0 +1,206 @@
+{
+  "slug": "coinbase",
+  "category": "Finance",
+  "product": "Coinbase",
+  "generatedAt": "2026-10-18T23:48:40.925Z",
+  "totalSignals": 297,
+  "negativeRate": 67,
+  "sourceCounts": {
+    "reddit": 97,
+    "appstore": 100,
+    "hackernews": 100
+  },
+  "summary": "Most of the frustration centres on fund freezing & custody concerns, followed by account security & access issues and customer support & escalation. Users report account freezes, login issues, and inability to access funds after account changes or device switches. Support is often unresponsive or ineffective in resolving these issues.",
+  "themes": [
+    {
+      "name": "Transaction & Withdrawal Delays",
+      "segment": "Free-tier users",
+      "description": "Users report delays in transfers, withdrawals, and portfolio updates. App updates sometimes disrupt trading and cause losses.",
+      "signalCount": 104,
+      "emotionalIntensity": 70,
+      "recurrence": 35,
+      "segmentImpact": "High",
+      "recommendation": "Optimize transaction processing and improve app stability.",
+      "quotes": [
+        {
+          "text": "Just lost 500 because it decided to tell me to update the app mid trade.. Well. Just lost 1k. Turned 500 into 1k but because Coinbase decided to pause my app while trading to make me update. I was not able To cash out and lost it. Thanks.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id886427730"
+        },
+        {
+          "text": "They take ur money. there is a huge fee for any transaction you make, making it impossible to have profit. When you put in money, withdrawal your money. Or even sell a stock. they will take it from you. Horrible app.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id886427730"
+        },
+        {
+          "text": "Its take too long for withdraw or holds fund. Try to buy usdt and send it to another wallet but funds get holds more than a days",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id886427730"
+        }
+      ]
+    },
+    {
+      "name": "Customer Support & Escalation",
+      "segment": "Free-tier users",
+      "description": "Users report poor customer support, with delays, unhelpful responses, and lack of resolution for critical issues like fund access and account security.",
+      "signalCount": 75,
+      "emotionalIntensity": 80,
+      "recurrence": 25,
+      "segmentImpact": "High",
+      "recommendation": "Improve support response times and escalation processes.",
+      "quotes": [
+        {
+          "text": "Bad customer support. Especially for the Coinbase one credit card",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id886427730"
+        },
+        {
+          "text": "Good when it works. Awesome when everything goes smoothly. But things always seem to go wrong at the worst possible time and most of the time, customer service is useless. it will glitch and when your buying crypto switch from debit card to bank account. Then they lock your funds",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id886427730"
+        },
+        {
+          "text": "Coinbase Escalation: RELEASE/RETURN MY FUNDS!!!. I’ve had my Coinbase account for almost 2yrs now and use it for very minimal Crypto purchases. When I say minimal I mean well under $1k since account opening. Honestly, I only have the account because of the Coinbase Amex card I ho",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/Coinbase/comments/1v03gdn/coinbase_escalation_releasereturn_my_funds/"
+        }
+      ]
+    },
+    {
+      "name": "Trust & Transparency",
+      "segment": "Free-tier users",
+      "description": "Users express concerns about transparency in operations, including fund custody, security practices, and corporate behavior (e.g., CEO statements, layoffs, and regulatory actions).",
+      "signalCount": 42,
+      "emotionalIntensity": 80,
+      "recurrence": 14,
+      "segmentImpact": "High",
+      "recommendation": "Enhance transparency in operations and communication.",
+      "quotes": [
+        {
+          "text": "There are coinbase flags for neither SPV status, nor honesty.",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9832430"
+        },
+        {
+          "text": "The AML laws require that you be a licensed MSB in each state that you operate in though (in the USA). Filing with FinCEN is indeed easy, however, it doesn't really accomplish anything. The requirements themselves are entirely subjective and almost impossible to comply with if th",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9498623"
+        },
+        {
+          "text": "But the argument could be made that because no one knows about the underlying banks, and all services goes through coinbase &#x2F; lending club &#x2F; etc., a commoditization is making banks irrelevant, and they are getting stripped from an important part of their business, which",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9825247"
+        }
+      ]
+    },
+    {
+      "name": "Fund Freezing & Custody Concerns",
+      "segment": "Free-tier users",
+      "description": "Users report funds being frozen without clear reason, and concerns about custody of assets, especially with older accounts and addresses.",
+      "signalCount": 32,
+      "emotionalIntensity": 90,
+      "recurrence": 11,
+      "segmentImpact": "High",
+      "recommendation": "Clarify custody policies and improve transparency around fund access.",
+      "quotes": [
+        {
+          "text": "Coinbase just froze my account after a 100k USDT deposit. WTF?. Coinbase has decided to freeze my account and withhold $300k+ of my personal funds for absolutely NO clear reason. I’ve been using this account for 4+ years without issues, completed full verification long ago and us",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/CryptoCurrency/comments/1u8s4kh/coinbase_just_froze_my_account_after_a_100k_usdt/"
+        },
+        {
+          "text": "Just keep using Coinbase?. Coinbase claims they keep 98% of their bitcoin in cold storage anyway, so is the risk of storing on the \"exchange\" overblown? Having seen multiple different self custody wallets get put into question or outright compromised over the years, why bother un",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/Bitcoin/comments/1vbxdqg/just_keep_using_coinbase/"
+        },
+        {
+          "text": "No, it's standard for \"money transmitters\" to have to maintain 100% reserves. Coinbase isn't a bank. They're not a lender. \"Fractional reserve\" means that a fraction of a bank's assets are in cash, and the rest are in loans owed them. That's fine unless a lot of loans go bad all ",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9661614"
+        }
+      ]
+    },
+    {
+      "name": "App & Platform Bugs",
+      "segment": "Free-tier users",
+      "description": "Users report bugs in the app, including incorrect balance displays, failed transfers, and UI issues that disrupt trading and user experience.",
+      "signalCount": 21,
+      "emotionalIntensity": 70,
+      "recurrence": 7,
+      "segmentImpact": "High",
+      "recommendation": "Prioritize app stability and bug fixes.",
+      "quotes": [
+        {
+          "text": "Buggy software. Home Screen not updating portfolio value, neither are rewards, shows zero.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id886427730"
+        },
+        {
+          "text": "F’d up latest release. The new release on 10/14/26 is totally jacked. Balance on my derivatives account is NOT accurate and I’ve noticed several other errors for gain/loss figures since the update. Please fix ASAP or I will be forced to go back to Binance or maybe I’ll transfer e",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id886427730"
+        },
+        {
+          "text": "Website and APIs are down. https:&#x2F;&#x2F;status.coinbase.com&#x2F;",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9842341"
+        }
+      ]
+    },
+    {
+      "name": "Account Security & Access Issues",
+      "segment": "Free-tier users",
+      "description": "Users report account freezes, login issues, and inability to access funds after account changes or device switches. Support is often unresponsive or ineffective in resolving these issues.",
+      "signalCount": 13,
+      "emotionalIntensity": 80,
+      "recurrence": 4,
+      "segmentImpact": "High",
+      "recommendation": "Improve account access controls and support response times.",
+      "quotes": [
+        {
+          "text": "Most Bad app. It will stop your account without reasonable explanation. Called many times, don't solve the problem.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id886427730"
+        },
+        {
+          "text": "APP designed to STEAL from users. When you get your account set up after a month it will AUTOMATICALLY sign you up for Coinbase One. A subscription that NO ONE wants, it runs at 29.99, look it up, tens of thousands of people are responding to the same issue. There will be a lawsu",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id886427730"
+        },
+        {
+          "text": "As opposed to creating changetip accounts, coinbase accounts, giving them your id and complete personal info, paying exchange fees, paying txn fees, installing bitcoin, waiting for confirmations, being exposed to volatility, etc.",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9638087"
+        }
+      ]
+    },
+    {
+      "name": "User Experience & Interface",
+      "segment": "Free-tier users",
+      "description": "Users report confusing UI, poor navigation, and inconsistent behavior across platforms, especially during critical moments like trading or withdrawal.",
+      "signalCount": 10,
+      "emotionalIntensity": 60,
+      "recurrence": 3,
+      "segmentImpact": "Medium",
+      "recommendation": "Simplify UI and improve cross-platform consistency.",
+      "quotes": [
+        {
+          "text": "Cumbersome!!. Not user friendly and difficult to navigate. I like the website much better then the app even tho the webpage is not great either. I’d expect a lot more from a cryto tech type corp.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id886427730"
+        },
+        {
+          "text": "Horrible UI and Fees. Coinbase is the leader in fleecing its traders with upfront fees and hidden spread fees on top. Never would I recommend somebody to hold or utilize Coinbase services. Alternatives are just better. Coinbase is just another soulless corporation.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id886427730"
+        },
+        {
+          "text": "UX is terrible now. What is Cobie doing?. Put the font back. This is a workflow app and the UX should be for utility and avoid major changes. Making all the labels on index pages tiny and going larger on the detail pages is what a designer thought looked good. And put the back bu",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id886427730"
+        }
+      ]
+    }
+  ],
+  "competitors": []
+}

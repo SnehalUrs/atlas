@@ -37,13 +37,19 @@ async function getJson<T>(url: string, headers: Record<string, string> = {}): Pr
   }
 }
 
+/** Reddit's public feeds rate-limit in short bursts (HTTP 429), so back off and retry a few times. */
 async function getText(url: string): Promise<string | null> {
-  try {
-    const res = await fetch(url, { headers: { "User-Agent": UA }, signal: AbortSignal.timeout(15000), cache: "no-store" });
-    return res.ok ? await res.text() : null;
-  } catch {
-    return null;
+  for (const wait of [0, 3000, 8000, 15000]) {
+    if (wait) await new Promise((r) => setTimeout(r, wait));
+    try {
+      const res = await fetch(url, { headers: { "User-Agent": UA }, signal: AbortSignal.timeout(15000), cache: "no-store" });
+      if (res.ok) return await res.text();
+      if (res.status !== 429) return null;
+    } catch {
+      return null;
+    }
   }
+  return null;
 }
 
 /* ---------- Reddit ---------- */

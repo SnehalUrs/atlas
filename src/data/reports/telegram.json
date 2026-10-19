@@ -1,0 +1,152 @@
+{
+  "slug": "telegram",
+  "category": "Communication",
+  "product": "Telegram",
+  "generatedAt": "2026-10-18T22:55:45.732Z",
+  "totalSignals": 297,
+  "negativeRate": 67,
+  "sourceCounts": {
+    "reddit": 97,
+    "appstore": 100,
+    "hackernews": 100
+  },
+  "summary": "Most of the frustration centres on security and privacy concerns, followed by payment and access issues and technical bugs and stability. Users report illegal content, scams, and misuse of the platform for predatory behavior. Concerns about lack of moderation and potential exposure of private content are common. Some users feel the platform is unsecure and not properly moderated by law enforcement or internal systems.",
+  "themes": [
+    {
+      "name": "Customer Support and Engagement",
+      "segment": "All users",
+      "description": "Users report poor customer support, with no human assistance and unresponsive bots. Some users feel the platform is not reliable for important communications due to lack of support.",
+      "signalCount": 118,
+      "emotionalIntensity": 60,
+      "recurrence": 40,
+      "segmentImpact": "High",
+      "recommendation": "Improve customer support channels, add human support options, and increase transparency in support processes.",
+      "quotes": [
+        {
+          "text": "Customer Service is awful. There used to be no any customer support, reporting channels will no stop them",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id686449807"
+        },
+        {
+          "text": "Horrible customer service. 0 if I could. I actually was starting to like this app, until for no reason whatsoever, no explanation I could no longer text inside of groups. I could not join anything new. I tried to contact Customer Service, and of course it was the Run Around Bots ",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id686449807"
+        },
+        {
+          "text": "No support. For a multi billion dollar company to have no support is patently ridiculous.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id686449807"
+        }
+      ]
+    },
+    {
+      "name": "Technical Bugs and Stability",
+      "segment": "All users",
+      "description": "Users report app crashes, frozen accounts, and issues with group and chat functionality. Some users mention problems with voice messages and SMS verification. Technical instability is a recurring issue.",
+      "signalCount": 76,
+      "emotionalIntensity": 60,
+      "recurrence": 26,
+      "segmentImpact": "High",
+      "recommendation": "Fix critical bugs, improve app stability, and enhance customer support for technical issues.",
+      "quotes": [
+        {
+          "text": "Frequent crashes. App regularly freezes where message threads won’t open and the only way I have found to fix it is to uninstall / reinstall the app… but I have to do it way too often to be helpful. Hoping this is resolved quickly.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id686449807"
+        },
+        {
+          "text": "App problems and no tech support. This app is great app however there is no technical support for telegram. Telegram has changed there payment systems for the app and didn’t not tell anyone anything and the new payment system is not even compatible with telegram. Everyone getting",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id686449807"
+        },
+        {
+          "text": "From what I've seen, the bug doesn't affect iOS devices, so while I have no idea whether the behavior between TextSecure and Telegram is the same, iOS isn't vulnerable either way.",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9959314"
+        }
+      ]
+    },
+    {
+      "name": "Security and Privacy Concerns",
+      "segment": "Long-time users",
+      "description": "Users report illegal content, scams, and misuse of the platform for predatory behavior. Concerns about lack of moderation and potential exposure of private content are common. Some users feel the platform is unsecure and not properly moderated by law enforcement or internal systems.",
+      "signalCount": 54,
+      "emotionalIntensity": 80,
+      "recurrence": 18,
+      "segmentImpact": "High",
+      "recommendation": "Improve content moderation, enhance security features, and clarify privacy policies.",
+      "quotes": [
+        {
+          "text": "Telegram is known for having dodgy security: http:&#x2F;&#x2F;unhandledexpression.com&#x2F;2013&#x2F;12&#x2F;17&#x2F;telegram-stand-bac...",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9935030"
+        },
+        {
+          "text": "Telegram CEO Paul Durov’s Opinion on the week-long ban on the app in India. India has temporarily banned Telegram for a week ahead of the NEET re-test, saying that the app was being used to spread leaked papers, fake question papers, and exam scams. Telegram founder Pavel Durov r",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/CriticalThinkingIndia/comments/1u7fyo4/telegram_ceo_paul_durovs_opinion_on_the_weeklong/"
+        },
+        {
+          "text": "> non-profit Yeah, no. Unless this is done as an institution like Telegram is (it's made by the VK guy, and he's not charging for any part of it) or it's paid for by tax dollars (and then it would only work for some inhabitants of our planet), nothing will happen. Also, that lice",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9949482"
+        }
+      ]
+    },
+    {
+      "name": "Payment and Access Issues",
+      "segment": "New users",
+      "description": "Users report being blocked from using the app without paying, being forced to pay for SMS verification, and being unable to access features without a premium subscription. Some users feel this is a barrier to entry.",
+      "signalCount": 37,
+      "emotionalIntensity": 70,
+      "recurrence": 12,
+      "segmentImpact": "High",
+      "recommendation": "Clarify free vs. paid features, improve access for non-paying users, and streamline payment processes.",
+      "quotes": [
+        {
+          "text": "You can’t use app unless you pay. Not able to login without paying now.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id686449807"
+        },
+        {
+          "text": "It’s not working. I’m not getting the opportunity to open the app They keep telling me that I need to pay for premium to access sms",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id686449807"
+        },
+        {
+          "text": "Great. Til you are forced to pay.,. So I’ve been using Telegram for a long time. As of late it keeps telling me I have to subscribe to Telegram Premium to use the app. I said ok let’s see what’s that like. It’s useless imo. So I go to the Premium Bot. Type /stop. And I get a noti",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id686449807"
+        }
+      ]
+    },
+    {
+      "name": "User Experience and Interface",
+      "segment": "All users",
+      "description": "Users report missing features like message themes and gift removal, and some suggest adding more customization options. There is a desire for more visual and functional enhancements.",
+      "signalCount": 10,
+      "emotionalIntensity": 50,
+      "recurrence": 3,
+      "segmentImpact": "Medium",
+      "recommendation": "Add requested features, improve UI/UX, and gather more user feedback on design improvements.",
+      "quotes": [
+        {
+          "text": "Bad UI change in the new update. Removing the search button from the bottom bar was a huge mistake. Pulling down to search is annoying and ruins the user experience. At least give us an option in the Appearance settings to choose between the 3-tab and 4-tab layout.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id686449807"
+        },
+        {
+          "text": "As the author points out, GPG makes it unnecessarily complex on top of that because it prioritizes backwards-compatibility over of ease of use. Why not have sane defaults instead of asking for all these parameters? There are apps that use crypto which have a much nicer interface.",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9876422"
+        },
+        {
+          "text": "This isn't a pitch to average joes, its for developers, particularly those engaged in the Linux ecosystem. Plasma is the KDE desktop shell. It recently released Version 5, which is very pretty and a lot of people like it. This is a mobile version of it, which I guess is similar t",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9948404"
+        }
+      ]
+    }
+  ],
+  "competitors": []
+}

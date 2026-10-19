@@ -1,0 +1,152 @@
+{
+  "slug": "discord",
+  "category": "Social",
+  "product": "Discord",
+  "generatedAt": "2026-10-18T22:51:37.233Z",
+  "totalSignals": 295,
+  "negativeRate": 60,
+  "sourceCounts": {
+    "reddit": 97,
+    "appstore": 100,
+    "hackernews": 98
+  },
+  "summary": "Discord's main friction themes include issues with age verification, privacy concerns, app usability, moderation and content policies, and user experience with updates.",
+  "themes": [
+    {
+      "name": "Age Verification & Privacy Concerns",
+      "segment": "Free-tier users",
+      "description": "Users are frustrated with the mandatory age verification process, especially the reliance on phone numbers and Apple's age range. Concerns about data privacy and trust in Discord's handling of personal information are common, with some users citing ties to controversial entities like Peter Thiel and Palantir as reasons for distrust.",
+      "signalCount": 81,
+      "emotionalIntensity": 80,
+      "recurrence": 27,
+      "segmentImpact": "High",
+      "recommendation": "Simplify age verification options, improve transparency around data handling, and provide more control over personal information.",
+      "quotes": [
+        {
+          "text": "?. this age verification update has to be one of the worst updates that i have ever seen discord have, i’m literally 20 years old and cant seem to verify myself— it worked at first then i got thrown back in the teen age group like how does that make sense? plus age verification i",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id985746746"
+        },
+        {
+          "text": "Discord Distances Itself From Age Verification Firm After Ties To Palantir’s Peter Thiel Surface. submitted by /u/CrispyMiner to r/technology",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/technology/comments/1r4thgz/discord_distances_itself_from_age_verification/"
+        },
+        {
+          "text": "Age Verification. They started with that age verification and I am NOT TRUSTING them with my ID like that. I hope you got that, Discord. I don’t trust you.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id985746746"
+        }
+      ]
+    },
+    {
+      "name": "Community & Moderation Culture",
+      "segment": "All users",
+      "description": "Some users express concerns about the toxic culture and echo chamber effect within Discord communities, especially in gaming and niche servers. There are also mentions of harassment and bullying in some servers.",
+      "signalCount": 93,
+      "emotionalIntensity": 60,
+      "recurrence": 32,
+      "segmentImpact": "Medium",
+      "recommendation": "Enhance community guidelines, provide better moderation tools, and promote positive community behavior.",
+      "quotes": [
+        {
+          "text": "Gamers reacting to Discord's new policies like:. submitted by /u/SlickStretch to r/pcmasterrace",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/pcmasterrace/comments/1r8sv68/gamers_reacting_to_discords_new_policies_like/"
+        },
+        {
+          "text": "This submission reeks of self-reference. While referring to the phenomenon of trolling, it may itself constitute a troll as the term is defined (i.e. by \"sow[ing] discord on the Internet by starting arguments or upsetting people).\"",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=7328150"
+        },
+        {
+          "text": "The Tragic Downfall of Discord. https://www.youtube.com/watch?v=PR27FDxF0f4 submitted by /u/Krisuh11 to r/discordsucks",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/discordsucks/comments/1vatcgg/the_tragic_downfall_of_discord/"
+        }
+      ]
+    },
+    {
+      "name": "App Usability & Bugs",
+      "segment": "Mobile users",
+      "description": "Users report bugs and usability issues, including broken buttons, poor cellular connectivity, and a confusing new layout. Some users are frustrated with the app's performance and reliability, especially after recent updates.",
+      "signalCount": 54,
+      "emotionalIntensity": 70,
+      "recurrence": 18,
+      "segmentImpact": "High",
+      "recommendation": "Fix critical bugs, improve app stability, and ensure the UI is intuitive and consistent across platforms.",
+      "quotes": [
+        {
+          "text": "New UI looks bad, app is very laggy. The new UI looks bad, it doesn’t work and I can’t tap anything. It takes ages to load and I can’t disable the take a break before calling. I pressed in the call button and it makes an empty box appear that I can’t click out of. The settings ar",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id985746746"
+        },
+        {
+          "text": "Accessibility bug. When you try to click on anything or move tabs and channels and stuff (pretty much everything and anything in the app), it doesn’t respond and stays in a softlock-like state",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id985746746"
+        },
+        {
+          "text": "Pretty good but recently had problems with cellular. Discord is amazing but some recent updates have ruined cellular connectivity for me specifically in the app.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id985746746"
+        }
+      ]
+    },
+    {
+      "name": "Moderation & Content Policies",
+      "segment": "All users",
+      "description": "Users are frustrated with AI moderation, including false suspensions and overreach. There are also concerns about NSFW content and the lack of control over profile badges and visibility settings.",
+      "signalCount": 46,
+      "emotionalIntensity": 70,
+      "recurrence": 16,
+      "segmentImpact": "High",
+      "recommendation": "Improve moderation transparency, allow more customization of profile settings, and provide clearer content guidelines.",
+      "quotes": [
+        {
+          "text": "Woke up to a suspension on my discord account because of an unrelated year old message. AI moderation is the future! submitted by /u/Bish489 to r/mildlyinfuriating",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/mildlyinfuriating/comments/1t520oe/woke_up_to_a_suspension_on_my_discord_account/"
+        },
+        {
+          "text": "Review. I used to love discord until That Ai bot started flagging accounts for nothing, I literally got suspended for something I didn’t do and support team didn’t help, now I created a new account added my old friends and got permanently suspended for ban evasion and when I I ap",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id985746746"
+        },
+        {
+          "text": "Poor support team. My account got reported for breaking a policy. I was only told what policy I supposedly violated and what server it happened in. I have had my account for nearly ten years and have never done a single thing wrong. This out of the blue and when tried to get an a",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id985746746"
+        }
+      ]
+    },
+    {
+      "name": "User Experience with Updates",
+      "segment": "All users",
+      "description": "Users are upset with recent updates that have introduced new features without clear communication or user testing. Some users feel the changes have negatively impacted their experience, such as with age verification and layout changes.",
+      "signalCount": 20,
+      "emotionalIntensity": 60,
+      "recurrence": 7,
+      "segmentImpact": "Medium",
+      "recommendation": "Improve communication around updates, involve users in beta testing, and ensure changes are well-justified and user-friendly.",
+      "quotes": [
+        {
+          "text": "ugh. updates always comes to certain people first, like the typing indicator i don't have. and my friend does! i have the widgets, my friend doesn't",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id985746746"
+        },
+        {
+          "text": "I guess the new Discord update hasn't been well received. submitted by /u/NeoZen_77 to r/NonPoliticalTwitter",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/NonPoliticalTwitter/comments/1wqhk0e/i_guess_the_new_discord_update_hasnt_been_well/"
+        },
+        {
+          "text": "Official statement from discord. I don't really think this is a good response to your community having an issue :/ Edit: Anego has known about the developer's behaviour since february and is fine with it. See replies to pinned mod comment for screenshot. submitted by /u/Rezza2020",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/VintageStory/comments/1w4i4ha/official_statement_from_discord/"
+        }
+      ]
+    }
+  ],
+  "competitors": []
+}

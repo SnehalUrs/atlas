@@ -1,0 +1,125 @@
+{
+  "slug": "dropbox",
+  "category": "Productivity",
+  "product": "Dropbox",
+  "generatedAt": "2026-10-18T23:17:23.890Z",
+  "totalSignals": 297,
+  "negativeRate": 54,
+  "sourceCounts": {
+    "reddit": 97,
+    "appstore": 100,
+    "hackernews": 100
+  },
+  "summary": "Most of the frustration centres on positive user experience, followed by storage limit and pricing concerns and security and privacy concerns. Users are frustrated with storage limits, account disablements, and pricing models that charge for storage and access to personal files without clear justification or notice.",
+  "themes": [
+    {
+      "name": "Security and Privacy Concerns",
+      "segment": "Paying subscribers",
+      "description": "Users are worried about data security, account access, and Dropbox's scanning of user content for third-party analysis.",
+      "signalCount": 43,
+      "emotionalIntensity": 70,
+      "recurrence": 14,
+      "segmentImpact": "High",
+      "recommendation": "Enhance security transparency and user control over data.",
+      "quotes": [
+        {
+          "text": "Consumer warning: Dropbox disabled my account without warning and blocked access to years of unrelated personal files. &#x200B; On July 15, 2026, I discovered that Dropbox had disabled my account. I initially received no notification or explanation. After contacting support, Drop",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/DataHoarder/comments/1uytd8o/consumer_warning_dropbox_disabled_my_account/"
+        },
+        {
+          "text": "I did read his comment. Since, he is not refuting the issues I (or, for that matter, the guy who did the analysis) raised, I didn't respond. You don't need to have further forms or any other input. Just the list of account numbers, educated guesses about filenames like resume.pdf",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=991239"
+        },
+        {
+          "text": "I'm cautiously optimistic about this, but won't be using it to manage passwords for anything important -- yet. On one hand they claim to be in league with SpiderOak (how, I'm not sure), which surfaced after the Snowden leaks as a zero-knowledge encrypted alternative to Dropbox&#x",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9976457"
+        }
+      ]
+    },
+    {
+      "name": "App Functionality and Usability",
+      "segment": "Paying subscribers",
+      "description": "Users report issues with app performance, login processes, and syncing, especially with photos and file uploads.",
+      "signalCount": 43,
+      "emotionalIntensity": 60,
+      "recurrence": 14,
+      "segmentImpact": "Medium",
+      "recommendation": "Improve app reliability, login flow, and sync accuracy.",
+      "quotes": [
+        {
+          "text": "impossible to log in this app SUCKS. i have no room on my phone for more apps and it\u2019s been impossible for me to login without ridiculous endless checks and double or triple verifications, utterly frustrating and infuriating. i put in password, then i have to do stupid puzzles, t",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id327630330"
+        },
+        {
+          "text": "Low download speed, app download for programming has limited functionality. App is okay, frustrating to use, I have to use it for work and even with the programming function the download sometimes takes hours",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id327630330"
+        },
+        {
+          "text": "Upload errors. I pay for dropbox storage but when I select videos to be uploaded, I often find that videos that I did not select are being uploaded, as well as photos even after I filtered my photo gallery to just videos. Great outside of that. Also wish uploads could continue ev",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id327630330"
+        }
+      ]
+    },
+    {
+      "name": "User Experience and Accessibility",
+      "segment": "Paying subscribers",
+      "description": "Users find the app frustrating to use, especially on mobile, with excessive verification steps and limited camera functionality.",
+      "signalCount": 31,
+      "emotionalIntensity": 60,
+      "recurrence": 10,
+      "segmentImpact": "Medium",
+      "recommendation": "Simplify login and verification processes, and improve mobile camera support.",
+      "quotes": [
+        {
+          "text": "Awful. The most difficult and inane app that I have ever tried to work with. The UI is awful. Tried it for a week. Never again.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id327630330"
+        },
+        {
+          "text": "Scan. It will only use my front facing camera on my phone. Making scanning next to impossible.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id327630330"
+        },
+        {
+          "text": "Really?. This dumb app makes you verify your email address before you could even send yourself your own videos. Yeah, you\u2019re probably thinking that\u2019s not a big deal. Send it to your email address, you tap a link, you\u2019re done! Right? No. You have to get the link first and sitting ",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id327630330"
+        }
+      ]
+    },
+    {
+      "name": "Storage Limit and Pricing Concerns",
+      "segment": "Paying subscribers",
+      "description": "Users are frustrated with storage limits, account disablements, and pricing models that charge for storage and access to personal files without clear justification or notice.",
+      "signalCount": 14,
+      "emotionalIntensity": 80,
+      "recurrence": 5,
+      "segmentImpact": "High",
+      "recommendation": "Review pricing model and storage policies for transparency and fairness.",
+      "quotes": [
+        {
+          "text": "Lenovo falsely tells users they're almost out of storage to get them to click the notification for a Dropbox ad. I have 439GB of free storage space submitted by /u/ObjectiveOk2072 to r/assholedesign",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/assholedesign/comments/1qfvhaf/lenovo_falsely_tells_users_theyre_almost_out_of/"
+        },
+        {
+          "text": "Stolen information. I paid for additional storage and you are blocking my access to my data !!! I Demand a refund",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id327630330"
+        },
+        {
+          "text": "This sucks. They just want my money\u2026. Instead of letting me delete old files, this site spams me with ads to \u201cupgrade\u201d and \u201cbuy more storage.\u201d How about, NO! In what universe am I not aloud to delete old files. Totally bogus!",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id327630330"
+        }
+      ]
+    }
+  ],
+  "competitors": []
+}

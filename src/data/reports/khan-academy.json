@@ -1,0 +1,125 @@
+{
+  "slug": "khan-academy",
+  "category": "Education",
+  "product": "Khan Academy",
+  "generatedAt": "2026-10-18T22:04:33.266Z",
+  "totalSignals": 297,
+  "negativeRate": 22,
+  "sourceCounts": {
+    "reddit": 97,
+    "appstore": 100,
+    "hackernews": 100
+  },
+  "summary": "Most of the frustration centres on learning curve and foundation gaps, followed by content order and difficulty mismatch and accessibility and technical issues. Lessons often introduce advanced topics before foundational concepts, leading to confusion and frustration for learners at all levels.",
+  "themes": [
+    {
+      "name": "Learning Curve and Foundation Gaps",
+      "segment": "New users",
+      "description": "Users with gaps in foundational math skills struggle to keep up, leading to frustration and a sense of inadequacy.",
+      "signalCount": 160,
+      "emotionalIntensity": 80,
+      "recurrence": 54,
+      "segmentImpact": "High",
+      "recommendation": "Offer diagnostic assessments and adaptive learning paths to address individual gaps.",
+      "quotes": [
+        {
+          "text": "Good program but needs better help support. The problem is that there isn’t enough help solving problems. They give a sketchy explanation but it’s not helpful enough to understand how to solve them.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id469863705"
+        },
+        {
+          "text": "Don’t Download This. Okay, first off, this app SUCKS. like half of their algebra and graphing problems are WRONG. my sister majored in mathematics and she hates this app, because it is completely wrong. It says you can report a problem and almost every time, it’s the I case the a",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id469863705"
+        },
+        {
+          "text": "Love Kahn, Hate Kahn. Why does a platform that is so great at teaching us things make it so hard to just do basic stuff? Trying to figure out how to add a child, log in a child, etc is impossible. I get it’s free, but you all are really smart. Doing the lessons are so smooth and ",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id469863705"
+        }
+      ]
+    },
+    {
+      "name": "Content Order and Difficulty Mismatch",
+      "segment": "Paying subscribers",
+      "description": "Lessons often introduce advanced topics before foundational concepts, leading to confusion and frustration for learners at all levels.",
+      "signalCount": 73,
+      "emotionalIntensity": 70,
+      "recurrence": 25,
+      "segmentImpact": "High",
+      "recommendation": "Reorganize content to follow a logical progression and align difficulty with learner readiness.",
+      "quotes": [
+        {
+          "text": "Lessons aren’t organized properly. I am doing the linear algebra portion and it’s structured in a frustrating way, you get introduced to vectors, learn about adding and multiplying, then it has a multiply vector knowledge test. Of course the information I needed to learn is video",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id469863705"
+        },
+        {
+          "text": "All levels on Khan Academy SAT math are the same. Hey, I'm currently preparing for the SAT math and have encountered a big problem on Khan Academy. Basically, you have the foundations of all four areas, then the medium and finally advanced. All of these levels are supposed to tea",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/Sat/comments/1vg1ghu/all_levels_on_khan_academy_sat_math_are_the_same/"
+        },
+        {
+          "text": "Is it just me or is the wording of Khan Academy practice questions really confusing?. I have noticed it got more confusing and unclear when I started the advanced practice. I keep getting questions wrong and it is not that I don’t know how to answer, it’s that I got the answer fo",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/Sat/comments/1wi21im/is_it_just_me_or_is_the_wording_of_khan_academy/"
+        }
+      ]
+    },
+    {
+      "name": "Accessibility and Technical Issues",
+      "segment": "All users",
+      "description": "Technical bugs, poor touch screen support, and accessibility issues (e.g., KaTeX rendering, screen reader compatibility) hinder user experience.",
+      "signalCount": 30,
+      "emotionalIntensity": 60,
+      "recurrence": 10,
+      "segmentImpact": "High",
+      "recommendation": "Invest in bug fixes, improve touch interface, and enhance accessibility features.",
+      "quotes": [
+        {
+          "text": "🚫. I just… I just don’t like it… it’s so hard, and it has bad touch screen and stuff… ()_() (* . *)",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id469863705"
+        },
+        {
+          "text": "the KaTeX doesn't seem to render on mine: http:&#x2F;&#x2F;i.imgur.com&#x2F;5GMaIAq.png Personally I had never heard of KaTeX - since Khan Academy didn't consider MathJax fast enough they optimized it https:&#x2F;&#x2F;khan.github.io&#x2F;KaTeX&#x2F;",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9865522"
+        },
+        {
+          "text": "Can be annoying. Half the content is only available on the web, and some buttons don’t work at certain times",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id469863705"
+        }
+      ]
+    },
+    {
+      "name": "Engagement and Motivation",
+      "segment": "All users",
+      "description": "Some users find the platform repetitive or unengaging, especially when compared to more interactive or gamified alternatives.",
+      "signalCount": 33,
+      "emotionalIntensity": 50,
+      "recurrence": 11,
+      "segmentImpact": "Medium",
+      "recommendation": "Enhance gamification elements and provide more interactive content to boost engagement.",
+      "quotes": [
+        {
+          "text": "Disappointed by the use of generative ai. Would happily use the app if it was fully worked on by actual people, generative ai is draining our lakes and poisoning towns, not a very good look",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id469863705"
+        },
+        {
+          "text": "A little update, please?. It’s fun and all, but could you make it funner Khan Academy? Like have a lesson that pops up every day and have an avatar you can pick your avatar and you get coins every time you finish a lesson and with those coins, there’s a shop not a shop that you u",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id469863705"
+        },
+        {
+          "text": "You would have to work with khan, who would host the online game and as people fulfilled study milestones they would get a period of game access. This game could be on the same iPad that the pupil studied on. Probably minimum game times of 20-30 minutes of play for whatever miles",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9299828"
+        }
+      ]
+    }
+  ],
+  "competitors": []
+}

@@ -50,3 +50,15 @@ export type StreamEvent =
   | { type: "progress"; message: string }
   | { type: "report"; report: Report }
   | { type: "error"; message: string };
+
+/** A pre-generated report saved in src/data/reports. */
+export interface LibraryReport extends Report {
+  slug: string;
+  category: string;
+}
+
+export interface LibraryEntry {
+  slug: string;
+  product: string;
+  category: string;
+}

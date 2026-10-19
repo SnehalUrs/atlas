@@ -1,0 +1,152 @@
+{
+  "slug": "strava",
+  "category": "Health & Fitness",
+  "product": "Strava",
+  "generatedAt": "2026-10-18T23:50:56.197Z",
+  "totalSignals": 294,
+  "negativeRate": 40,
+  "sourceCounts": {
+    "reddit": 97,
+    "appstore": 100,
+    "hackernews": 97
+  },
+  "summary": "Strava's main friction themes include: AI overreach, subscription fatigue, UI/UX issues, data privacy concerns, and feature bloat.",
+  "themes": [
+    {
+      "name": "Data Privacy and Security Concerns",
+      "segment": "All users",
+      "description": "Users are concerned about data exposure, such as location leaks from Strava activities, and the app's handling of sensitive information.",
+      "signalCount": 190,
+      "emotionalIntensity": 80,
+      "recurrence": 65,
+      "segmentImpact": "High",
+      "recommendation": "Enhance data security and transparency around location tracking and data sharing.",
+      "quotes": [
+        {
+          "text": "My thoughts immediately strayed to the same notion. From the FAQ, however: Your data will be stored on your phone, and you decide how long you want to store your data, if at all. You are the only person that has access to your data. You can choose to share the data with your doct",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=8730433"
+        },
+        {
+          "text": "Zero privacy. After getting new phone and setting it up I started receiving notifications from Strava app. Turns out they reset all your settings to received all the notifications of anything “new” they added in the app. How about we start the other way and allow users to turn th",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id426826309"
+        },
+        {
+          "text": "Strava, the popular fitness-tracking app, puts popular annual “Year in Sport” recap behind an $80 paywall | Strava’s most viral feature is suddenly locked away.. submitted by /u/ControlCAD to r/technology",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/technology/comments/1pqxsyr/strava_the_popular_fitnesstracking_app_puts/"
+        }
+      ]
+    },
+    {
+      "name": "Feature Bloat and Complexity",
+      "segment": "All users",
+      "description": "The app has become more complex with new features, making it harder to use for basic tracking and reducing the appeal of free features.",
+      "signalCount": 65,
+      "emotionalIntensity": 70,
+      "recurrence": 22,
+      "segmentImpact": "High",
+      "recommendation": "Simplify the interface and prioritize core functionality.",
+      "quotes": [
+        {
+          "text": "Don’t waste your time. There’s a bout a hundred other apps that are free and do genuinely the same things without a hundred pop ups, “sync your contacts” “free trial” “unlock this” and the set up is ridiculously long for a “route tracker” and “timer.” Way overhyped app.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id426826309"
+        },
+        {
+          "text": "Yeah, that's what I mean. Apple will soon supplant apps like LoseIt because consumers will want the Apple experience and integration. And I suspect that eventually integration with HealthKit will be considered a requirement for apps by consumers, so if the data you're capturing i",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=7836675"
+        },
+        {
+          "text": "So Annoying. I do not want to buy the premium version it literally does nothing. The standard health app on the iPhone already tracks everything, there is no point. Every single time you try and do something in this stupid app it tries to get me to sign the premium version on acc",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id426826309"
+        }
+      ]
+    },
+    {
+      "name": "Subscription Fatigue and Paywall Expansion",
+      "segment": "Free-tier users",
+      "description": "More features are being locked behind paywalls, leading to frustration and a perception that the app is becoming less accessible.",
+      "signalCount": 17,
+      "emotionalIntensity": 90,
+      "recurrence": 6,
+      "segmentImpact": "High",
+      "recommendation": "Re-evaluate paywall strategy to balance monetization and user retention.",
+      "quotes": [
+        {
+          "text": "Everything behind a paywall. I’ve been using Strava for a decade, and now I’ve noticed that everything useful and fun about the app is behind a pay wall, and that each week more and more features are added. At what point will anything on this app be free anymore?",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id426826309"
+        },
+        {
+          "text": "Latest Update Broke iOS Widgets - one of the main reasons I use the app.. If they’re putting this all behind a paywall, I’m taking my data and deleting my account. You won’t earn a paying sub this way.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id426826309"
+        },
+        {
+          "text": "Fell off in a big way. It, like everything else from the 2010s just kind of sucks now. Now particularly offended that they paywalled some of the best features, but am at over the top obnoxiousness of the constant ads and placeholders for “premium” everywhere. Like, as in, might b",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id426826309"
+        }
+      ]
+    },
+    {
+      "name": "UI/UX Issues and App Instability",
+      "segment": "All users",
+      "description": "Users report bugs, crashes, and UI changes that break workflows, such as private notes scrolling issues and setting resets.",
+      "signalCount": 13,
+      "emotionalIntensity": 70,
+      "recurrence": 4,
+      "segmentImpact": "High",
+      "recommendation": "Stabilize core features and improve UI consistency across updates.",
+      "quotes": [
+        {
+          "text": "Bugged private notes. I cannot edit the private note on iPhone. It scrolls away when I click in the edit box.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id426826309"
+        },
+        {
+          "text": "Didn’t work today. App crashed while I was running and I lost probably best run ever. This isn’t the first time it’s happened.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id426826309"
+        },
+        {
+          "text": "Private Notes iPhone. Since last update no private notes can be written on an iphone 15 Pro anymore. Who can help?",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id426826309"
+        }
+      ]
+    },
+    {
+      "name": "AI Overreach and Inaccurate Insights",
+      "segment": "Paying subscribers",
+      "description": "AI features are seen as repetitive, unhelpful, and often inaccurate, leading to frustration with premium features that don't deliver value.",
+      "signalCount": 9,
+      "emotionalIntensity": 80,
+      "recurrence": 3,
+      "segmentImpact": "High",
+      "recommendation": "Refine AI insights to be more actionable and relevant to users.",
+      "quotes": [
+        {
+          "text": "Make “Athlete Intelligence” optional, please.. I cancelled my paid subscription because they added their worthless “athlete intelligence” that is inaccurate and annoying. I like tracking my rides, but I don’t want AI in everything (or anything). I definitely do not want it in my ",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id426826309"
+        },
+        {
+          "text": "Auto charged $80 for USELESS features, refuse to refund. Strava used to useful for sharing runs but now it just has utterly useless features like “AI insights” that just repeat platitudes to you with 0 useful insight on training. I got a 3 month subscription for free via adidas a",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id426826309"
+        },
+        {
+          "text": "TFA with its 6.06 W&#x2F;kg estimate is talking about power at the wheel, because it's using Strava rather than e.g. PowerTap data. (Although Strava claim to account for \"rolling resistance\".) By making the adjustment Sky seem to be claiming that Froome's equipment wastes less po",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9946418"
+        }
+      ]
+    }
+  ],
+  "competitors": []
+}

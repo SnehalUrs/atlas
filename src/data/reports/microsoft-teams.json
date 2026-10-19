@@ -1,0 +1,179 @@
+{
+  "slug": "microsoft-teams",
+  "category": "Communication",
+  "product": "Microsoft Teams",
+  "generatedAt": "2026-10-18T23:03:00.408Z",
+  "totalSignals": 297,
+  "negativeRate": 74,
+  "sourceCounts": {
+    "reddit": 97,
+    "appstore": 100,
+    "hackernews": 100
+  },
+  "summary": "Most of the frustration centres on technical bugs and glitches, followed by user experience issues and privacy and surveillance concerns. Poor UI/UX, confusing navigation, and clunky interactions lead to frustration and decreased productivity. Users report issues like multiple instances, lost context, and unresponsive features.",
+  "themes": [
+    {
+      "name": "Integration and Compatibility Issues",
+      "segment": "Businesses and teams",
+      "description": "Users report problems with integration with other tools, 2FA support, and inconsistent behavior across platforms, leading to workflow disruptions.",
+      "signalCount": 94,
+      "emotionalIntensity": 60,
+      "recurrence": 32,
+      "segmentImpact": "Medium",
+      "recommendation": "Improve cross-platform consistency, enhance integration capabilities, and support modern authentication methods.",
+      "quotes": [
+        {
+          "text": "Funny thing is that MFC iw like that because of Win16&#x2F;Win32 C developers. Microsoft team made a prototype OO framework even more OO that what OWL and others offered. MFC was the result from the feedback over the said framework.",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=8198245"
+        },
+        {
+          "text": "While true, it has not prevented other Microsoft teams to port Typescript, and .NET code into Rust. Notorious examples, the recent Github Copilot runtime, and the Microsoft 365 microservices.",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=50005917"
+        },
+        {
+          "text": "At work we use Microsoft Team Foundation Server...",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=901680"
+        }
+      ]
+    },
+    {
+      "name": "User Experience Issues",
+      "segment": "Free-tier users",
+      "description": "Poor UI/UX, confusing navigation, and clunky interactions lead to frustration and decreased productivity. Users report issues like multiple instances, lost context, and unresponsive features.",
+      "signalCount": 63,
+      "emotionalIntensity": 80,
+      "recurrence": 21,
+      "segmentImpact": "High",
+      "recommendation": "Simplify UI, improve navigation, and enhance responsiveness.",
+      "quotes": [
+        {
+          "text": "Incredible overstuffed and cluttered. They constantly overwrite my settings and change things. Also very unstable",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id1113153706"
+        },
+        {
+          "text": "> A full screen, searchable start menu isn't the worst thing No, but it's a symptom of the worst thing. The worst thing is that Microsoft's UX team failed to realize that \"The user's actually only interacting with this one thing right now\" does not necessarily imply \"This one thi",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=7518338"
+        },
+        {
+          "text": "I used a Windows 8 machine the other day. I've used OSX the last few years, but used Windows for a couple of decades prior. I was so confused. It was difficult to work out how to open apps. I also got stuck in the full screen start menu replacement (whatever that's called) and I ",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=8546374"
+        }
+      ]
+    },
+    {
+      "name": "Technical Bugs and Glitches",
+      "segment": "Mobile users",
+      "description": "Frequent crashes, bugs, and instability in the app, especially with iOS, leading to poor reliability and user dissatisfaction.",
+      "signalCount": 46,
+      "emotionalIntensity": 90,
+      "recurrence": 15,
+      "segmentImpact": "High",
+      "recommendation": "Fix critical bugs, improve app stability, and enhance compatibility across platforms.",
+      "quotes": [
+        {
+          "text": "Clunky buggy app. Im baffled this has a 4.8. It functioks but it is a buggy clunky app imo. Things always popping up like youre in a call on another device , when i was in a call half an hour ago",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id1113153706"
+        },
+        {
+          "text": "Bugs - scrolling and missing messages. Two stars because Teams has some good features, otherwise it would be one. The latest versions have two major bugs which must have been known before release which is inexcusable. On the latest iOS - 26.6.1, attempting to scroll vertically wi",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id1113153706"
+        },
+        {
+          "text": "So buggy on mobile. never works for me. doesn’t allow me to sign in, constant bugs. Half my messages don’t sent or show up.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id1113153706"
+        }
+      ]
+    },
+    {
+      "name": "Feature Bloat and Usability",
+      "segment": "Power users",
+      "description": "Users find the app overly complex, with unnecessary features and poor notification management, leading to decreased usability and user fatigue.",
+      "signalCount": 51,
+      "emotionalIntensity": 70,
+      "recurrence": 17,
+      "segmentImpact": "Medium",
+      "recommendation": "Streamline features, improve notification management, and offer customization options.",
+      "quotes": [
+        {
+          "text": "Not user friendly. My work recently implemented this app in our restaurant for scheduling and communication. It’s very difficult to use.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id1113153706"
+        },
+        {
+          "text": "Lacks basic features. Needs a dedicated schedule later button so you don’t accidentally send messages right then and there, it’s embarrassing.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id1113153706"
+        },
+        {
+          "text": "It may not be easy, but there are certainly several add-on products that support this feature and they have no where near the same level of resources and know-how that the Microsoft team in charge of the taskbar has. So it seems unlikely that \"hard to implement\" was a primary rea",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=7847528"
+        }
+      ]
+    },
+    {
+      "name": "Privacy and Surveillance Concerns",
+      "segment": "Businesses and teams",
+      "description": "Users are concerned about location tracking, data collection, and potential misuse of personal information, leading to distrust and resistance to adoption.",
+      "signalCount": 29,
+      "emotionalIntensity": 70,
+      "recurrence": 10,
+      "segmentImpact": "High",
+      "recommendation": "Enhance transparency, provide opt-out options, and improve privacy controls.",
+      "quotes": [
+        {
+          "text": "\"Not employee surveillance,\" Microsoft defends Teams' new location tracking feature, now rolling out. submitted by /u/Thepunnisherrr to r/technology",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/technology/comments/1v1i7d5/not_employee_surveillance_microsoft_defends_teams/"
+        },
+        {
+          "text": "\"Not employee surveillance,\" Microsoft defends Teams' new location tracking feature, now rolling out. submitted by /u/WPHero to r/pcmasterrace",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/pcmasterrace/comments/1uzay24/not_employee_surveillance_microsoft_defends_teams/"
+        },
+        {
+          "text": "Teams’ invasive Wi‑Fi location tracking feature sparks backlash as majority of users say Microsoft crossed a line between productivity and surveillance — “There must be a team at Microsoft tasked with making Teams worse”. submitted by /u/ControlCAD to r/technology",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/technology/comments/1rihor1/teams_invasive_wifi_location_tracking_feature/"
+        }
+      ]
+    },
+    {
+      "name": "Lack of Control and Customization",
+      "segment": "Power users",
+      "description": "Users feel they lack control over settings, notifications, and features, leading to frustration and a sense of being forced into using the app.",
+      "signalCount": 14,
+      "emotionalIntensity": 60,
+      "recurrence": 5,
+      "segmentImpact": "Medium",
+      "recommendation": "Offer more customization options, improve user control, and provide clearer settings.",
+      "quotes": [
+        {
+          "text": "Never stays signed in/doesn’t let you sign in. Ever since IT demanded 2FA every morning, the Team app is no longer capable of providing me with a way to sign in. The chat app from the world’s largest software firm can’t even popup a 2FA prompt to let me log in. It just sits there",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id1113153706"
+        },
+        {
+          "text": "Frustrating. There should be a way to use Teams without requiring that one has the app. Also, even if one has the app, if there’s a scheduled appointment, and one user has the app, the other user shouldn’t be required to sign in. I was kicked out of an important meeting because I",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id1113153706"
+        },
+        {
+          "text": "Sure I can chat? But which Team was it?. In using my phone as my local install is fubared, I’m waiting for support to fix Teams from an H24 or somewhat update. The iOS app lets you know you have a notification from a Team, but which one??!‽ Yeah it’s a brain dead idea.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id1113153706"
+        }
+      ]
+    }
+  ],
+  "competitors": []
+}

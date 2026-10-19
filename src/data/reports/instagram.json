@@ -1,0 +1,125 @@
+{
+  "slug": "instagram",
+  "category": "Social",
+  "product": "Instagram",
+  "generatedAt": "2026-10-18T22:15:13.338Z",
+  "totalSignals": 297,
+  "negativeRate": 47,
+  "sourceCounts": {
+    "reddit": 97,
+    "appstore": 100,
+    "hackernews": 100
+  },
+  "summary": "Instagram's main friction themes include algorithmic curation issues, account management problems, UI/UX frustrations, and privacy concerns.",
+  "themes": [
+    {
+      "name": "Algorithmic Curation & Content Discovery",
+      "segment": "Free-tier users",
+      "description": "Users report frustration with the algorithm prioritizing AI-generated content and suggested posts over content from people they follow, making it hard to discover genuine content and follow relationships.",
+      "signalCount": 144,
+      "emotionalIntensity": 40,
+      "recurrence": 48,
+      "segmentImpact": "High",
+      "recommendation": "Refine algorithm to prioritize user-followed content and reduce AI-generated noise.",
+      "quotes": [
+        {
+          "text": "It’s like they’re actively trying to make it worse. The concept is still solid, implementation though… Bad UI, encouraging AI usage over plainly genuine content, data harvesting of the user, and manipulative algorithms doesn’t paint a great picture. IGs time has come to an end, t",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id389801252"
+        },
+        {
+          "text": "infuriating ai slop. i love having a feed that was curated to the things i liked. and then all of a sudden, it was nothing but ai generated slop and videos/posts that i have never showed interest in whatsoever. even after hours of going through and saying “not interested” it woul",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id389801252"
+        },
+        {
+          "text": "Yet Google has its problems too: younger generations are using social networks to discover content online. AI assistants like Siri are going to become more prevalent and people will more often go to them for answers instead of a search box. If you've got good content on a website",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9981151"
+        }
+      ]
+    },
+    {
+      "name": "Account Management & Moderation",
+      "segment": "All users",
+      "description": "Users face issues with account suspensions, bans, and notification problems, often without clear explanations or appeal processes.",
+      "signalCount": 53,
+      "emotionalIntensity": 50,
+      "recurrence": 18,
+      "segmentImpact": "High",
+      "recommendation": "Improve transparency in moderation policies and provide clearer appeal mechanisms.",
+      "quotes": [
+        {
+          "text": "MY SUSPENDED INSTA ACCOUNT. Insta has suspended my account without t any reason because i had a account that did not follow the rules and regulation according to them but it did . Its a really big error .Insta return me my account when its not even my fault . My insta account is ",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id389801252"
+        },
+        {
+          "text": "Suspended. Instagram has suspended which is not cool at all and now I can’t make an account that is stupid I am really frustrated at this",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id389801252"
+        },
+        {
+          "text": "Ban. It’s bs I made an account on my phone first time ever and it hit it for “ai activity”. I waited a while for them appeal it which they never did. So after a while I made a new account and that account got banned for being “connected” to the one I made previously. I can’t read",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id389801252"
+        }
+      ]
+    },
+    {
+      "name": "UI/UX & App Functionality",
+      "segment": "All users",
+      "description": "Users report broken features like the Places tab removal, notification issues, and video upload problems, impacting core app functionality.",
+      "signalCount": 55,
+      "emotionalIntensity": 40,
+      "recurrence": 19,
+      "segmentImpact": "High",
+      "recommendation": "Stabilize core features and improve UI/UX for consistent user experience.",
+      "quotes": [
+        {
+          "text": "STOP CHANGING THE UI EVERY 5 MINUTES. I get used to the UI and then you change it??? and it happens OVER and OVER again. just be happy with your app layout or how stories play. this is the kind of tweaking i expect from an app that just came out not a social media app that has ex",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id389801252"
+        },
+        {
+          "text": "Bugs. There’s always some type of bugs and glitches, and as a content creator on the app it gets really annoying, they even recently took away my Trials but people with lower following accounts still have it! Just ridiculous 😡",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id389801252"
+        },
+        {
+          "text": "Places tab?. Why’d you remove the places tab? It was one of the few actual useful features on this app!",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id389801252"
+        }
+      ]
+    },
+    {
+      "name": "Privacy & Data Concerns",
+      "segment": "All users",
+      "description": "Users express concerns about data harvesting, AI usage, and manipulative algorithms, leading to distrust in the platform.",
+      "signalCount": 45,
+      "emotionalIntensity": 40,
+      "recurrence": 15,
+      "segmentImpact": "High",
+      "recommendation": "Enhance privacy controls and transparency around data usage.",
+      "quotes": [
+        {
+          "text": "Instagram to discontinue end-to-end encryption for DMs. submitted by /u/EmbarrassedHelp to r/technology",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/technology/comments/1rsubqz/instagram_to_discontinue_endtoend_encryption_for/"
+        },
+        {
+          "text": "Not sure if I understand this correctly. Does this mean that if Instagram or Twitter terms does not allow scraping of their user's generated content, any developer can just go ahead and do it because the copyright holder of the post is the user? Since the site does not hold the c",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9951368"
+        },
+        {
+          "text": "Indeed, especially for a service like Instagram, your identity is your entire reason for using the service. By taking away the article author's username, they also took the entire account away, including any content he posted. For most users this represents months or years of int",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9912373"
+        }
+      ]
+    }
+  ],
+  "competitors": []
+}

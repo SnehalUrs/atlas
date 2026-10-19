@@ -1,0 +1,125 @@
+{
+  "slug": "twitch",
+  "category": "Entertainment",
+  "product": "Twitch",
+  "generatedAt": "2026-10-18T22:13:23.277Z",
+  "totalSignals": 296,
+  "negativeRate": 62,
+  "sourceCounts": {
+    "reddit": 97,
+    "appstore": 100,
+    "hackernews": 99
+  },
+  "summary": "Twitch's main friction themes include app stability and performance issues, user experience and UI/UX problems, content moderation and policy concerns, and privacy and data usage concerns.",
+  "themes": [
+    {
+      "name": "App Stability and Performance",
+      "segment": "Free-tier users",
+      "description": "Frequent app crashes, freezes, and bugs that make the app unusable on mobile devices, especially after recent updates. Issues include chat disappearing, stream freezing, and UI glitches that disrupt the user experience.",
+      "signalCount": 123,
+      "emotionalIntensity": 80,
+      "recurrence": 42,
+      "segmentImpact": "High",
+      "recommendation": "Prioritize bug fixes and performance improvements, especially for mobile users.",
+      "quotes": [
+        {
+          "text": "Broken. As of the latest update, the app is just broken. I have to constantly restart the app due to: chat disappearing, emote screen disappearing, stream turning black, menu options freezing and being unclickable, and more. Not sure what they’re doing - but they’ve actually ruin",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id460177396"
+        },
+        {
+          "text": "Good concept poor execution. This app always lags out on me and freezes aside from that chat goes completely black on me",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id460177396"
+        },
+        {
+          "text": "Currently unusable. Breaks when chatting, looking for emotes, background multitasking, rotating portrait to landscape, chats disappear, typing bar disappears. I’ve never seen an app so poorly tested launched into production especially by a company this size.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id460177396"
+        }
+      ]
+    },
+    {
+      "name": "Content Moderation and Policy Concerns",
+      "segment": "All users",
+      "description": "Users are concerned about content moderation policies, including censorship, bans, and the handling of sensitive or controversial content. There are also concerns about the platform's role in content creation and monetization.",
+      "signalCount": 101,
+      "emotionalIntensity": 60,
+      "recurrence": 34,
+      "segmentImpact": "Medium",
+      "recommendation": "Clarify content policies and improve moderation transparency to build trust.",
+      "quotes": [
+        {
+          "text": "sexual content and too many ads. you are forced to sub to turbo or the ads are unbearable. also they recommend streams/clips that are basically pornographic. repent and believe in the gospel. i also got banned for w week for saying theres only 2 genders. this app seems run by blu",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id460177396"
+        },
+        {
+          "text": "Seems like only a temporary block. Mozilla isn't brave enough to put it out of its misery like it belongs. Still some big sites using it though, like Twitch.",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9883361"
+        },
+        {
+          "text": ">the handful of people who put in effort under reddit's brand are in an exploitative relationship. In some ways, it feels like Twitch.tv. I'm a little sad when I think of all these people making an 'exception' with twitch.tv by turning off their ad-blocks, by gladly giving $5 per",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9823725"
+        }
+      ]
+    },
+    {
+      "name": "Privacy and Data Usage",
+      "segment": "All users",
+      "description": "Users are worried about privacy issues, including the app requesting access to personal data, age verification, and the use of user content for AI training without opt-in options.",
+      "signalCount": 50,
+      "emotionalIntensity": 70,
+      "recurrence": 17,
+      "segmentImpact": "High",
+      "recommendation": "Improve privacy controls and make data usage more transparent.",
+      "quotes": [
+        {
+          "text": "Weird app. Wants me to verify my age range by giving to permission to access my private information no that was not how it was even a week ago stop adding weird privacy invading stuff to the app",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id460177396"
+        },
+        {
+          "text": "does nothing to keep children safe. forcing AI and all the US army (terrorists) ads, this app is just used for propaganda and they cant even make it work right. why is it so laggy if it needs to use as much data as it does, kick uses FAR less data and theyre the ones thats suppos",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id460177396"
+        },
+        {
+          "text": "Age verification. Signed account up, with age well over 18. Yet, asked to confirm my age years later, then when trying to, the app on mobile doesn’t have an option.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id460177396"
+        }
+      ]
+    },
+    {
+      "name": "User Experience and UI/UX",
+      "segment": "Mobile users",
+      "description": "Poor mobile UI design, confusing navigation, and layout changes that make it harder to use the app. Users are frustrated with the new layout and lack of customization options.",
+      "signalCount": 22,
+      "emotionalIntensity": 70,
+      "recurrence": 7,
+      "segmentImpact": "High",
+      "recommendation": "Revamp mobile UI/UX to improve navigation and user satisfaction.",
+      "quotes": [
+        {
+          "text": "Go back to older layout or give option. New layout is terrible for navigation . To be honest, I get frustrated the new UI layout and just close the app completely and head over to YouTube. Pretty much the opposite of what a good UI is supposed to do . By the most recent reviews, ",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id460177396"
+        },
+        {
+          "text": "10/9/26 update. The update done that day ruined the entire app, it looks a mess and doesn’t feel at all like a phone application, not to mention nothing properly loads half the time. Please consider reverting the UI changes to how they were.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id460177396"
+        },
+        {
+          "text": "App changes. Not a fan of the new layout at all I rather they change it back",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id460177396"
+        }
+      ]
+    }
+  ],
+  "competitors": []
+}

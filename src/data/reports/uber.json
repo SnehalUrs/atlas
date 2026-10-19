@@ -1,0 +1,179 @@
+{
+  "slug": "uber",
+  "category": "Travel & Transport",
+  "product": "Uber",
+  "generatedAt": "2026-10-18T23:24:18.030Z",
+  "totalSignals": 297,
+  "negativeRate": 63,
+  "sourceCounts": {
+    "reddit": 97,
+    "appstore": 100,
+    "hackernews": 100
+  },
+  "summary": "Most of the frustration centres on user satisfaction, followed by reliability and consistency and driver behavior and safety. Drivers cancel trips at the last minute, app fails to match drivers with riders, inconsistent pricing, and service disruptions during critical times (e.g., airport pickups).",
+  "themes": [
+    {
+      "name": "Reliability and Consistency",
+      "segment": "Free-tier users",
+      "description": "Drivers cancel trips at the last minute, app fails to match drivers with riders, inconsistent pricing, and service disruptions during critical times (e.g., airport pickups).",
+      "signalCount": 113,
+      "emotionalIntensity": 80,
+      "recurrence": 38,
+      "segmentImpact": "High",
+      "recommendation": "Improve driver availability, stabilize pricing, and enhance app reliability during peak times.",
+      "quotes": [
+        {
+          "text": "feels scammy. this app is so frustrating. It will start with reasonably priced rides, but it will switch from day-to-day. I unfortunately have to use Uber every day, so I am riding on the same routes. But every day, the prices change day to day, one day the price will be reasonab",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id368677368"
+        },
+        {
+          "text": "Lyft better. Takes forever for drivers to accept the rides and then they will cancel randomly but you cant cancel without them taking your money and not refunding.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id368677368"
+        },
+        {
+          "text": "Horrible service. Why is it that EVERY TIME I order an Uber with priority it takes more than twice the estimated wait time?? Im paying extra because I value my time but this is just a rip off. I genuinely think yalls service sucks and its a shame to have to depend on such an inco",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id368677368"
+        }
+      ]
+    },
+    {
+      "name": "User Satisfaction",
+      "segment": "Long-time users",
+      "description": "Positive experiences with professional drivers, clean vehicles, and reliable service.",
+      "signalCount": 74,
+      "emotionalIntensity": 90,
+      "recurrence": 25,
+      "segmentImpact": "High",
+      "recommendation": "Maintain and scale positive user experiences through consistent quality and service.",
+      "quotes": [
+        {
+          "text": "That's not what uber is. I open an app - never having to talk to a human. I start a request. I see the driver that will be coming. I see where he is. He see's where I am. No cash ever changes hands. There are reviews on each side of the transaction. Anyone can see how groundbreak",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9992529"
+        },
+        {
+          "text": "My UBER driver has taped off all the passenger window controls. submitted by /u/thegrayscales to r/mildlyinteresting",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/mildlyinteresting/comments/1pefzg9/my_uber_driver_has_taped_off_all_the_passenger/"
+        },
+        {
+          "text": "I don't know that it's even clear that using Uber-like services reduces carbon footprint. I mean wouldn't a car wear out a lot faster if 20 people were using it as opposed to 1? Sure, some components in a car are mileage independent, but generally not the most critical ones like ",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9997266"
+        }
+      ]
+    },
+    {
+      "name": "Driver Behavior and Safety",
+      "segment": "Free-tier users",
+      "description": "Drivers cancel trips, refuse service, or act unprofessionally, raising safety and trust concerns.",
+      "signalCount": 77,
+      "emotionalIntensity": 80,
+      "recurrence": 26,
+      "segmentImpact": "High",
+      "recommendation": "Enhance driver vetting, enforce professional conduct, and improve dispute resolution.",
+      "quotes": [
+        {
+          "text": "Uber \"disrupted taxis\" by disregarding the law, removing protections for both passengers and operators, and shifting risk on to operators while shifting profit margins to management. None of which exactly inspire confidence when it comes to something like operating aircraft.",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9989786"
+        },
+        {
+          "text": "Uber driver tries to cheat customer by not picking them up, forcing them to cancel the ride, yet still get paid. Credits: onlyindade The driver got fired. (Source: Uber) submitted by /u/Imoprich to r/mildlyinfuriating",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/mildlyinfuriating/comments/1ot8vx1/uber_driver_tries_to_cheat_customer_by_not/"
+        },
+        {
+          "text": "How do Uber drivers deal with this?. submitted by /u/SpoomerBooner to r/Transportopia",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/Transportopia/comments/1qwalf4/how_do_uber_drivers_deal_with_this/"
+        }
+      ]
+    },
+    {
+      "name": "Trust and Legal Concerns",
+      "segment": "Free-tier users",
+      "description": "Concerns about worker classification, legal risks, and ethical issues around gig economy labor practices.",
+      "signalCount": 13,
+      "emotionalIntensity": 60,
+      "recurrence": 4,
+      "segmentImpact": "Medium",
+      "recommendation": "Clarify worker classification, improve legal transparency, and address labor concerns.",
+      "quotes": [
+        {
+          "text": "Regarding worker protection: Lets take the case of a simple roadside flea market. The property owner sets up a situation where workers can sell goods at a table, and connect with customers. But the people running the individual tables may sit there all day and only make a few buc",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9999166"
+        },
+        {
+          "text": "Which worker protections? AirBnB has no unskilled labor, and Uber is replacing an industry where the workers were already contractors with no benefits - in fact, an industry where workers had to rent medallions to work. Which companies are eliminating employees?",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9999079"
+        },
+        {
+          "text": "Absolutely. The taxi cab industry is example number one for regulatory capture. The foolish talk about \"employee rights\" for Uber drivers makes no sense. The market will determine the rate for labor of any types, Uber drivers included. All legislation around \"employee rights\" wil",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9986778"
+        }
+      ]
+    },
+    {
+      "name": "Customer Experience",
+      "segment": "Free-tier users",
+      "description": "Poor customer service, lack of support for disputes, and unresponsive support teams.",
+      "signalCount": 11,
+      "emotionalIntensity": 70,
+      "recurrence": 4,
+      "segmentImpact": "High",
+      "recommendation": "Improve customer support response times and resolution quality.",
+      "quotes": [
+        {
+          "text": "Disposable Platform. No service.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id368677368"
+        },
+        {
+          "text": "Fraud issue NOT resolved!. My account was hacked and Uber Eats did NOTHING to address it. I was not able to use it for months because I had an outstanding charge that was from when I was hacked. Terrible terrible terrible experience and I cancelled my Uber One membership.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id368677368"
+        },
+        {
+          "text": "Laid off from Uber. Staring at this locked screen hurts more than I expected. Got laid off from Uber yesterday. Access restrictions started from yesterday itself, but today we got locked out of laptop, email, Slack completely and our internal profiles disappeared. Just like that,",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/Layoffs/comments/1w6dthv/laid_off_from_uber_staring_at_this_locked_screen/"
+        }
+      ]
+    },
+    {
+      "name": "Pricing and Transparency",
+      "segment": "Free-tier users",
+      "description": "Surge pricing is seen as unfair, double charges, and lack of clear pricing communication.",
+      "signalCount": 9,
+      "emotionalIntensity": 70,
+      "recurrence": 3,
+      "segmentImpact": "High",
+      "recommendation": "Implement clearer pricing communication and reduce surge pricing volatility.",
+      "quotes": [
+        {
+          "text": "Maybe but it looks like the payment platform is done by another company. It's like Uber trying to run an innovative transport company while really just pushing Apple Pay, I think it's unlikely unless there's a strong ownership link between the companies which is certainly possibl",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9995146"
+        },
+        {
+          "text": "> Perhaps the biggest problem artists face today is that lack of transparency. I’ve asked basic questions of both the digital services and the music labels and been stonewalled. For example, I asked YouTube how ad revenue from videos that contain music is shared (which should be ",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9992589"
+        },
+        {
+          "text": "Can someone explain to me why on earth Uber would need this cash, and, why MSFT would give them such a small amount at that valuation (.002%)",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9993230"
+        }
+      ]
+    }
+  ],
+  "competitors": []
+}

@@ -1,0 +1,152 @@
+{
+  "slug": "hinge",
+  "category": "Dating",
+  "product": "Hinge",
+  "generatedAt": "2026-10-19T00:56:43.367Z",
+  "totalSignals": 297,
+  "negativeRate": 52,
+  "sourceCounts": {
+    "reddit": 97,
+    "appstore": 100,
+    "hackernews": 100
+  },
+  "summary": "Most of the frustration centres on gender dynamics, followed by dating culture & communication and algorithm & match quality. Users report superficial interactions, lack of meaningful conversation, and childish behavior. Many feel the app encourages shallow communication and lacks depth in conversations, leading to frustration and disengagement.",
+  "themes": [
+    {
+      "name": "Dating Culture & Communication",
+      "segment": "Long-time users",
+      "description": "Users report superficial interactions, lack of meaningful conversation, and childish behavior. Many feel the app encourages shallow communication and lacks depth in conversations, leading to frustration and disengagement.",
+      "signalCount": 111,
+      "emotionalIntensity": 40,
+      "recurrence": 37,
+      "segmentImpact": "High",
+      "recommendation": "Improve conversation prompts, encourage deeper interactions, and foster more mature communication norms.",
+      "quotes": [
+        {
+          "text": "Dating culture is dead, hinge is an example. People on this app lack basic communication skills and are all childish. I (23f) have matched with many guys on this app and I thought I hit it off with them; we would chat and have a good time. I would give them my Instagram (they ask",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/HingeStories/comments/1wmgbhn/dating_culture_is_dead_hinge_is_an_example/"
+        },
+        {
+          "text": "Review by Mr Duch. This platform is expensive. Comparing it to my time in 2022, it still is not that great in getting people out there to meet, date and find enduring relationships. Women get bombarded with messages and men have to do the lopsided conversations. Not equitable or ",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id595287172"
+        },
+        {
+          "text": "As a woman, you’re their product. I’m fed up with dating apps. As women, we are objectified & commodified on platforms like hinge. We curate our own profiles, market ourselves authentically, scroll for true connection. And what do you know? It’s just hundreds of men coming into y",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id595287172"
+        }
+      ]
+    },
+    {
+      "name": "Safety & Moderation",
+      "segment": "All users",
+      "description": "Concerns about catfishing, scammers, and lack of accountability. Users report fake profiles, harassment, and poor handling of reported issues.",
+      "signalCount": 72,
+      "emotionalIntensity": 40,
+      "recurrence": 24,
+      "segmentImpact": "High",
+      "recommendation": "Enhance moderation tools, improve reporting mechanisms, and increase transparency in content moderation.",
+      "quotes": [
+        {
+          "text": "Its become over run w/ scammers, catfishing, young girls looking 4 sugar daddies & yahoo boys. Once was a good app, not a great app, cause there’s no great dating apps, none of them will actually police the issues we deal with. But Hinge has just become the same as every other on",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id595287172"
+        },
+        {
+          "text": "Punished For No Reason – DO NOT WASTE YOUR TIME OR MONEY. ⭐ ZERO STARS! Hinge removed me from the platform without giving me a clear reason or a meaningful opportunity to appeal. From my perspective, this happened after a man I had interacted with reported me because I did not wa",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id595287172"
+        },
+        {
+          "text": "Hinge: be careful they will try to take your money, even if somebody reports you falsely.. I use the app for a couple of months. Apparently, somebody reported me. They closed down the app the same day they charged me. So took my 50 bucks and close down my app. Saying I had been r",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id595287172"
+        }
+      ]
+    },
+    {
+      "name": "User Experience & App Functionality",
+      "segment": "All users",
+      "description": "Complaints about broken features, subscription pricing, and poor moderation. Users report bugs, subscription costs, and a lack of control over their experience.",
+      "signalCount": 56,
+      "emotionalIntensity": 30,
+      "recurrence": 19,
+      "segmentImpact": "Medium",
+      "recommendation": "Fix bugs, simplify subscription models, and improve moderation tools.",
+      "quotes": [
+        {
+          "text": "Heavily regulated. This app heavily picks and chooses who they show on this app. Paid for hingex and apps been dead no likes, no messages. Not even getting likes from the fridges anymore. So if you ain’t got a 10/10 profile you will not get shown to others at all. Don’t pay for t",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id595287172"
+        },
+        {
+          "text": "The Decline. They charge for going back one profile even if you accidentally skipped it. They bottleneck who you can see even when you have your filters off. This app was always about making money but they’ve become a downright deplorable company in this space.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id595287172"
+        },
+        {
+          "text": "Absolutely Terrible Customer Service. I have been in an e-mail fight I’ll call it, with hinge customer service all week. They continually send me an automated message that has nothing helpful to solve the issue that I am having with their app not functioning. Their employees are ",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id595287172"
+        }
+      ]
+    },
+    {
+      "name": "Algorithm & Match Quality",
+      "segment": "New users",
+      "description": "Users report issues with the algorithm's fairness, match suggestions, and the impact of signals on engagement. The new signals feature is criticized for rewarding activity over meaningful connections.",
+      "signalCount": 38,
+      "emotionalIntensity": 40,
+      "recurrence": 13,
+      "segmentImpact": "High",
+      "recommendation": "Refine algorithm to prioritize quality over quantity, improve match suggestions, and rethink the signals feature.",
+      "quotes": [
+        {
+          "text": "Title: Signals Confuses Being Active With Being a Thoughtful Dater. The new signals feature misses the mark. It rewards constant activity over thoughtful dating like it’s a game. I message my matches, review the profiles of people who like me, yet neither badge is active? The rol",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id595287172"
+        },
+        {
+          "text": "Good until it wasn’t. I thought about leaving this review about 1.5 yrs ago and decided not to until I seen a recent article to validate what I suspected. If you have melanin and using this app in America, just know, from the matches I use to get to the matches that come about no",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id595287172"
+        },
+        {
+          "text": "Not the same. Idk wth happened . I used to get likes and matched often now I’m going on almost a WEEK of selecting my likes daily and have not a single match between them for a whole week??? I used to get atleast 2-3 matches from my daily likes . App is a piece of garbage now",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id595287172"
+        }
+      ]
+    },
+    {
+      "name": "Gender Dynamics",
+      "segment": "Free-tier users",
+      "description": "Women report being overwhelmed by attention, facing harassment, and experiencing ghosting. There's a perception of imbalance in attention and respect.",
+      "signalCount": 18,
+      "emotionalIntensity": 50,
+      "recurrence": 6,
+      "segmentImpact": "High",
+      "recommendation": "Implement stronger anti-harassment policies, improve user reporting, and promote respectful behavior norms.",
+      "quotes": [
+        {
+          "text": "> The thing it all hinges on is containing noise. I think it hinges on is containing distractions, and noise is just one of them. When people see you just a few feet away from them, they rarely consider \"is my question worth interrupting them so I can get an answer immediately\" b",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9797879"
+        },
+        {
+          "text": "If your attraction hinges on knowing someone’s assigned gender at birth that’s phobic. Plain and simple. Has nothing to do with penises, no penises, or a mix. This stance gets applied all the time when someone says trans people need to disclose No they don’t Intersex people do no",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/actuallesbians/comments/1rh948e/if_your_attraction_hinges_on_knowing_someones/"
+        },
+        {
+          "text": "Way disadvantages men. After a week I get 0 matches?",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id595287172"
+        }
+      ]
+    }
+  ],
+  "competitors": []
+}

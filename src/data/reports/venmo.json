@@ -1,0 +1,152 @@
+{
+  "slug": "venmo",
+  "category": "Finance",
+  "product": "Venmo",
+  "generatedAt": "2026-10-18T23:46:10.136Z",
+  "totalSignals": 292,
+  "negativeRate": 78,
+  "sourceCounts": {
+    "reddit": 97,
+    "appstore": 100,
+    "hackernews": 95
+  },
+  "summary": "Venmo's main friction themes include trust and security concerns, account management issues, customer service challenges, and transaction disputes.",
+  "themes": [
+    {
+      "name": "Transaction Disputes and Financial Liability",
+      "segment": "Free-tier users",
+      "description": "Users face financial liability in disputes, especially when payments are sent by mistake or fraudulently. Venmo's handling of these disputes is seen as unclear and unfair, leading to loss of funds.",
+      "signalCount": 162,
+      "emotionalIntensity": 80,
+      "recurrence": 55,
+      "segmentImpact": "High",
+      "recommendation": "Clarify dispute resolution policies and reduce financial liability for users in disputes.",
+      "quotes": [
+        {
+          "text": "VENMO CLASS A LAWSUIT. A LAWSUIT HAS NOT BEEN FILED, THIS IS ONLY A PETITION : IF YOU ARE A PAST OR CURRENT VENMO CUSTOMER AND FEEL THAT DUE TO THERE LACK OF CUSTOMER SERVICE SKILLS OR MAYBE FEEL THAT SOME OF THEIR BUSINESS PRACTICES ARE A LITTLE SHADY LIKE FOR INSTANCE, SUSPENDI",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/venmo/comments/1wval8u/venmo_class_a_lawsuit/"
+        },
+        {
+          "text": "Sucks used to rip people off. Venmo under any circumstance once money is sent will not offer a refund. If you contact your bank they file a formal complaint and Venmo blows up your account and continues to try and draw funds from your bank to receive said funds.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id351727428"
+        },
+        {
+          "text": "I got $1200 from a random person on Venmo UPDATE 🤬. The stranger who sent me $1200 on accident opened a dispute and I am now being liable for $33.88 after Venmo took $1200 from my account even though I only “received” $1164 because that person sent the payment as a business tran",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/whatdoIdo/comments/1v98jv7/i_got_1200_from_a_random_person_on_venmo_update/"
+        }
+      ]
+    },
+    {
+      "name": "Customer Service and Support Challenges",
+      "segment": "Free-tier users",
+      "description": "Users consistently report poor customer service, with limited access to real support and reliance on automated systems. This leads to frustration and a sense of being ignored or undervalued.",
+      "signalCount": 54,
+      "emotionalIntensity": 80,
+      "recurrence": 18,
+      "segmentImpact": "High",
+      "recommendation": "Invest in better customer support channels and improve the user experience for support interactions.",
+      "quotes": [
+        {
+          "text": "customer support and app sucks. :(((((((",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id351727428"
+        },
+        {
+          "text": "Terrible customer service. Business account got frozen and can’t get a hold of anyone for days. Unbelievable",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id351727428"
+        },
+        {
+          "text": "Terrible customer service. Unable to reach anyone by chat or call...did they all get replaced by AI?",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id351727428"
+        }
+      ]
+    },
+    {
+      "name": "Trust and Security Concerns",
+      "segment": "Free-tier users",
+      "description": "Users express distrust in Venmo's security, citing fraud, unauthorized transactions, and account suspensions without clear reasons. Concerns about data privacy and financial liability are prominent, especially with disputes and unauthorized access to funds.",
+      "signalCount": 41,
+      "emotionalIntensity": 80,
+      "recurrence": 14,
+      "segmentImpact": "High",
+      "recommendation": "Enhance security features, improve fraud detection, and provide clearer dispute resolution processes.",
+      "quotes": [
+        {
+          "text": "Venmo is notoriously insecure. http:&#x2F;&#x2F;www.slate.com&#x2F;articles&#x2F;technology&#x2F;safety_net&#x2F;2015&#x2F;02&#x2F;...",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9786289"
+        },
+        {
+          "text": "Not secure!!. Absolutely horrible customer service. Account was hacked 3 times and Venmo won’t let me transfer my money and refused to verify my identity.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id351727428"
+        },
+        {
+          "text": "I think if Venmo and Dwolla track all your purchases and did things like share your purchase history with third-party advertisers who might use it elsewhere, that's a real concern. I haven't inspected their privacy policies but am more concerned about their future privacy policie",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9686562"
+        }
+      ]
+    },
+    {
+      "name": "Technical and App Usability Issues",
+      "segment": "Free-tier users",
+      "description": "Users report technical problems such as app crashes, loading issues, and difficulty adding cards. These issues hinder the user experience and reduce trust in the platform.",
+      "signalCount": 26,
+      "emotionalIntensity": 60,
+      "recurrence": 9,
+      "segmentImpact": "Medium",
+      "recommendation": "Improve app stability and usability, and address technical bugs promptly.",
+      "quotes": [
+        {
+          "text": "App doesn’t open. Terrible. If the app opens to a white page only… it’s not good. Yes. I updated the app.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id351727428"
+        },
+        {
+          "text": "App doesn’t work. App doesn’t allow me to make changes I constantly have to log in from a browser or laptop",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id351727428"
+        },
+        {
+          "text": "Crashing Not Opening. The app doesn’t even open on a iPhone 17! Crashes",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id351727428"
+        }
+      ]
+    },
+    {
+      "name": "Account Management and Suspension Issues",
+      "segment": "Free-tier users",
+      "description": "Users report frequent and unexplained account suspensions, often linked to automated systems flagging activity as suspicious. This leads to frustration and a lack of control over their accounts.",
+      "signalCount": 9,
+      "emotionalIntensity": 70,
+      "recurrence": 3,
+      "segmentImpact": "High",
+      "recommendation": "Improve transparency in account suspension policies and provide more user control over account settings.",
+      "quotes": [
+        {
+          "text": "Suspended. I am suspended again and I hardly use this account. I just don’t get it. I’ve emailed Customer service. I’ve chatted with them. Nobody can tell me why my account keeps getting suspended but every time I buy something from Uber Eats I get suspended. Supposedly they sent",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id351727428"
+        },
+        {
+          "text": "Absolute Frustration. Suspend account because of didn’t select correct button for transfer to my bank. Have been trying for weeks to resolve. Sent all documents requested. No person to speak with. Virtual assistant says the same thing over and over. No new email in inbox or spam.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id351727428"
+        },
+        {
+          "text": "This company will rip you off if they get a chance. They froze my account for no reason. Now they’re hanging onto my money. Wouldn’t use this app. stated! They stated in an email suspicious activity, then I responded to them with the information they asked for, driver’s license a",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id351727428"
+        }
+      ]
+    }
+  ],
+  "competitors": []
+}

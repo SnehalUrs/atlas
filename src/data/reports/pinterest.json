@@ -1,0 +1,152 @@
+{
+  "slug": "pinterest",
+  "category": "Social",
+  "product": "Pinterest",
+  "generatedAt": "2026-10-18T22:46:44.998Z",
+  "totalSignals": 297,
+  "negativeRate": 48,
+  "sourceCounts": {
+    "reddit": 97,
+    "appstore": 100,
+    "hackernews": 100
+  },
+  "summary": "Most of the frustration centres on loss of creative purpose and user experience, followed by overload of ads and ai-generated content and decline in content quality and relevance. Users report that the app is now dominated by ads and AI-generated content, making it hard to find real, relevant pins. Many feel the platform has shifted from a creative inspiration tool to an e-commerce and ad-driven platform.",
+  "themes": [
+    {
+      "name": "Loss of creative purpose and user experience",
+      "segment": "Long-time users",
+      "description": "Users who have used Pinterest for years feel it has lost its original purpose as a creative and inspirational platform. The app is now seen as less useful for creative exploration and more focused on monetization.",
+      "signalCount": 197,
+      "emotionalIntensity": 90,
+      "recurrence": 66,
+      "segmentImpact": "High",
+      "recommendation": "Revisit core user values, prioritize creative discovery, and restore the platform’s original mission.",
+      "quotes": [
+        {
+          "text": "Not Worth It. pinterest used to be a cool app where humans could express their creativity, now it’s bombarded with ads and AI. if i use the app i see 1 pin and a half of actual content being buried by 4 ads. anytime you search something up you only see links to buy stuff related ",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id429047995"
+        },
+        {
+          "text": "What is happening to Pinterest?. I’ve had Pinterest since 2015. I used to love this app it was perfect for inspiration in every aspect of life. Now I open the app and I’m bombarded with ads and AI content that I don’t even want to see. The app is becoming almost unusable at this ",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id429047995"
+        },
+        {
+          "text": "Nothing original anymore. I've loved this platform for 15 years, but now it is completely unusable. The sheer number of ads, \"sponsored posts\" (more ads), and AI slop make it difficult to find real art or inspiration from real people. On my desktop I use an ad blocker that helps ",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id429047995"
+        }
+      ]
+    },
+    {
+      "name": "Overload of ads and AI-generated content",
+      "segment": "Paying subscribers",
+      "description": "Users report that the app is now dominated by ads and AI-generated content, making it hard to find real, relevant pins. Many feel the platform has shifted from a creative inspiration tool to an e-commerce and ad-driven platform.",
+      "signalCount": 60,
+      "emotionalIntensity": 80,
+      "recurrence": 20,
+      "segmentImpact": "High",
+      "recommendation": "Reduce ad density, improve AI content filtering, and restore user control over content visibility.",
+      "quotes": [
+        {
+          "text": "Ai slop and overrun with ads. Used to be a favorite app and now it’s probably more than half just ads it’s ridiculous. Also disgusting promotion of ai with no way to prevent yourself from seeing ai content",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id429047995"
+        },
+        {
+          "text": "80% ads, 15% AI, 5% pins. This app has become mainly ads and Ai posts now. There are new “live/moving” ads that can’t be hidden when you press the three buttons. Unfortunately, now when you press the three buttons, it takes you directly to the App Store to download the app. Very ",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id429047995"
+        },
+        {
+          "text": "Just plain bad. So many ads and AI. This app has become unbearable. It feels like it’s 80% ads that click off to a shop. The remaining 20% is AI slop. I’m looking for alternatives.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id429047995"
+        }
+      ]
+    },
+    {
+      "name": "Decline in content quality and relevance",
+      "segment": "All users",
+      "description": "Users report that the content is less relevant and more cluttered with ads, AI-generated images, and low-quality posts. The platform is perceived as less useful for finding real inspiration or meaningful content.",
+      "signalCount": 18,
+      "emotionalIntensity": 70,
+      "recurrence": 6,
+      "segmentImpact": "High",
+      "recommendation": "Improve content curation, enhance personalization, and prioritize user-generated content.",
+      "quotes": [
+        {
+          "text": "> The author bemoans the demise of blogging and the rise of decentralization Err, actually it's the inverse: the rise of centralization. Blogging was decentralized -- FB, Pinterest, Twitter is a single source controlled by one corporate entity. > It's always sad when you see your",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9995922"
+        },
+        {
+          "text": "Unfortunately, in my opinion, Facebook is here to stay. Reasons: - Local&#x2F;OSS&#x2F;decentralized social networks will not work for the common population because their friends and updates will not be there. - Video based is already a success, see Twitch, but people sometimes p",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9617166"
+        },
+        {
+          "text": "For example: the color red is associated with danger and prohibition as established by social convention. Talking about the environment in red colors will confuse users and distract from the message trying to be communicated How much weight does this really carry if your product ",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9956523"
+        }
+      ]
+    },
+    {
+      "name": "App usability and design issues",
+      "segment": "Mobile users",
+      "description": "Users report that the app has become harder to use, with poor layout, confusing navigation, and intrusive ad placements. The app is perceived as less intuitive and more frustrating to use.",
+      "signalCount": 18,
+      "emotionalIntensity": 70,
+      "recurrence": 6,
+      "segmentImpact": "High",
+      "recommendation": "Redesign the app for better usability, improve navigation, and reduce intrusive ad placements.",
+      "quotes": [
+        {
+          "text": "HONESTLY SO ANNOYING. this used to be a very simple, easy app to use! i enjoyed it a lot. THEN CAME ALL THE UPDATES. WHY IS IT SO DIFFICULT TO USE NOW??? CANT EVEN CHANGE MY USERNAME. THIS IS SUPPOSED TO BE A CHILL APP, SO WTFF?????? IM ANNOYED!!! ALSO my pins keep getting taken ",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id429047995"
+        },
+        {
+          "text": "1. Do not touch the current app. As everybody said, you will simply lose people. 2. Create extra features for a PRO version. Perhaps simply a tab that let you switch between Twitter and Facebook? From what I understand, your app is pretty much a wrapper with a mobile site inside ",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9646691"
+        },
+        {
+          "text": "I just looked at the page for the first time in ages and I'm surprised they don't even get the fundamentals right: tiny fonts, pinterest layout for text items, terrible line height and length. Hopelessly useless even for skimming news headlines.",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9995564"
+        }
+      ]
+    },
+    {
+      "name": "Privacy and content moderation concerns",
+      "segment": "All users",
+      "description": "Users are concerned about the visibility of inappropriate or harmful content, including explicit material and harmful advice. There are also concerns about privacy, particularly with the use of AI and data collection.",
+      "signalCount": 4,
+      "emotionalIntensity": 60,
+      "recurrence": 1,
+      "segmentImpact": "Medium",
+      "recommendation": "Strengthen content moderation policies, improve transparency around AI usage, and enhance user privacy controls.",
+      "quotes": [
+        {
+          "text": "Disturbing content. Users are forced to view horrifying ads with no way to hide them.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id429047995"
+        },
+        {
+          "text": "the banned my account for no reason. it is useful and one of my favorite social media apps but they will ban you for absolutely no reason. my account just got banned and it won’t let me sign into ANY other email",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id429047995"
+        },
+        {
+          "text": "It's getting easier with companies like sharespost.com but securities regulation generally discourage the sale of private company stock in any \"open\" (aka. public) way - this is ostensibly to protect buyers of stock from investing in risky assets that they know little about and f",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9943398"
+        }
+      ]
+    }
+  ],
+  "competitors": []
+}

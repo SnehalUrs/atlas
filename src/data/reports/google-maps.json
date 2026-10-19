@@ -1,0 +1,152 @@
+{
+  "slug": "google-maps",
+  "category": "Travel & Transport",
+  "product": "Google Maps",
+  "generatedAt": "2026-10-18T23:28:51.481Z",
+  "totalSignals": 297,
+  "negativeRate": 57,
+  "sourceCounts": {
+    "reddit": 97,
+    "appstore": 100,
+    "hackernews": 100
+  },
+  "summary": "Most of the frustration centres on navigation accuracy and reliability, followed by data accuracy and localization and user interface and experience. Users report frequent route miscalculations, loss of location tracking, and unexpected detours that increase travel time. AI integration is seen as a source of instability and inaccuracy in navigation.",
+  "themes": [
+    {
+      "name": "Data Accuracy and Localization",
+      "segment": "Creators",
+      "description": "Users report outdated satellite imagery, incorrect place names (e.g., Lake America instead of Lake Ontario), and poor map coverage in certain regions like Germany. Data accuracy is a major concern for travelers and local users.",
+      "signalCount": 105,
+      "emotionalIntensity": 80,
+      "recurrence": 35,
+      "segmentImpact": "High",
+      "recommendation": "Improve data localization, update satellite imagery, and ensure accurate naming conventions across regions.",
+      "quotes": [
+        {
+          "text": "Another issue is that Google maps is mostly shit in Germany: Satellite data is from 2005, maps data doesn't even contain my whole district except for one road, so all the time people using Google Maps to navigate end up here, etc. Here maps is the best maps here (at least inmy ci",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9994724"
+        },
+        {
+          "text": "Google says website developers must set their region to Canada for 'Lake Ontario' to appear on map. Tech analyst and journalist Carmi Levy said although websites like Hydro One's and the LCBO's are Canadian, their maps are likely powered by Google's application programming interf",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/webdev/comments/1w3d32p/google_says_website_developers_must_set_their/"
+        },
+        {
+          "text": "Google Maps will show ‘Lake America’ in U.S., not ‘Lake Ontario’. The president’s order affects the U.S. Geographic Names Information System (GNIS), which ​sets the standards for official U.S. maps.. submitted by /u/esporx to r/technology",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/technology/comments/1w2nncg/google_maps_will_show_lake_america_in_us_not_lake/"
+        }
+      ]
+    },
+    {
+      "name": "Navigation Accuracy and Reliability",
+      "segment": "Free-tier users",
+      "description": "Users report frequent route miscalculations, loss of location tracking, and unexpected detours that increase travel time. AI integration is seen as a source of instability and inaccuracy in navigation.",
+      "signalCount": 60,
+      "emotionalIntensity": 80,
+      "recurrence": 20,
+      "segmentImpact": "High",
+      "recommendation": "Improve route prediction algorithms and stabilize AI integration to ensure consistent navigation performance.",
+      "quotes": [
+        {
+          "text": "Boo updates. Navigation Ai, unchangeable things and lack of real direction. Takes you in circles because you aren’t familiar with the areas.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id585027354"
+        },
+        {
+          "text": "Garbage integration of AI. The new AI integration over the past month made me witch to Apple Maps over how bad the app is now. It constantly hallucinates things",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id585027354"
+        },
+        {
+          "text": "People said this about nav systems. I know I did. Sure, Google maps was great on the Interstate, but put it on the side roads of Pittsburgh, PA and nav was completely toast. Guess what? A couple years later and nav systems were better than 99% of people even in places like Pittsb",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9883338"
+        }
+      ]
+    },
+    {
+      "name": "Offline Functionality",
+      "segment": "Mobile users",
+      "description": "Users report limitations in offline map usage, especially for long trips or in areas with poor connectivity. Competitors like HERE and OSM are seen as better for offline navigation.",
+      "signalCount": 77,
+      "emotionalIntensity": 60,
+      "recurrence": 26,
+      "segmentImpact": "Medium",
+      "recommendation": "Improve offline map capabilities and ensure full functionality without internet access.",
+      "quotes": [
+        {
+          "text": "google maps will (seems to?) consider current traffic when suggesting a route, which is a big plus for having a server connection. Might be not enough to prefer online navigation to offline, but it is a reason.",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9994622"
+        },
+        {
+          "text": "I used to use Navfree (which uses OSM) when I had an Android phone. It was as good as Google maps. Neither were perfect, and made errors every so often, but neither drastically more than the other. I am in Spain, so I don't know if that makes a difference.",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9995332"
+        },
+        {
+          "text": "Interactivity mostly. Imagine if Google Maps reloaded every time you zoom in or pick a location.",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9880298"
+        }
+      ]
+    },
+    {
+      "name": "User Interface and Experience",
+      "segment": "Mobile users",
+      "description": "Users complain about intrusive ads, forced AI features, and lack of customization options like voice preferences. The UI is perceived as cluttered and less intuitive compared to competitors.",
+      "signalCount": 40,
+      "emotionalIntensity": 70,
+      "recurrence": 13,
+      "segmentImpact": "High",
+      "recommendation": "Simplify UI, reduce ads, and offer more customization options to enhance user experience.",
+      "quotes": [
+        {
+          "text": "Great app and needs improving. What’s up voice guidance options, it’s no longer available on the latest version of the app I’m using?",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id585027354"
+        },
+        {
+          "text": "For a different experience, I received a Lumia 640 as a gift, but I gave it away, as the experience was inferior to Android. I tried liking it for about 2-3 weeks, but eventually I gave up. My wife then tried to use it and gave up as well. For example I don't like the design of t",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9851716"
+        },
+        {
+          "text": "Terrible Taxonomy App is Getting worse from Corporate Decisions. The heck happened to this app? The most crucial information LIKE THE ADDRESS is buried. Search Results? Oh yea let me serve you an AD as the first hit. App is a joke now.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id585027354"
+        }
+      ]
+    },
+    {
+      "name": "Privacy and Data Usage",
+      "segment": "Mobile users",
+      "description": "Users are concerned about data collection, especially with the integration of AI and Gemini. There is a demand for more transparency and control over personal data usage.",
+      "signalCount": 14,
+      "emotionalIntensity": 60,
+      "recurrence": 5,
+      "segmentImpact": "Medium",
+      "recommendation": "Enhance privacy controls and provide clearer data usage policies to build user trust.",
+      "quotes": [
+        {
+          "text": "I'd be interested to see an independent audit on how much of this data they (and google&#x2F;facebook&#x2F;apple&#x2F;etc) are collecting is being used to help improve training of Cortana as an assitant (or other tools that directly assist the user like Google Maps) , and how muc",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9968787"
+        },
+        {
+          "text": "Do not want or need Gemini. Recent update forced “AI” into maps. The icon for Gemini also removed the mute button when displayed in Apple Car Play.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id585027354"
+        },
+        {
+          "text": "Remove the AI. Give me an option to get rid of Gemini. I have no need for an AI conversation for directions.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id585027354"
+        }
+      ]
+    }
+  ],
+  "competitors": []
+}

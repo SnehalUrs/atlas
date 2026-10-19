@@ -4,14 +4,20 @@ import { AnimatePresence, motion } from "motion/react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { sampleReport } from "@/lib/sample";
-import type { Report, StreamEvent } from "@/lib/types";
+import type { LibraryEntry, Report, StreamEvent } from "@/lib/types";
 import { ReportView } from "./ReportView";
 
 type Phase = "form" | "running" | "done" | "error";
 
 const stages = ["Collecting feedback", "Checking competitors", "Grouping into themes", "Scoring severity"];
 
-export function Experience() {
+const norm = (s: string) => s.toLowerCase().replace(/[^a-z0-9]/g, "");
+
+/**
+ * `live` is false on the hosted site (no AI available there): the form then looks products up
+ * in the pre-generated report library instead of running an analysis.
+ */
+export function Experience({ live, library }: { live: boolean; library: LibraryEntry[] }) {
   const params = useSearchParams();
   const router = useRouter();
   const [product, setProduct] = useState(params.get("product") ?? "");
@@ -24,6 +30,11 @@ export function Experience() {
   const started = useRef(false);
   const [elapsed, setElapsed] = useState(0);
   const [logTimes, setLogTimes] = useState<number[]>([]);
+  const [notFoundName, setNotFoundName] = useState("");
+  const findInLibrary = useCallback((name: string) => library.find((e) => norm(e.product) === norm(name) || e.slug === norm(name)), [library]);
+  const matches = product.trim() ? library.filter((e) => norm(e.product).includes(norm(product))).slice(0, 8) : [];
+  const exact = findInLibrary(product);
+
 
   // Elapsed-time clock while an analysis runs.
   useEffect(() => {
@@ -88,6 +99,23 @@ export function Experience() {
     }
   }, []);
 
+  /** Open a saved report if we have one; otherwise analyze live, or explain why we can't. */
+  const lookUpOrRun = useCallback(
+    (name: string, comps: string) => {
+      const hit = findInLibrary(name);
+      if (!live) {
+        if (hit) router.push(`/reports/${hit.slug}`);
+        else {
+          setNotFoundName(name);
+          setPhase("form");
+        }
+        return;
+      }
+      run(name, comps);
+    },
+    [findInLibrary, live, router, run],
+  );
+
   useEffect(() => {
     if (params.get("sample")) {
       setReport(sampleReport);
@@ -100,9 +128,9 @@ export function Experience() {
     const p = params.get("product");
     if (p && !started.current && !params.get("sample")) {
       started.current = true;
-      run(p, "");
+      lookUpOrRun(p, "");
     }
-  }, [params, run]);
+  }, [params, lookUpOrRun]);
 
 
   const clock = (sec: number) => `${String(Math.floor(sec / 60)).padStart(2, "0")}:${String(sec % 60).padStart(2, "0")}`;
@@ -167,12 +195,14 @@ export function Experience() {
         </motion.div>
       ) : (
         <motion.div key="form" initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0 }} className="mx-auto max-w-2xl">
-          <p className="label mb-4 text-muted">New analysis</p>
+          <p className="label mb-4 text-muted">{live ? "New analysis" : "Report library"}</p>
           <h1 className="font-display text-6xl font-medium leading-[0.95] sm:text-7xl">
-            Which product should we <em className="text-rust">analyze?</em>
+            Which product should we <em className="text-rust">{live ? "analyze?" : "look up?"}</em>
           </h1>
           <p className="mt-6 text-lg leading-relaxed text-muted">
-            We&apos;ll collect public feedback from Reddit, the App Store and Hacker News, then rank what hurts users most.
+            {live
+              ? "We'll collect public feedback from Reddit, the App Store and Hacker News, then rank what hurts users most."
+              : `Choose from ${library.length} products already analyzed from real Reddit, App Store and Hacker News feedback.`}
           </p>
 
           {phase === "error" && (
@@ -181,11 +211,20 @@ export function Experience() {
               <p className="mt-1">{error}</p>
             </div>
           )}
+          {notFoundName && !live && (
+            <div className="mt-8 rounded-2xl bg-card px-6 py-4">
+              <p className="label text-rust">Not in the library yet</p>
+              <p className="mt-1">
+                There&apos;s no report for “{notFoundName}” yet. New products are analyzed with the local version of Atlas; try one of
+                the products below.
+              </p>
+            </div>
+          )}
 
           <form
             onSubmit={(e) => {
               e.preventDefault();
-              if (product.trim()) run(product.trim(), competitors);
+              if (product.trim()) lookUpOrRun(product.trim(), competitors);
             }}
             className="mt-12 space-y-10"
           >
@@ -193,30 +232,59 @@ export function Experience() {
               <span className="label mb-2 block text-muted">Product</span>
               <input
                 value={product}
-                onChange={(e) => setProduct(e.target.value)}
+                onChange={(e) => {
+                  setProduct(e.target.value);
+                  setNotFoundName("");
+                }}
                 required
                 autoFocus
                 placeholder="Duolingo"
                 className="ledger-input w-full bg-transparent pb-2 font-display text-4xl italic outline-none placeholder:text-faint"
               />
             </label>
-            <label className="block">
-              <span className="label mb-2 flex justify-between text-muted">
-                Competitors <span className="normal-case tracking-normal">optional, up to three, comma-separated</span>
-              </span>
-              <input
-                value={competitors}
-                onChange={(e) => setCompetitors(e.target.value)}
-                placeholder="Babbel, Busuu"
-                className="ledger-input w-full bg-transparent pb-2 font-display text-2xl italic outline-none placeholder:text-faint"
-              />
-            </label>
+
+            {(matches.length > 0 || !live) && (
+              <div>
+                <p className="label mb-3 text-muted">{matches.length > 0 ? "Saved reports" : "Popular reports"}</p>
+                <div className="flex flex-wrap gap-2">
+                  {(matches.length > 0 ? matches : library.slice(0, 12)).map((e) => (
+                    <button
+                      key={e.slug}
+                      type="button"
+                      onClick={() => router.push(`/reports/${e.slug}`)}
+                      className="rounded-full bg-card px-4 py-2 font-display text-lg transition hover:bg-ink hover:text-paper"
+                    >
+                      {e.product}
+                    </button>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {live && (
+              <label className="block">
+                <span className="label mb-2 flex justify-between text-muted">
+                  Competitors <span className="normal-case tracking-normal">optional, up to three, comma-separated</span>
+                </span>
+                <input
+                  value={competitors}
+                  onChange={(e) => setCompetitors(e.target.value)}
+                  placeholder="Babbel, Busuu"
+                  className="ledger-input w-full bg-transparent pb-2 font-display text-2xl italic outline-none placeholder:text-faint"
+                />
+              </label>
+            )}
             <div className="flex flex-wrap items-center gap-6">
               <button type="submit" className="label rounded-full bg-ink px-7 py-4 text-paper transition hover:bg-rust">
-                Run analysis →
+                {live ? "Run analysis →" : "Open report →"}
               </button>
-              <button type="button" onClick={() => router.push("/experience?sample=1")} className="font-display text-lg italic text-muted underline decoration-rule underline-offset-4 hover:text-ink">
-                or view a sample report
+              {live && exact && (
+                <button type="button" onClick={() => router.push(`/reports/${exact.slug}`)} className="font-display text-lg italic text-muted underline decoration-rule underline-offset-4 hover:text-ink">
+                  or open the saved {exact.product} report
+                </button>
+              )}
+              <button type="button" onClick={() => router.push("/reports")} className="font-display text-lg italic text-muted underline decoration-rule underline-offset-4 hover:text-ink">
+                browse all reports
               </button>
             </div>
           </form>

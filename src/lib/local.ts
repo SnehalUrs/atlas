@@ -15,13 +15,26 @@ const SAMPLE_TARGET = 60;
 const SAMPLE_COMPETITOR = 10;
 const MIN_SIMILARITY = 0.5;
 
+// A fixed list keeps small models from writing a sentence where a short label belongs.
+const SEGMENTS = [
+  "New users",
+  "Long-time users",
+  "Power users",
+  "Mobile users",
+  "Free-tier users",
+  "Paying subscribers",
+  "Creators",
+  "Businesses and teams",
+  "All users",
+] as const;
+
 const ThemesSchema = z.object({
-  summary: z.string().describe("2-3 sentence executive summary in plain prose (no lists or numbering) of what users are struggling with"),
+  summary: z.string().describe("2-3 flowing sentences of plain prose on what users struggle with most and why. Never use lists, numbering or '1)'."),
   themes: z
     .array(
       z.object({
         name: z.string().describe("short friction theme name, e.g. 'Offline Sync Failures'"),
-        segment: z.string().describe("user segment most affected, e.g. 'Mobile Users'"),
+        segment: z.enum(SEGMENTS).describe("the user group this friction hurts most"),
         description: z.string().describe("one or two sentences describing the friction, using the words users use"),
         emotional_intensity: z.number().describe("integer from 0 to 100 (not 0-10): strength of emotional language (frustration, anger, churn threats) in this theme's feedback"),
         segment_impact: z.enum(["High", "Medium", "Low"]),
@@ -144,6 +157,19 @@ function cosine(a: number[], b: number[]): number {
 
 const maxSim = (v: number[], anchors: number[][]) => Math.max(...anchors.map((a) => cosine(v, a)));
 
+const PRAISE = /positive|praise|appreciat|\blove|\bstrengths?\b|perks|benefits|value for/i;
+
+/** Small models drift from the brief: drop praise themes, and rewrite list-style summaries as prose. */
+function tidy(out: Themes) {
+  // This is a friction map: drop praise themes the model sometimes adds anyway.
+  out.themes = out.themes.filter((t) => !PRAISE.test(t.name));
+  if (/(^|\s)\d[.)]\s/.test(out.summary) || out.summary.length < 40) {
+    const [first, second, third] = [...out.themes].sort((a, b) => b.emotional_intensity - a.emotional_intensity).map((t) => t.name.toLowerCase());
+    const rest = [second, third].filter(Boolean).join(" and ");
+    out.summary = `Most of the frustration centres on ${first}${rest ? `, followed by ${rest}` : ""}. ${out.themes[0]?.description ?? ""}`.trim();
+  }
+}
+
 export async function analyzeLocal(product: string, competitors: string[], signals: Signal[]): Promise<Report> {
   const target = signals.filter((s) => s.product === product);
   const promptSignals = [
@@ -155,6 +181,7 @@ export async function analyzeLocal(product: string, competitors: string[], signa
     .join("\n")}`;
 
   const out = await generateThemes(prompt);
+  tidy(out);
   if (out.themes.length === 0) throw new Error("The local model found no themes. Try again or add more context.");
 
   const [signalVecs, themeVecs, negVecs, posVecs] = await Promise.all([

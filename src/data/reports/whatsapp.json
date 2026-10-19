@@ -1,0 +1,152 @@
+{
+  "slug": "whatsapp",
+  "category": "Communication",
+  "product": "WhatsApp",
+  "generatedAt": "2026-10-18T22:53:33.575Z",
+  "totalSignals": 294,
+  "negativeRate": 50,
+  "sourceCounts": {
+    "reddit": 97,
+    "appstore": 100,
+    "hackernews": 97
+  },
+  "summary": "WhatsApp is a widely used messaging app with deep cultural integration in many regions, but it faces challenges with reliability, privacy, and user experience.",
+  "themes": [
+    {
+      "name": "Cultural and Regional Dependency",
+      "segment": "Creators",
+      "description": "WhatsApp is deeply embedded in daily life in regions like the Caribbean, Latin America, and Africa, making it essential for communication and business.",
+      "signalCount": 166,
+      "emotionalIntensity": 60,
+      "recurrence": 56,
+      "segmentImpact": "High",
+      "recommendation": "Maintain and improve regional support, including language and local features.",
+      "quotes": [
+        {
+          "text": "whatsapp is ruined. first of all, as someone from the caribbean, i’ve literally been using whatsapp my entire life my immediate family use whatsapp. my distant relatives use whatsapp. every person i know in my country use whatsapp. it’s been embedded in everyday life here since i",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/whatsapp/comments/1ww9q55/whatsapp_is_ruined/"
+        },
+        {
+          "text": "More recent example is Whatsapp, it is app only and is wildly successful",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9915349"
+        },
+        {
+          "text": "We actually wanted to develop on whatsapp. Whatsapp does not provide API's as rich as telegram. Further we wanted the telegram bot to be another way to use icliniq.com, our flagship portal. :)",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9935221"
+        }
+      ]
+    },
+    {
+      "name": "Technical Limitations",
+      "segment": "Mobile users",
+      "description": "Issues with phone number verification, account management, and app performance on certain devices are common.",
+      "signalCount": 80,
+      "emotionalIntensity": 60,
+      "recurrence": 27,
+      "segmentImpact": "Medium",
+      "recommendation": "Improve cross-device compatibility and streamline account management.",
+      "quotes": [
+        {
+          "text": "The moment you hook into those systems, you're segmenting your userbase. If you rely on iMessage for transport, you can only talk to Apple users. The situation is similar with Hangouts and WhatsApp - while you're not limited to one device manufacturer, there's no official API, an",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9775508"
+        },
+        {
+          "text": "Add Account disappeared and phone verification is broken. The “Add Account” feature suddenly disappeared from WhatsApp on my iPhone, even though it was previously available. I need to use two phone numbers without losing access to my existing account and chat history. I also cann",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id310633997"
+        },
+        {
+          "text": "And that provider is a tiny fraction the size of iMessage, GChat, WhatsApp, et al.",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9775889"
+        }
+      ]
+    },
+    {
+      "name": "Reliability and Stability",
+      "segment": "Free-tier users",
+      "description": "Users report frequent crashes, unexpected logouts, and data loss, which disrupt communication and cause stress.",
+      "signalCount": 16,
+      "emotionalIntensity": 80,
+      "recurrence": 5,
+      "segmentImpact": "High",
+      "recommendation": "Stabilize core functionality and improve data backup/recovery mechanisms.",
+      "quotes": [
+        {
+          "text": "connection. app keeps crashing",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id310633997"
+        },
+        {
+          "text": "What is this chinese letter app preventing me from restarting? Is it a virus?. submitted by /u/tswiflover to r/pcmasterrace",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/pcmasterrace/comments/1sdcnin/what_is_this_chinese_letter_app_preventing_me/"
+        },
+        {
+          "text": "What is an app or website that went from 'absolutely essential' to 'unusable trash'?. submitted by /u/matx_jx to r/AskReddit",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/AskReddit/comments/1un8hwz/what_is_an_app_or_website_that_went_from/"
+        }
+      ]
+    },
+    {
+      "name": "Privacy and Security Concerns",
+      "segment": "Long-time users",
+      "description": "Users express distrust in Meta's handling of data, especially with AI features and potential surveillance.",
+      "signalCount": 15,
+      "emotionalIntensity": 70,
+      "recurrence": 5,
+      "segmentImpact": "High",
+      "recommendation": "Enhance transparency and provide stronger privacy controls.",
+      "quotes": [
+        {
+          "text": "Meta has threatened to block access to Instagram, Facebook and WhatsApp in New Mexico, which would be an unprecedented move in the U.S. The ultimatum comes after the company was found liable and fined $375m for child safety failures in a landmark lawsuit brought by the state’s AG",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/Fauxmoi/comments/1t0wo4z/meta_has_threatened_to_block_access_to_instagram/"
+        },
+        {
+          "text": "Chat Control Is Threatening What Europe Does Best: Privacy Apps. submitted by /u/Entire-Guidance-9926 to r/BuyFromEU",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/BuyFromEU/comments/1urvtur/chat_control_is_threatening_what_europe_does_best/"
+        },
+        {
+          "text": "Remove meta ai. No one asked for these ai features add an option to remove them or remove them entirely stop trying to shove ai down our throats",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id310633997"
+        }
+      ]
+    },
+    {
+      "name": "User Experience and Feature Requests",
+      "segment": "Power users",
+      "description": "Users want more control over features like voice message editing, AI integration, and customization options.",
+      "signalCount": 17,
+      "emotionalIntensity": 50,
+      "recurrence": 6,
+      "segmentImpact": "Medium",
+      "recommendation": "Prioritize user-driven feature enhancements and customization.",
+      "quotes": [
+        {
+          "text": "Forced updates. We all should shift to better platforms..",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id310633997"
+        },
+        {
+          "text": "Followup: did you had god mode within WhatsApp too for devs?",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=9783266"
+        },
+        {
+          "text": "HBK. Status suck before my I could change my Status when I feel like it and keep it more than one months. now change automatically now I only could keep it 1 hour or 8 hours or 1 day or 2 days or one month I like the old version better that I could keep it my Status and change it",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id310633997"
+        }
+      ]
+    }
+  ],
+  "competitors": []
+}

@@ -1,0 +1,179 @@
+{
+  "slug": "chatgpt",
+  "category": "AI",
+  "product": "ChatGPT",
+  "generatedAt": "2026-10-19T00:59:44.542Z",
+  "totalSignals": 296,
+  "negativeRate": 49,
+  "sourceCounts": {
+    "reddit": 97,
+    "appstore": 100,
+    "hackernews": 99
+  },
+  "summary": "ChatGPT's main friction themes include inconsistent performance, over-politicization, and user dependency. Users praise its versatility and growth, but some complain about reliability and ethical concerns.",
+  "themes": [
+    {
+      "name": "User Dependency",
+      "segment": "Long-time users",
+      "description": "Users report becoming overly reliant on ChatGPT, even for basic tasks, which raises concerns about reduced critical thinking and over-dependence on AI.",
+      "signalCount": 191,
+      "emotionalIntensity": 50,
+      "recurrence": 65,
+      "segmentImpact": "High",
+      "recommendation": "Encourage balanced use and critical thinking alongside AI assistance.",
+      "quotes": [
+        {
+          "text": "The new ChatGPT is driving me nuts.. It tries to be so politically correct about absolutely everything it says now to the point it will even create false information or errors just to prove a point that you're wrong and it's right. I dont like AI agreeing with everything I say my",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/ChatGPT/comments/1wzagxj/the_new_chatgpt_is_driving_me_nuts/"
+        },
+        {
+          "text": "ChatGPT is down worldwide, conversations dissapeared for users. submitted by /u/lurker_bee to r/technology",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/technology/comments/1pcwg37/chatgpt_is_down_worldwide_conversations/"
+        },
+        {
+          "text": "Would you really give up ChatGPT to shut down data centers? Tech CEO highlights the hypocrisy of some AI critics. submitted by /u/ArgentineBeauty to r/technology",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/technology/comments/1x7cpv6/would_you_really_give_up_chatgpt_to_shut_down/"
+        }
+      ]
+    },
+    {
+      "name": "Versatility and Growth",
+      "segment": "New users",
+      "description": "Users praise the app's wide range of capabilities, from personal assistance to business growth, and note significant improvements over time.",
+      "signalCount": 54,
+      "emotionalIntensity": 80,
+      "recurrence": 18,
+      "segmentImpact": "High",
+      "recommendation": "Continue to expand and refine features to maintain user engagement.",
+      "quotes": [
+        {
+          "text": "Broderick Evans Review. This is a wonderful app for doing a lot of things and I’m not going to lie there is a bunch of unlimited different features to use, but it’s not free for sure you must pay for the subscription now here’s what the problem comes in when utilizing the subscri",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id6448311069"
+        },
+        {
+          "text": "I disagree. I think the iOS App Store is going to be in steep decline in a few years. People will generally have a few apps: ChatGPT, Instagram, messaging, and something like a Photos&#x2F;Camera app. Everything else will be done in your AI app. I've been hooking up more and more",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=50125086"
+        },
+        {
+          "text": "The absolute worst—constantly pestering you to upgrade and pay up.. The absolute worst—constantly pestering you to upgrade and pay up.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id6448311069"
+        }
+      ]
+    },
+    {
+      "name": "Ethical and Privacy Concerns",
+      "segment": "Long-time users",
+      "description": "Users express concerns about data security, privacy, and the potential misuse of AI, including fears of AI replacing human interaction.",
+      "signalCount": 21,
+      "emotionalIntensity": 60,
+      "recurrence": 7,
+      "segmentImpact": "Medium",
+      "recommendation": "Enhance transparency and security measures to build trust.",
+      "quotes": [
+        {
+          "text": "'No ethics at all': the 'cancel ChatGPT' trend is growing after OpenAI signs a deal with the US military. submitted by /u/lurker_bee to r/technology",
+          "source": "reddit",
+          "url": "https://www.reddit.com/r/technology/comments/1ribnqe/no_ethics_at_all_the_cancel_chatgpt_trend_is/"
+        },
+        {
+          "text": "There being no third party checks is the point, and it's not bad. Keep in mind that those open source&#x2F;weight models are not as powerful as whatever closed source Claude&#x2F;GPT version exists behind the scenes that hack companies. As per the Hugging Face hack - open weight ",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=50142320"
+        },
+        {
+          "text": "I mean, same goes for OpenAI. Why point out only Anthropic? For OpenAI they also have a separate opt-out for stopping training on your codex environment: \"Codex has a separate Include environments setting in Codex settings that controls whether additional context from your Codex ",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=50128792"
+        }
+      ]
+    },
+    {
+      "name": "User Experience and Interface",
+      "segment": "New users",
+      "description": "Positive feedback highlights the app's ease of use and integration into daily tasks, with users finding it indispensable for productivity and creativity.",
+      "signalCount": 15,
+      "emotionalIntensity": 70,
+      "recurrence": 5,
+      "segmentImpact": "High",
+      "recommendation": "Maintain and improve the user experience to retain and grow the user base.",
+      "quotes": [
+        {
+          "text": "Pretty much all of the coding LLMs, Claude, ChatGPT, etc. can generate a product demo. I had Replit make my product demo. For a personal presentation, Loom allows you to edit your presentations wordings directly for that two minute video of yourself which you make from your compu",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=50131975"
+        },
+        {
+          "text": "It keeps freezing up. I really do love the app, but it keeps freezing up on me. I’ve tried uninstalling. It. Logging out those app down nothing I seem to do works.I have reached out if they help and it starts to work normally again then I’ll change the review. ( also I have the p",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id6448311069"
+        },
+        {
+          "text": "this app sucks. I was asking on how to get like a wall moving wallpaper in lively wallpaper and she just kept taking me to different websites and now I can’t even put on wallpaper on my laptop. I don’t know what happened to it. yeah she’s really stupid about directions.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id6448311069"
+        }
+      ]
+    },
+    {
+      "name": "Performance Inconsistency",
+      "segment": "Long-time users",
+      "description": "Users report erratic behavior, including reduced context window, poor reasoning, and false information generation, suggesting instability in the model's output quality over time.",
+      "signalCount": 9,
+      "emotionalIntensity": 70,
+      "recurrence": 3,
+      "segmentImpact": "High",
+      "recommendation": "Stabilize model output and improve consistency across updates.",
+      "quotes": [
+        {
+          "text": "He is totally uninformed about even basic progress in the performance of these models. Seems like used free ChatGPT in 2022 and never updated once.",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=50107079"
+        },
+        {
+          "text": "> The agent will fix a bug when I tell it to, but only in exactly one place. I'll notice that another place has that bug later and have to redo it. It's the sort of thing that I would know to check for if I were fixing it myself. I see the same in e.g. simple CSS. I ask ChatGPT t",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=50129061"
+        },
+        {
+          "text": "Think about that for like two seconds. Yes, randomness is involved, except you're destroying the snot out of it by biasing it to hell and back with those billion-trillion parameter models in front of the sampler. Alternatively, check the difference between a typical ChatGPT promp",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=50111341"
+        }
+      ]
+    },
+    {
+      "name": "Over-Politicization",
+      "segment": "Creators",
+      "description": "Users feel the model is overly politically correct, leading to the creation of false information or errors to avoid controversy, which hinders its utility as a solution-oriented tool.",
+      "signalCount": 6,
+      "emotionalIntensity": 60,
+      "recurrence": 2,
+      "segmentImpact": "Medium",
+      "recommendation": "Balance political correctness with factual accuracy and neutrality.",
+      "quotes": [
+        {
+          "text": "Frustrating. Repetitive, incorrect answers, gives information not asked for, gives its own opinion,redundant, apologizes and comments on how I feel, basically useless.",
+          "source": "appstore",
+          "url": "https://apps.apple.com/us/app/id6448311069"
+        },
+        {
+          "text": "If Druckenmiller had published his badly-written, poorly articulated opinions, it would have been more valuable. It'd be what he believes, written in the way he can manage to articulate. Maybe we could form an entirely appropriate bad opinion of him and his ideas and writing. Cha",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=50109200"
+        },
+        {
+          "text": "Wrong. With paper voting you can stand in the polling station and see real people getting ballots. With electronic voting you cannot see anything - are real people voting or is it ChatGPT-written script adding records to the database. Paper voting is 100x more verifiable than ele",
+          "source": "hackernews",
+          "url": "https://news.ycombinator.com/item?id=50137836"
+        }
+      ]
+    }
+  ],
+  "competitors": []
+}
