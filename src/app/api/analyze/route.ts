@@ -12,7 +12,7 @@ const PER_SOURCE_COMPETITOR = 30;
 
 export async function POST(req: Request) {
   if (!liveAnalysisEnabled()) {
-    return Response.json({ error: "Live analysis isn't available on the hosted site. Browse the report library instead." }, { status: 503 });
+    return Response.json({ error: "Live analysis isn't switched on in this online version yet." }, { status: 503 });
   }
   const body = (await req.json().catch(() => ({}))) as { product?: string; competitors?: string };
   const product = body.product?.trim();

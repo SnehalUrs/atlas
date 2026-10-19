@@ -49,8 +49,8 @@ export function Nav() {
           ))}
         </div>
         <div className="flex items-center gap-5">
-          <Link href="/reports" className="label hidden text-muted transition hover:text-ink sm:block">
-            Reports
+          <Link href="/experience?sample=1" className="label hidden text-muted transition hover:text-ink sm:block">
+            Sample report
           </Link>
           <Link
             href="/experience"

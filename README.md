@@ -4,10 +4,10 @@
 
 A project by Snehal N Urs.
 
-## What's in it
+## How analysis runs
 
-- **Report library** (`/reports`): 44 real products analyzed from public feedback, with search and categories.
-- **Live analysis** (`/experience`): analyze any product on demand. Runs when an AI model is available (see below); the hosted site falls back to searching the library.
+- **Locally**, every analysis runs live against fresh public feedback (see below).
+- **Online**, there's no AI model on the server, so the analysis page opens saved reports for 44 well-known products (`src/data/reports/`, generated with the local pipeline). Add `ANTHROPIC_API_KEY` in Vercel to analyze any product live there too.
 
 ## Run locally
 
@@ -29,9 +29,9 @@ Optional settings go in `.env.local` (see `.env.local.example`):
 
 ## Deploy
 
-Deploys to Vercel as-is. Without an API key there's no model on the server, so live analysis is switched off and the site serves the report library. Add `ANTHROPIC_API_KEY` in Vercel to enable live analysis there.
+Deploys to Vercel as-is, with no environment variables needed. Without an API key, live analysis is switched off online and saved reports are served instead.
 
-## Regenerate the library
+## Regenerate saved reports
 
 With the app running locally, add products to `src/data/catalog.json` and run:
 

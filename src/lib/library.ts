@@ -1,7 +1,7 @@
 import "server-only";
 import { existsSync, readFileSync, readdirSync } from "node:fs";
 import { join } from "node:path";
-import type { LibraryEntry, LibraryReport } from "./types";
+import type { LibraryReport } from "./types";
 
 const dir = join(process.cwd(), "src/data/reports");
 
@@ -14,19 +14,17 @@ export function getLibrary(): LibraryReport[] {
     .sort((a, b) => a.product.localeCompare(b.product));
 }
 
-export function getReport(slug: string): LibraryReport | null {
-  const file = join(dir, `${slug}.json`);
-  return existsSync(file) ? (JSON.parse(readFileSync(file, "utf8")) as LibraryReport) : null;
-}
+const norm = (s: string) => s.toLowerCase().replace(/[^a-z0-9]/g, "");
 
-/** Lightweight index for client-side search. */
-export function getLibraryIndex(): LibraryEntry[] {
-  return getLibrary().map((r) => ({ slug: r.slug, product: r.product, category: r.category }));
+/** Saved report matching a product name, ignoring case, spaces and punctuation. */
+export function findReport(name: string): LibraryReport | null {
+  const key = norm(name);
+  return getLibrary().find((r) => norm(r.product) === key || norm(r.slug) === key) ?? null;
 }
 
 /**
  * Live analysis needs an LLM: Ollama on this machine, or Claude with an API key.
- * Hosted on Vercel without a key there is neither, so the site serves the library only.
+ * Hosted on Vercel without a key there is neither, so the site serves saved reports instead.
  * LIVE_ANALYSIS=on|off overrides the detection.
  */
 export function liveAnalysisEnabled(): boolean {

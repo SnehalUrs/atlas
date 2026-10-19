@@ -4,20 +4,21 @@ import { AnimatePresence, motion } from "motion/react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { sampleReport } from "@/lib/sample";
-import type { LibraryEntry, Report, StreamEvent } from "@/lib/types";
+import type { Report, StreamEvent } from "@/lib/types";
 import { ReportView } from "./ReportView";
 
-type Phase = "form" | "running" | "done" | "error";
+type Phase = "form" | "running" | "loading" | "done" | "error";
 
 const stages = ["Collecting feedback", "Checking competitors", "Grouping into themes", "Scoring severity"];
 
-const norm = (s: string) => s.toLowerCase().replace(/[^a-z0-9]/g, "");
+// Offered when a product has no saved report on the hosted site.
+const SUGGESTIONS = ["Spotify", "Notion", "Uber"];
 
 /**
- * `live` is false on the hosted site (no AI available there): the form then looks products up
- * in the pre-generated report library instead of running an analysis.
+ * `live` is false on the hosted site (no AI model there): instead of running an analysis,
+ * the page opens the saved report for the product if one exists.
  */
-export function Experience({ live, library }: { live: boolean; library: LibraryEntry[] }) {
+export function Experience({ live }: { live: boolean }) {
   const params = useSearchParams();
   const router = useRouter();
   const [product, setProduct] = useState(params.get("product") ?? "");
@@ -31,9 +32,6 @@ export function Experience({ live, library }: { live: boolean; library: LibraryE
   const [elapsed, setElapsed] = useState(0);
   const [logTimes, setLogTimes] = useState<number[]>([]);
   const [notFoundName, setNotFoundName] = useState("");
-  const findInLibrary = useCallback((name: string) => library.find((e) => norm(e.product) === norm(name) || e.slug === norm(name)), [library]);
-  const matches = product.trim() ? library.filter((e) => norm(e.product).includes(norm(product))).slice(0, 8) : [];
-  const exact = findInLibrary(product);
 
 
   // Elapsed-time clock while an analysis runs.
@@ -99,21 +97,33 @@ export function Experience({ live, library }: { live: boolean; library: LibraryE
     }
   }, []);
 
-  /** Open a saved report if we have one; otherwise analyze live, or explain why we can't. */
-  const lookUpOrRun = useCallback(
-    (name: string, comps: string) => {
-      const hit = findInLibrary(name);
-      if (!live) {
-        if (hit) router.push(`/reports/${hit.slug}`);
-        else {
-          setNotFoundName(name);
-          setPhase("form");
-        }
+  /** Fetch the saved report for a product; the short minimum wait keeps the transition from flashing. */
+  const openSaved = useCallback(async (name: string) => {
+    setPhase("loading");
+    setNotFoundName("");
+    const minWait = new Promise((r) => setTimeout(r, 1200));
+    try {
+      const res = await fetch(`/api/report?product=${encodeURIComponent(name)}`);
+      await minWait;
+      if (res.ok) {
+        setReport(((await res.json()) as { report: Report }).report);
+        setPhase("done");
         return;
       }
-      run(name, comps);
+    } catch {
+      await minWait;
+    }
+    setNotFoundName(name);
+    setPhase("form");
+  }, []);
+
+  const start = useCallback(
+    (name: string, comps: string) => {
+      setProduct(name);
+      if (live) run(name, comps);
+      else openSaved(name);
     },
-    [findInLibrary, live, router, run],
+    [live, openSaved, run],
   );
 
   useEffect(() => {
@@ -128,9 +138,9 @@ export function Experience({ live, library }: { live: boolean; library: LibraryE
     const p = params.get("product");
     if (p && !started.current && !params.get("sample")) {
       started.current = true;
-      lookUpOrRun(p, "");
+      start(p, "");
     }
-  }, [params, lookUpOrRun]);
+  }, [params, start]);
 
 
   const clock = (sec: number) => `${String(Math.floor(sec / 60)).padStart(2, "0")}:${String(sec % 60).padStart(2, "0")}`;
@@ -141,6 +151,18 @@ export function Experience({ live, library }: { live: boolean; library: LibraryE
       {phase === "done" && report ? (
         <motion.div key="report" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}>
           <ReportView report={report} isSample={!!params.get("sample")} />
+        </motion.div>
+      ) : phase === "loading" ? (
+        <motion.div key="loading" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className="flex min-h-[50vh] flex-col items-center justify-center text-center">
+          <svg viewBox="-20 -20 40 40" className="h-16 w-16" aria-hidden>
+            <circle r="17" fill="none" stroke="var(--ink)" strokeWidth="1" />
+            <motion.g animate={{ rotate: [0, 40, -25, 15, -8, 0] }} transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}>
+              <path d="M0 -14 L3.5 0 L-3.5 0 Z" fill="var(--rust)" />
+              <path d="M0 14 L3.5 0 L-3.5 0 Z" fill="var(--ink)" />
+            </motion.g>
+          </svg>
+          <p className="label mt-6 text-muted">Preparing the report</p>
+          <p className="mt-2 font-display text-4xl">{product}</p>
         </motion.div>
       ) : phase === "running" ? (
         <motion.div key="running" initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0 }} className="mx-auto max-w-3xl">
@@ -195,14 +217,12 @@ export function Experience({ live, library }: { live: boolean; library: LibraryE
         </motion.div>
       ) : (
         <motion.div key="form" initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0 }} className="mx-auto max-w-2xl">
-          <p className="label mb-4 text-muted">{live ? "New analysis" : "Report library"}</p>
+          <p className="label mb-4 text-muted">New analysis</p>
           <h1 className="font-display text-6xl font-medium leading-[0.95] sm:text-7xl">
-            Which product should we <em className="text-rust">{live ? "analyze?" : "look up?"}</em>
+            Which product should we <em className="text-rust">analyze?</em>
           </h1>
           <p className="mt-6 text-lg leading-relaxed text-muted">
-            {live
-              ? "We'll collect public feedback from Reddit, the App Store and Hacker News, then rank what hurts users most."
-              : `Choose from ${library.length} products already analyzed from real Reddit, App Store and Hacker News feedback.`}
+            We&apos;ll collect public feedback from Reddit, the App Store and Hacker News, then rank what hurts users most.
           </p>
 
           {phase === "error" && (
@@ -211,12 +231,20 @@ export function Experience({ live, library }: { live: boolean; library: LibraryE
               <p className="mt-1">{error}</p>
             </div>
           )}
-          {notFoundName && !live && (
-            <div className="mt-8 rounded-2xl bg-card px-6 py-4">
-              <p className="label text-rust">Not in the library yet</p>
-              <p className="mt-1">
-                There&apos;s no report for “{notFoundName}” yet. New products are analyzed with the local version of Atlas; try one of
-                the products below.
+          {notFoundName && (
+            <div className="mt-8 rounded-2xl bg-card px-6 py-5">
+              <p className="label text-rust">Not available online yet</p>
+              <p className="mt-2 leading-relaxed">
+                Live analysis for new products isn&apos;t switched on in this online version yet, so “{notFoundName}” can&apos;t be
+                analyzed here. Try{" "}
+                {SUGGESTIONS.map((name, i) => (
+                  <span key={name}>
+                    <button type="button" onClick={() => start(name, "")} className="font-display text-lg italic text-rust underline decoration-rust/40 underline-offset-4 hover:decoration-rust">
+                      {name}
+                    </button>
+                    {i < SUGGESTIONS.length - 2 ? ", " : i === SUGGESTIONS.length - 2 ? " or " : "."}
+                  </span>
+                ))}
               </p>
             </div>
           )}
@@ -224,7 +252,7 @@ export function Experience({ live, library }: { live: boolean; library: LibraryE
           <form
             onSubmit={(e) => {
               e.preventDefault();
-              if (product.trim()) lookUpOrRun(product.trim(), competitors);
+              if (product.trim()) start(product.trim(), competitors);
             }}
             className="mt-12 space-y-10"
           >
@@ -242,25 +270,6 @@ export function Experience({ live, library }: { live: boolean; library: LibraryE
                 className="ledger-input w-full bg-transparent pb-2 font-display text-4xl italic outline-none placeholder:text-faint"
               />
             </label>
-
-            {(matches.length > 0 || !live) && (
-              <div>
-                <p className="label mb-3 text-muted">{matches.length > 0 ? "Saved reports" : "Popular reports"}</p>
-                <div className="flex flex-wrap gap-2">
-                  {(matches.length > 0 ? matches : library.slice(0, 12)).map((e) => (
-                    <button
-                      key={e.slug}
-                      type="button"
-                      onClick={() => router.push(`/reports/${e.slug}`)}
-                      className="rounded-full bg-card px-4 py-2 font-display text-lg transition hover:bg-ink hover:text-paper"
-                    >
-                      {e.product}
-                    </button>
-                  ))}
-                </div>
-              </div>
-            )}
-
             {live && (
               <label className="block">
                 <span className="label mb-2 flex justify-between text-muted">
@@ -276,15 +285,10 @@ export function Experience({ live, library }: { live: boolean; library: LibraryE
             )}
             <div className="flex flex-wrap items-center gap-6">
               <button type="submit" className="label rounded-full bg-ink px-7 py-4 text-paper transition hover:bg-rust">
-                {live ? "Run analysis →" : "Open report →"}
+                Run analysis →
               </button>
-              {live && exact && (
-                <button type="button" onClick={() => router.push(`/reports/${exact.slug}`)} className="font-display text-lg italic text-muted underline decoration-rule underline-offset-4 hover:text-ink">
-                  or open the saved {exact.product} report
-                </button>
-              )}
-              <button type="button" onClick={() => router.push("/reports")} className="font-display text-lg italic text-muted underline decoration-rule underline-offset-4 hover:text-ink">
-                browse all reports
+              <button type="button" onClick={() => router.push("/experience?sample=1")} className="font-display text-lg italic text-muted underline decoration-rule underline-offset-4 hover:text-ink">
+                or view a sample report
               </button>
             </div>
           </form>

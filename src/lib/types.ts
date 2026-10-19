@@ -56,9 +56,3 @@ export interface LibraryReport extends Report {
   slug: string;
   category: string;
 }
-
-export interface LibraryEntry {
-  slug: string;
-  product: string;
-  category: string;
-}
