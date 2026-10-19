@@ -73,16 +73,30 @@ export function Nav() {
 }
 
 export function Footer() {
+  const { email, linkedin } = brand.contact;
+  const linkedinLabel = linkedin.replace(/^https?:\/\/(www\.)?/, "").replace(/\/$/, "");
   return (
-    <footer className="border-t border-rust/30">
+    <footer id="contact" className="scroll-mt-20 border-t border-rust/30">
       <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-6 px-4 py-10 sm:flex-row sm:px-8">
         <Logo />
-        <p className="label text-muted">
-          A project by{" "}
-          <a href={brand.contact.linkedin || "/#contact"} target={brand.contact.linkedin ? "_blank" : undefined} rel="noreferrer" className="text-ink underline decoration-rust/40 underline-offset-4 transition hover:text-rust">
-            {brand.author}
-          </a>
-        </p>
+        <div className="text-center">
+          <p className="label text-muted">
+            A project by <span className="text-ink">{brand.author}</span>
+          </p>
+          <p className="mt-2 text-sm text-muted">
+            <a href={`mailto:${email}`} className="hover:text-rust">
+              {email}
+            </a>
+            {linkedin && (
+              <>
+                <span className="mx-2 text-rust/50">·</span>
+                <a href={linkedin} target="_blank" rel="noreferrer" className="hover:text-rust">
+                  {linkedinLabel}
+                </a>
+              </>
+            )}
+          </p>
+        </div>
         <p className="label text-muted">© {new Date().getFullYear()} {brand.name}</p>
       </div>
     </footer>
