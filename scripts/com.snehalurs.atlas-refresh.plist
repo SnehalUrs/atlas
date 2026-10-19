@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!-- Runs the Atlas report refresh at 11:00 on the 1st of every month.
+     If the Mac is asleep then, macOS runs it once it wakes. -->
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>com.snehalurs.atlas-refresh</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>/bin/zsh</string>
+    <string>/Users/snehal/Desktop/atlas/scripts/refresh-reports.sh</string>
+  </array>
+  <key>StartCalendarInterval</key>
+  <dict>
+    <key>Day</key>
+    <integer>1</integer>
+    <key>Hour</key>
+    <integer>11</integer>
+    <key>Minute</key>
+    <integer>0</integer>
+  </dict>
+  <key>StandardErrorPath</key>
+  <string>/Users/snehal/Desktop/atlas/logs/launchd-error.log</string>
+</dict>
+</plist>

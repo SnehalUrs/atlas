@@ -211,7 +211,8 @@ interface HnSearch {
 
 async function fetchHackerNews(product: string, limit: number): Promise<RawSignal[]> {
   const data = await getJson<HnSearch>(
-    `https://hn.algolia.com/api/v1/search?query=${encodeURIComponent(product)}&tags=comment&hitsPerPage=${limit}`,
+    // Most relevant comments from the last 12 months only, so reports reflect current sentiment.
+    `https://hn.algolia.com/api/v1/search?query=${encodeURIComponent(product)}&tags=comment&hitsPerPage=${limit}&numericFilters=${encodeURIComponent(`created_at_i>${Math.floor(Date.now() / 1000) - 365 * 86400}`)}`,
   );
   return (data?.hits ?? [])
     .filter((h) => h.comment_text)

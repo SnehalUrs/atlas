@@ -1,14 +1,17 @@
 // Generates the report library: runs every product in src/data/catalog.json through
 // a running Atlas server's /api/analyze and saves each report to src/data/reports/<slug>.json.
-// Resumable: products that already have a report are skipped.
+// Resumable: products that already have a report are skipped, unless --refresh is given,
+// in which case every report is regenerated and replaced only when the new run succeeds.
 //
-//   node scripts/generate-reports.mjs [serverUrl]      (default http://localhost:3000)
+//   node scripts/generate-reports.mjs [serverUrl] [--refresh]      (default http://localhost:3000)
 
 import { existsSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 const root = new URL("..", import.meta.url).pathname;
-const server = process.argv[2] ?? "http://localhost:3000";
+const args = process.argv.slice(2);
+const refresh = args.includes("--refresh");
+const server = args.find((a) => !a.startsWith("--")) ?? "http://localhost:3000";
 const catalog = JSON.parse(readFileSync(join(root, "src/data/catalog.json"), "utf8"));
 const outDir = join(root, "src/data/reports");
 
@@ -31,7 +34,7 @@ let done = 0;
 for (const { name, category } of catalog) {
   const slug = slugify(name);
   const file = join(outDir, `${slug}.json`);
-  if (existsSync(file)) {
+  if (existsSync(file) && !refresh) {
     done++;
     continue;
   }
@@ -39,6 +42,13 @@ for (const { name, category } of catalog) {
     const started = Date.now();
     try {
       const report = await analyze(name);
+      // On refresh, don't let a degraded run (e.g. a source rate-limited) replace a fuller report.
+      if (refresh && existsSync(file)) {
+        const old = JSON.parse(readFileSync(file, "utf8"));
+        if (report.totalSignals < old.totalSignals * 0.6 || report.themes.length < 3) {
+          throw new Error(`weaker than the saved report (${report.totalSignals} vs ${old.totalSignals} signals)`);
+        }
+      }
       writeFileSync(file, JSON.stringify({ slug, category, ...report }, null, 2));
       done++;
       const secs = Math.round((Date.now() - started) / 1000);
@@ -46,7 +56,7 @@ for (const { name, category } of catalog) {
       break;
     } catch (err) {
       console.log(`[${time()}] ✗ ${name} attempt ${attempt}: ${err.message}`);
-      if (attempt === 3) console.log(`[${time()}]   skipping ${name}`);
+      if (attempt === 3) console.log(`[${time()}]   skipping ${name}${existsSync(file) ? " (kept the previous report)" : ""}`);
     }
   }
 }
