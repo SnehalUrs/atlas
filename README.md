@@ -48,3 +48,7 @@ Existing reports are skipped; delete a file in `src/data/reports/` to redo it.
 - `src/lib/analyze.ts` is the Claude path, using structured outputs.
 - `src/lib/terrain.ts` turns ranked themes into contour-map peaks.
 - `src/app/api/analyze/route.ts` streams progress and the final report to the browser.
+
+## License
+
+Copyright © 2026 Snehal N Urs. All rights reserved. This code is shared for viewing as part of a portfolio only; you may not copy, modify, distribute or reuse it without written permission. See [LICENSE](LICENSE).

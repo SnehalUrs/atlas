@@ -97,7 +97,7 @@ export function Footer() {
             )}
           </p>
         </div>
-        <p className="label text-muted">© {new Date().getFullYear()} {brand.name}</p>
+        <p className="label text-muted">© {new Date().getFullYear()} {brand.author} · All rights reserved</p>
       </div>
     </footer>
   );
